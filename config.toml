@@ -94,17 +94,13 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "reuixiy"
+    name = "jk"
     # Email
-    email = "reuixiy@gmail.com"
+    email = "jakub.korsak@protonmail.com	"
     # Motto or introduction
-    motto = "Viva La Vida"
+    motto = "Moja strona domowa"
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
-    # Personal website, default: baseURL
-    website = "https://io-oi.me/"
-    # Twitter
-    twitter = "reuixiy"
 
 # Related content
 [related]
@@ -1181,20 +1177,9 @@ uglyURLs = false
     backToTopIcon = "arrow-up"
 
 
-    ######################################
-    # Footer
-
-    enableFooter = true
-
-    displayFooterInHome = true
-
-    displayCopyrightSymbol = true
-
-    displaySiteCreatedYear = true
-
     # Leave it empty("") if you don’t want
     # the icon
-    iconBetweenYearAndAuthor = "heart"
+    iconBetweenYearAndAuthor = ""
     iconColor = "#f06292"
     # Enable heartbeat animation?
     iconAnimation = true
