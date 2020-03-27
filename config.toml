@@ -6,7 +6,7 @@ title = "Jakub Korsak"
 languageCode = "pl"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
-copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+copyright = ""
 
 # Name of theme
 theme = "meme"
@@ -94,7 +94,7 @@ uglyURLs = false
 # Author’s information
 [author]
     # Name
-    name = "jk"
+    name = "Jakub Korsak"
     # Email
     email = "jakub.korsak@protonmail.com	"
     # Motto or introduction
@@ -185,36 +185,28 @@ uglyURLs = false
 
 [menu]
     ## Menu bar
-    # [[menu.main]]
-    #     url = "/"
-    #     name = "Home"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
+    [[menu.main]]
+        url = "/about/"
+        name = "O mnie"
+        weight = 1
+        pre = "internal"
+        post = "user-circle"
     [[menu.main]]
         url = "/posts/"
-        name = "Posts"
+        name = "Posty"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
-        url = "/categories/"
-        name = "Categories"
+        url = "/zapisy/"
+        name = "Zapisy na zajęcia"
         weight = 3
         pre = "internal"
-        post = "th"
     [[menu.main]]
-        url = "/tags/"
-        name = "Tags"
+        url = "/cennik/"
+        name = "Cennik"
         weight = 4
         pre = "internal"
-        post = "tags"
-    [[menu.main]]
-        url = "/about/"
-        name = "About"
-        weight = 5
-        pre = "internal"
-        post = "user-circle"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -341,11 +333,11 @@ uglyURLs = false
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2020-03-14T20:00:00+00:01"
     # ATTENTION: keep this format, change
     #            the number
 
-    siteTwitter = "reuixiy"
+    #siteTwitter = "reuixiy"
     # Note: used for Twitter Cards
 
 
@@ -1095,14 +1087,14 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    shareOnTwitter = true
+    shareOnTwitter = false
     shareOnFacebook = true
-    shareOnLinkedIn = true
+    shareOnLinkedIn = false
     shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
-    shareOnQzone = true
+    shareOnWeibo = false
+    shareOnDouban = false
+    shareOnQQ = false
+    shareOnQzone = false
 
     shareViaQRCode = true
 
@@ -1153,7 +1145,7 @@ uglyURLs = false
     ######################################
     # Minimal Footer
 
-    enableMinimalFooter = false
+    enableMinimalFooter = true
     enableVerticalBarStructure = false
     # Note: If you enable this, the
     #       categories or sections that
