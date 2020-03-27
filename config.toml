@@ -1,0 +1,16 @@
+baseURL = "korsak.xyz"
+languageCode = "pl"
+title = "Jakub Korsak"
+theme = "sam"
+
+[[params.mainMenu]]
+    link = "/matura"
+    text = "matura"
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "pisanie"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "kto to?"
