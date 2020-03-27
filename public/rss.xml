@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jakub Korsak</title>
+        <link>https://korsak.xyz/</link>
+        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <generator>Hugo 0.68.3 https://gohugo.io/</generator>
+        
+            <language>pl</language>
+        
+        
+            <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+        
+        
+            <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Fri, 27 Mar 2020 20:43:06 +0100</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss+xml" href="https://korsak.xyz/rss.xml" />
+        
+        
+    </channel>
+</rss>
