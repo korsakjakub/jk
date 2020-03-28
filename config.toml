@@ -186,12 +186,6 @@ uglyURLs = false
 [menu]
     ## Menu bar
     [[menu.main]]
-        url = "/posts/"
-        name = "Posty"
-        weight = 1
-        pre = "internal"
-        post = "archive"
-    [[menu.main]]
         url = "/zapisy/"
         name = "Zapisy na zajęcia"
         weight = 2
