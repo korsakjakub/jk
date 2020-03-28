@@ -3,16 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://korsak.xyz/</loc>
+    <lastmod>2020-03-28T22:07:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/zapisy/</loc>
+    <lastmod>2020-03-28T21:51:15+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://korsak.xyz/categories/</loc>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/</loc>
-    <lastmod>2020-03-28T21:58:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/</loc>
+    <loc>https://korsak.xyz/index.html</loc>
     <lastmod>2020-03-28T21:58:54+01:00</lastmod>
   </url>
   
