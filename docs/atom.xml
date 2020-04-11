@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
     <title type="text">Jakub Korsak</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-04-11T23:14:10+02:00</updated>
+    <updated>2020-04-11T23:22:09+02:00</updated>
     <id>https://korsak.xyz/</id>
     <link rel="alternate" type="text/html" href="https://korsak.xyz/" />
     <link rel="self" type="application/atom+xml" href="https://korsak.xyz/atom.xml" />
@@ -79,8 +79,8 @@ $$T = T_1 + T_2 + T_3 = \frac{4\pi^2k^2r + \pi r}{v_0}.$$</p>
             <title type="text">Korepetycje z fizyki lub matematyki</title>
             <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/korepetycje/" />
             <id>https://korsak.xyz/blog/korepetycje/</id>
-            <updated>2020-04-11T21:56:06+02:00</updated>
-            <published>0001-01-01T00:00:00+00:00</published>
+            <updated>2020-04-11T23:21:58+02:00</updated>
+            <published>2020-03-30T18:00:00+02:00</published>
             <author>
                     <name>Jakub Korsak</name>
                     <uri>https://korsak.xyz/</uri>
@@ -90,7 +90,7 @@ $$T = T_1 + T_2 + T_3 = \frac{4\pi^2k^2r + \pi r}{v_0}.$$</p>
             
                 <content type="html"><![CDATA[<p>Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego.
 Od kilku lat prowadzę korepetycje z matematyki i fizyki.
-<img src="jakub.jpg" width="250vw">
+<img src="/jakub.jpg" width="250vw">
 Uczyłem już zarówno dzieci z piątej klasy jak i maturzystów przygotowujących się do matury rozszerzonej. Mam łatwość w kontaktach z młodzieżą, bo sam jeszcze do niej należę.</p>
 <p>Zajęcia prowadzę indywidualnie lub grupowo (szczegóły w formularzu), dla uczniów szkół podstawowych oraz średnich. W zależności od preferencji, zajęcia mogą przybierać różne formy:</p>
 <ul>
