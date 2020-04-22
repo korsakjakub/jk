@@ -7,6 +7,7 @@ tags: ["fizyka", "liceum", "dynamika", "praca siły tarcia", "energia"]
 ---
 
 Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją
+
 $$\mu(x) = \begin{cases}
 \mu_1, & x \in [0,x_1]\cr
 \mu_2, & x \in ]x_1, x_2]\cr
