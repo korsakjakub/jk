@@ -21,7 +21,7 @@
             <webMaster>jakub.korsak@protonmail.com	 (Jakub Korsak)</webMaster>
         
         
-        <lastBuildDate>Wed, 22 Apr 2020 22:41:12 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2020 22:43:48 +0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://korsak.xyz/rss.xml" />
         
@@ -36,8 +36,8 @@
                 
                 
                 
-                    <description><![CDATA[<p>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją
-$$\mu(x) = \begin{cases}
+                    <description><![CDATA[<p>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją</p>
+<p>$$\mu(x) = \begin{cases}
 \mu_1, &amp; x \in [0,x_1]\cr
 \mu_2, &amp; x \in ]x_1, x_2]\cr
 \mu_3, &amp; x &gt; x_2
