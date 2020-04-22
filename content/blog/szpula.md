@@ -2,6 +2,8 @@
 title: "Zadanie ze szpulą"
 date: 2020-04-11T21:26:31+02:00
 draft: false
+categories: ["fizyka", "liceum"]
+tags: ["fizyka", "liceum", "szpula", "nić", "kinematyka"]
 ---
 
 # Problem

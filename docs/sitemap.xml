@@ -4,12 +4,57 @@
   
   <url>
     <loc>https://korsak.xyz/blog/</loc>
-    <lastmod>2020-04-11T23:21:58+02:00</lastmod>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/categories/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/tags/fizyka/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/categories/fizyka/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/tags/kinematyka/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/tags/liceum/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/categories/liceum/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/tags/ni%C4%87/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/tags/szpula/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://korsak.xyz/tags/</loc>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://korsak.xyz/blog/szpula/</loc>
-    <lastmod>2020-04-11T23:03:55+02:00</lastmod>
+    <lastmod>2020-04-22T15:32:01+02:00</lastmod>
   </url>
   
   <url>
@@ -25,14 +70,6 @@
   <url>
     <loc>https://korsak.xyz/zapisy/</loc>
     <lastmod>2020-03-28T21:51:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/tags/</loc>
   </url>
   
 </urlset>

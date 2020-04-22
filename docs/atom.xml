@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
     <title type="text">Jakub Korsak</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-04-11T23:57:08+02:00</updated>
+    <updated>2020-04-22T15:34:39+02:00</updated>
     <id>https://korsak.xyz/</id>
     <link rel="alternate" type="text/html" href="https://korsak.xyz/" />
     <link rel="self" type="application/atom+xml" href="https://korsak.xyz/atom.xml" />
@@ -15,12 +15,12 @@
                 <email>jakub.korsak@protonmail.com	</email>
             </author>
     
-    <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.69.0">Hugo</generator>
         <entry>
             <title type="text">Zadanie ze szpulą</title>
             <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/szpula/" />
             <id>https://korsak.xyz/blog/szpula/</id>
-            <updated>2020-04-11T23:03:55+02:00</updated>
+            <updated>2020-04-22T15:32:01+02:00</updated>
             <published>2020-04-11T21:26:31+02:00</published>
             <author>
                     <name>Jakub Korsak</name>
@@ -69,7 +69,53 @@ $$T = T_1 + T_2 + T_3 = \frac{4\pi^2k^2r + \pi r}{v_0}.$$</p>
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://korsak.xyz/categories/fizyka/" term="fizyka" label="fizyka" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://korsak.xyz/categories/liceum/" term="liceum" label="liceum" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://korsak.xyz/tags/fizyka/" term="fizyka" label="fizyka" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://korsak.xyz/tags/liceum/" term="liceum" label="liceum" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://korsak.xyz/tags/szpula/" term="szpula" label="szpula" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://korsak.xyz/tags/ni%C4%87/" term="nić" label="nić" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://korsak.xyz/tags/kinematyka/" term="kinematyka" label="kinematyka" />
+                            
+                        
                     
                 
             
