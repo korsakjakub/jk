@@ -1,4 +1,3 @@
----
 title: "Zmienny współczynnik tarcia"
 date: 2020-04-22T15:35:46+02:00
 draft: false
@@ -37,6 +36,8 @@ $$W_T[X_i] = \int\limits_0^h mg\mu(h_a)dh_a = \frac{1}{2}mgh(\mu_i+\mu_{i+1}),$$
 ewentualnie jako pole trapezu opisanego przez $h_a\in [0,h]$, $\mu = h_a(\mu_{i+1}/h - \mu_i/h)+\mu_i$.
 
 Cała początkowa energia kinetyczna pod koniec przechodzi na sumę wszystkich prac wykonanych przez tarcie:
-$$\begin{align*}K_0 &= \frac{m}{2}v_0^2 - \frac{1}{2}mgh(\mu_1+\mu_2) - \frac{1}{2}mgh(\mu_2+\mu_3) - \cr
+$$\begin{align*}W = mg\mu_3(x_3 - x_2 - h/2) &= \frac{m}{2}v_0^2 - \frac{1}{2}mgh(\mu_1+\mu_2) - \frac{1}{2}mgh(\mu_2+\mu_3) - \cr
 &- mg\mu_1(x_1-h) - mg\mu_2(x_2-x_1-h)\end{align*}$$
 
+W związku z tym klocek zatrzyma się po przebyciu odległości
+$$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) - \mu_1(x_1-h) - \mu_2(x_2-x_2-h)\right) + x_2 + h/2$$
