@@ -9,7 +9,7 @@
     <channel>
         <title>Jakub Korsak</title>
         <link>https://korsak.xyz/</link>
-        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <description>Fizyka, matematyka i inne bardzo przyjemne posty oraz zapisy na zajęcia.</description>
         <generator>Hugo 0.69.0 https://gohugo.io/</generator>
         
             <language>pl</language>
@@ -21,7 +21,7 @@
             <webMaster>jakub.korsak@protonmail.com	 (Jakub Korsak)</webMaster>
         
         
-        <lastBuildDate>Thu, 23 Apr 2020 10:02:13 +0200</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2020 09:38:07 +0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://korsak.xyz/rss.xml" />
         
