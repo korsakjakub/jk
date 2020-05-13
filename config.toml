@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 # The length of text in words to show in summary
-summaryLength = 42
+summaryLength = 20
 
 # Enable Emoji emoticons support?
 enableEmoji = false
@@ -96,7 +96,7 @@ uglyURLs = false
     # Name
     name = "Jakub Korsak"
     # Email
-    email = "jakub.korsak@protonmail.com	"
+    email = "korsakxyz@gmail.com"
     # Motto or introduction
     motto = "Moja strona domowa"
     # Avatar
