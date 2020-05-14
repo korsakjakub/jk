@@ -21,8 +21,10 @@ Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuc
 # Rozwiązanie
 Jeżeli rozpatrywany ruch jest wzdłuż $\xi$ oraz rakieta znajduje się w potencjale zależnym od $\xi(t)$, funkcja lagrange tego układu ma postać
 $$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{m}(\tau) \left(\dot{\xi}(\tau) - u\right)^2 d\tau - V(\xi(t), t).$$
-Składnik zawierający całkę po czasie jest energią kinetyczną związaną z **łączną** masą wyrzuconą od czasu $\tau = 0$, do $\tau = t$.
-Jeżeli rozpatrzymy podział przedziału $[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t]$, w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
+Składnik zawierający całkę po czasie jest energią kinetyczną związaną z **łączną** masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
+Jeżeli rozpatrzymy podział przedziału
+$$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
 $$\left< \dot{\xi} \right>_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
 oraz wyrzuca paliwo ze średnią szybkością wyrzucania
 $$\left< \dot{m} \right>_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$

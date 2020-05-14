@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
     <title type="text">Jakub Korsak</title>
     <subtitle type="html">Fizyka, matematyka i inne bardzo przyjemne posty oraz zapisy na zajęcia.</subtitle>
-    <updated>2020-05-13T23:15:34+02:00</updated>
+    <updated>2020-05-14T18:11:52+02:00</updated>
     <id>https://korsak.xyz/</id>
     <link rel="alternate" type="text/html" href="https://korsak.xyz/" />
     <link rel="self" type="application/atom+xml" href="https://korsak.xyz/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Równanie Ciołkowskiego</title>
             <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/rakieta/" />
             <id>https://korsak.xyz/blog/rakieta/</id>
-            <updated>2020-05-13T12:51:21+02:00</updated>
+            <updated>2020-05-14T18:11:45+02:00</updated>
             <published>2020-05-08T10:48:05+02:00</published>
             <author>
                     <name>Jakub Korsak</name>
@@ -48,8 +48,10 @@ gdzie</p>
 <h1 id="rozwiązanie">Rozwiązanie</h1>
 <p>Jeżeli rozpatrywany ruch jest wzdłuż $\xi$ oraz rakieta znajduje się w potencjale zależnym od $\xi(t)$, funkcja lagrange tego układu ma postać
 $$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{m}(\tau) \left(\dot{\xi}(\tau) - u\right)^2 d\tau - V(\xi(t), t).$$
-Składnik zawierający całkę po czasie jest energią kinetyczną związaną z <strong>łączną</strong> masą wyrzuconą od czasu $\tau = 0$, do $\tau = t$.
-Jeżeli rozpatrzymy podział przedziału $[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t]$, w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
+Składnik zawierający całkę po czasie jest energią kinetyczną związaną z <strong>łączną</strong> masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
+Jeżeli rozpatrzymy podział przedziału
+$$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
 $$\left&lt; \dot{\xi} \right&gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
 oraz wyrzuca paliwo ze średnią szybkością wyrzucania
 $$\left&lt; \dot{m} \right&gt;_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$

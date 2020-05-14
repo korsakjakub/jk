@@ -21,7 +21,7 @@
             <webMaster>korsakxyz@gmail.com (Jakub Korsak)</webMaster>
         
         
-        <lastBuildDate>Wed, 13 May 2020 23:15:34 +0200</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2020 18:11:52 +0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://korsak.xyz/rss.xml" />
         
@@ -54,8 +54,10 @@ gdzie</p>
 <h1 id="rozwiązanie">Rozwiązanie</h1>
 <p>Jeżeli rozpatrywany ruch jest wzdłuż $\xi$ oraz rakieta znajduje się w potencjale zależnym od $\xi(t)$, funkcja lagrange tego układu ma postać
 $$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{m}(\tau) \left(\dot{\xi}(\tau) - u\right)^2 d\tau - V(\xi(t), t).$$
-Składnik zawierający całkę po czasie jest energią kinetyczną związaną z <strong>łączną</strong> masą wyrzuconą od czasu $\tau = 0$, do $\tau = t$.
-Jeżeli rozpatrzymy podział przedziału $[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t]$, w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
+Składnik zawierający całkę po czasie jest energią kinetyczną związaną z <strong>łączną</strong> masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
+Jeżeli rozpatrzymy podział przedziału
+$$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
 $$\left&lt; \dot{\xi} \right&gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
 oraz wyrzuca paliwo ze średnią szybkością wyrzucania
 $$\left&lt; \dot{m} \right&gt;_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$
