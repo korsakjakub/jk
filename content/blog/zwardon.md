@@ -22,22 +22,22 @@ x_{p_2} &= v_\tau t_{p_2} = v_s(t_{p_2} - t_1).
 \end{align*}$$
 Poza tym, można zapisać związek między prędkością samochodu a czasem pomiędzy spotkaniami:
 $$\frac{x_{p_1}}{v_s} + t_{p_s} + \frac{x_{p_2}}{v_s} = t_{p_2} - t_{p_1}.$$
-Po odrzuceniu równości zawierającej wyraz $v_s t_1$, otrzymujemy układ czterech równań na cztery niewiadome ($x_{p_1}, x_{p_2},v_\tau, v_s$). 
+Po odrzuceniu równości zawierającej wyraz $v_s t_1$, otrzymujemy układ czterech równań na cztery niewiadome ($x_{p_1}, x_{p_2},v_\tau, v_s$).
 Można zapisać go na przykład w postaci równania macierzowego
 $$\begin{bmatrix}x_{p_1}\cr x_{p_2}\cr v_s\cr v_\tau\end{bmatrix} \begin{bmatrix}
-1&1&t_{p_1} + t_{p_s} - t_{p_2}& 0\cr 
-1&0&t_{p_1} - t_0& 0\cr 
+1&1&t_{p_1} + t_{p_s} - t_{p_2}& 0\cr
+1&0&t_{p_1} - t_0& 0\cr
 0&1&0&-t_{p_2}\cr
 1&0&0&-t_{p_1}
-\end{bmatrix} = 
+\end{bmatrix} =
 \begin{bmatrix} 0\cr M\cr 0\cr 0\end{bmatrix}.$$
-Jeżeli odwrócimy tę macierz, dostaniemy bardzo łatwo wszystkie niewiadome. Naszym zadaniem jest obliczenie czasu turyście do przebycia drogi między Zwardoniem i Milówką. Jest to po prostu $t = M/v_\tau$. Macierz odwrócimy metodą dopełnień algebraicznych, czyli za pomocą zależności między macierzą odwrotną ($A^{-1}$), macierzą dołączoną ($A^D$) i wyznacznikiem macierzy ($\det A$),
+Jeżeli odwrócimy tę macierz, dostaniemy bardzo łatwo wszystkie niewiadome. Naszym zadaniem jest obliczenie czasu potrzebnego turyście do przejścia drogi między Zwardoniem i Milówką. Jest to po prostu $t = M/v_\tau$. Macierz odwrócimy metodą dopełnień algebraicznych, czyli za pomocą zależności między macierzą odwrotną ($A^{-1}$), macierzą dołączoną ($A^D$) i wyznacznikiem macierzy ($\det A$),
 $$A^{-1} = \frac{A^D}{\det A}.$$
-Macierz dołączona jest po prostu transponowaną macierzą dopełnień algebraicznych. 
+Macierz dołączona jest po prostu transponowaną macierzą dopełnień algebraicznych.
 Wyznacznik obliczymy korzystając z rozwinięcia Laplace'a.
 Rozwiniemy wokół czwartego wiersza.
 $$\begin{align*}
-\det A &= (-1)^{4+1} \cdot 1 \cdot 
+\det A &= (-1)^{4+1} \cdot 1 \cdot
 \begin{vmatrix}
 1&t_{p_1} + t_{p_s} - t_{p_2}&0\cr
 0&t_{p_1} - t_0&0\cr
@@ -53,17 +53,17 @@ $$\begin{align*}
 Po wstawieniu do wzoru dostaniemy wektor
 $$\begin{bmatrix}
 x_{p_1} \cr x_{p_2} \cr v_s \cr v_\tau
-\end{bmatrix} = 
+\end{bmatrix} =
 \begin{bmatrix}
 -\frac{M t_{p_1} (t_{p_1} - t_{p_2} + t_{p_s})}{-t_0 t_{p_1} - t_0 t_{p_2} + 2 t_{p_1} t_{p_2} - t_{p_1} t_{p_s}} \cr
 \frac{M t_{p_2} (-t_{p_1} + t_{p_2} - t_{p_s})}{-t_0 t_{p_1} - t_0 t_{p_2} + 2 t_{p_1} t_{p_2} - t_{p_1} t_{p_s}}\cr
 -\frac{M(t_{p_1} + t_{p_2})}{t_0 t_{p_1} + t_0 t_{p_2} - 2 t_{p_1} t_{p_2} + t_{p_1} t_{p_s}}\cr
 -\frac{M(t_{p_1} - t_{p_2} + t_{p_s})}{t_0 t_{p_1} + t_0 t_{p_2} - 2 t_{p_1} t_{p_2}+t_{p_1}t_{p_s}}
 \end{bmatrix}.$$
-Możemy podstawić liczby z zadania, dostaniemy 
+Możemy podstawić liczby z zadania, dostaniemy
 $$\begin{bmatrix}
 x_{p_1} \cr x_{p_2} \cr v_s \cr v_\tau
-\end{bmatrix} = 
+\end{bmatrix} =
 \begin{bmatrix}
 5\cr \frac{25}{3}\cr \frac{2}{3}\cr \frac{1}{15}
 \end{bmatrix}

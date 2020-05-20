@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
     <title type="text">Jakub Korsak</title>
     <subtitle type="html">Fizyka, matematyka i inne bardzo przyjemne posty oraz zapisy na zajęcia.</subtitle>
-    <updated>2020-05-20T23:32:10+02:00</updated>
+    <updated>2020-05-20T23:37:47+02:00</updated>
     <id>https://korsak.xyz/</id>
     <link rel="alternate" type="text/html" href="https://korsak.xyz/" />
     <link rel="self" type="application/atom+xml" href="https://korsak.xyz/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Zwardoń</title>
             <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/zwardon/" />
             <id>https://korsak.xyz/blog/zwardon/</id>
-            <updated>2020-05-20T23:31:58+02:00</updated>
+            <updated>2020-05-20T23:37:39+02:00</updated>
             <published>2020-05-20T10:03:39+02:00</published>
             <author>
                     <name>Jakub Korsak</name>
@@ -57,7 +57,7 @@ $$\begin{bmatrix}x_{p_1}\cr x_{p_2}\cr v_s\cr v_\tau\end{bmatrix} \begin{bmatrix
 1&amp;0&amp;0&amp;-t_{p_1}
 \end{bmatrix} =
 \begin{bmatrix} 0\cr M\cr 0\cr 0\end{bmatrix}.$$
-Jeżeli odwrócimy tę macierz, dostaniemy bardzo łatwo wszystkie niewiadome. Naszym zadaniem jest obliczenie czasu turyście do przebycia drogi między Zwardoniem i Milówką. Jest to po prostu $t = M/v_\tau$. Macierz odwrócimy metodą dopełnień algebraicznych, czyli za pomocą zależności między macierzą odwrotną ($A^{-1}$), macierzą dołączoną ($A^D$) i wyznacznikiem macierzy ($\det A$),
+Jeżeli odwrócimy tę macierz, dostaniemy bardzo łatwo wszystkie niewiadome. Naszym zadaniem jest obliczenie czasu potrzebnego turyście do przejścia drogi między Zwardoniem i Milówką. Jest to po prostu $t = M/v_\tau$. Macierz odwrócimy metodą dopełnień algebraicznych, czyli za pomocą zależności między macierzą odwrotną ($A^{-1}$), macierzą dołączoną ($A^D$) i wyznacznikiem macierzy ($\det A$),
 $$A^{-1} = \frac{A^D}{\det A}.$$
 Macierz dołączona jest po prostu transponowaną macierzą dopełnień algebraicznych.
 Wyznacznik obliczymy korzystając z rozwinięcia Laplace&rsquo;a.
