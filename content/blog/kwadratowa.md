@@ -1,6 +1,8 @@
 ---
 title: "Równanie kwadratowe"
 date: 2020-08-22T18:42:20+02:00
+categories: ["matematyka", "liceum"]
+tags: ["matematyka", "liceum", "równanie kwadratowe", "analiza matematyczna"]
 draft: false
 ---
 

@@ -21,7 +21,7 @@
             <webMaster>korsakxyz@gmail.com (Jakub Korsak)</webMaster>
         
         
-        <lastBuildDate>Sat, 22 Aug 2020 19:48:43 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2020 19:57:27 +0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://korsak.xyz/rss.xml" />
         
@@ -103,7 +103,47 @@ $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$</p>
                 
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://korsak.xyz/categories/matematyka/">matematyka</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://korsak.xyz/categories/liceum/">liceum</category>
+                                
+                            
+                        
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://korsak.xyz/tags/matematyka/">matematyka</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://korsak.xyz/tags/liceum/">liceum</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://korsak.xyz/tags/r%C3%B3wnanie-kwadratowe/">równanie kwadratowe</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://korsak.xyz/tags/analiza-matematyczna/">analiza matematyczna</category>
+                                
+                            
                         
                     
                 
