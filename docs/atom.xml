@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
     <title type="text">Jakub Korsak</title>
     <subtitle type="html">Fizyka, matematyka i inne bardzo przyjemne posty oraz zapisy na zajęcia.</subtitle>
-    <updated>2020-05-14T18:11:52+02:00</updated>
+    <updated>2020-08-22T10:27:33+02:00</updated>
     <id>https://korsak.xyz/</id>
     <link rel="alternate" type="text/html" href="https://korsak.xyz/" />
     <link rel="self" type="application/atom+xml" href="https://korsak.xyz/atom.xml" />
@@ -15,12 +15,50 @@
                 <email>korsakxyz@gmail.com</email>
             </author>
     
-    <generator uri="https://gohugo.io/" version="0.69.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.74.3">Hugo</generator>
+        <entry>
+            <title type="text">Korepetycje z fizyki lub matematyki</title>
+            <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/korepetycje/" />
+            <id>https://korsak.xyz/blog/korepetycje/</id>
+            <updated>2020-08-22T10:26:04+02:00</updated>
+            <published>2020-08-22T10:00:00+02:00</published>
+            <author>
+                    <name>Jakub Korsak</name>
+                    <uri>https://korsak.xyz/</uri>
+                    <email>korsakxyz@gmail.com</email>
+                    </author>
+            <summary type="html"><![CDATA[Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego. Od kilku lat prowadzę korepetycje z matematyki i fizyki.]]></summary>
+            
+                <content type="html"><![CDATA[<p>Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego.
+Od kilku lat prowadzę korepetycje z matematyki i fizyki.
+<img src="/jakub.jpg" width="250vw">
+Uczyłem już zarówno dzieci z piątej klasy jak i maturzystów przygotowujących się do matury rozszerzonej. Mam łatwość w kontaktach z młodzieżą, bo sam jeszcze do niej należę.</p>
+<p>Zajęcia prowadzę indywidualnie lub grupowo (szczegóły w formularzu), dla uczniów szkół podstawowych oraz średnich. W zależności od preferencji, zajęcia mogą przybierać różne formy:</p>
+<ul>
+<li>klasyczne korepetycje (przerabianie materiału ze szkoły)</li>
+<li>przygotowanie do egzaminu ósmoklasisty / maturalnego</li>
+<li>przygotowanie do konkursów i olimpiad przedmiotowych</li>
+</ul>
+<p><strong>Aktualnie zajęcia prowadzę tylko w formie on-line, zapisy prowadzę przez <a href="/zapisy/">formularz</a>.</strong></p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Równanie Ciołkowskiego</title>
             <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/rakieta/" />
             <id>https://korsak.xyz/blog/rakieta/</id>
-            <updated>2020-05-14T18:11:45+02:00</updated>
+            <updated>2020-05-25T20:46:38+02:00</updated>
             <published>2020-05-08T10:48:05+02:00</published>
             <author>
                     <name>Jakub Korsak</name>
@@ -160,7 +198,7 @@ $$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$</p>
             <title type="text">Zmienny współczynnik tarcia</title>
             <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/" />
             <id>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</id>
-            <updated>2020-04-23T10:02:03+02:00</updated>
+            <updated>2020-05-25T20:46:38+02:00</updated>
             <published>2020-04-22T15:35:46+02:00</published>
             <author>
                     <name>Jakub Korsak</name>
@@ -265,7 +303,7 @@ $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) 
             <title type="text">Zadanie ze szpulą</title>
             <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/szpula/" />
             <id>https://korsak.xyz/blog/szpula/</id>
-            <updated>2020-04-22T15:32:01+02:00</updated>
+            <updated>2020-05-25T20:46:38+02:00</updated>
             <published>2020-04-11T21:26:31+02:00</published>
             <author>
                     <name>Jakub Korsak</name>
@@ -359,44 +397,6 @@ $$T = T_1 + T_2 + T_3 = \frac{4\pi^2k^2r + \pi r}{v_0}.$$</p>
                                 <category scheme="https://korsak.xyz/tags/kinematyka/" term="kinematyka" label="kinematyka" />
                             
                         
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Korepetycje z fizyki lub matematyki</title>
-            <link rel="alternate" type="text/html" href="https://korsak.xyz/blog/korepetycje/" />
-            <id>https://korsak.xyz/blog/korepetycje/</id>
-            <updated>2020-04-11T23:21:58+02:00</updated>
-            <published>2020-03-30T18:00:00+02:00</published>
-            <author>
-                    <name>Jakub Korsak</name>
-                    <uri>https://korsak.xyz/</uri>
-                    <email>korsakxyz@gmail.com</email>
-                    </author>
-            <summary type="html"><![CDATA[Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego. Od kilku lat prowadzę korepetycje z matematyki i fizyki.]]></summary>
-            
-                <content type="html"><![CDATA[<p>Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego.
-Od kilku lat prowadzę korepetycje z matematyki i fizyki.
-<img src="/jakub.jpg" width="250vw">
-Uczyłem już zarówno dzieci z piątej klasy jak i maturzystów przygotowujących się do matury rozszerzonej. Mam łatwość w kontaktach z młodzieżą, bo sam jeszcze do niej należę.</p>
-<p>Zajęcia prowadzę indywidualnie lub grupowo (szczegóły w formularzu), dla uczniów szkół podstawowych oraz średnich. W zależności od preferencji, zajęcia mogą przybierać różne formy:</p>
-<ul>
-<li>klasyczne korepetycje (przerabianie materiału ze szkoły)</li>
-<li>przygotowanie do egzaminu ósmoklasisty / maturalnego</li>
-<li>przygotowanie do konkursów i olimpiad przedmiotowych</li>
-</ul>
-<p><strong>Aktualnie zajęcia prowadzę tylko w formie on-line, zapisy prowadzę przez <a href="/zapisy/">formularz</a>.</strong></p>
-]]></content>
-            
-            
-            
-            
-            
-                
-                    
-                
                     
                 
             
