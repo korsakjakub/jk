@@ -1,7 +1,8 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://korsak.xyz/"
+#baseURL = "https://korsak.xyz/"
+baseURL = ""
 title = "Jakub Korsak"
 languageCode = "pl"
 hasCJKLanguage = false

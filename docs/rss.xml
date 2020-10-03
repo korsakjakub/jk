@@ -8,9 +8,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Jakub Korsak</title>
-        <link>https://korsak.xyz/</link>
+        <link>/</link>
         <description>Fizyka, matematyka i inne bardzo przyjemne posty oraz zapisy na zajęcia.</description>
-        <generator>Hugo 0.74.3 https://gohugo.io/</generator>
+        <generator>Hugo 0.75.1 https://gohugo.io/</generator>
         
             <language>pl</language>
         
@@ -21,15 +21,133 @@
             <webMaster>korsakxyz@gmail.com (Jakub Korsak)</webMaster>
         
         
-        <lastBuildDate>Sat, 22 Aug 2020 19:57:27 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 03 Oct 2020 19:14:05 +0200</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss+xml" href="https://korsak.xyz/rss.xml" />
+            <atom:link rel="self" type="application/rss+xml" href="/rss.xml" />
         
         
             <item>
+                <title>Jak łatwo przesunąć statek</title>
+                <link>/blog/ped_i_srodek_masy/</link>
+                <guid isPermaLink="true">/blog/ped_i_srodek_masy/</guid>
+                <pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate>
+                
+                    <author>korsakxyz@gmail.com (Jakub Korsak)</author>
+                
+                
+                
+                    <description><![CDATA[<h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?</h1>
+<ol>
+<li>Dlaczego, gdy schodzimy w roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?</li>
+<li>Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?</li>
+</ol>
+<h1 id="problem">Problem</h1>
+<p>Często pojawiające się w różnych podręcznikach zadanie z zasady zachowania pędu brzmi następująco:</p>
+<p>O ile przesunie się łódka, jeżeli człowiek najpierw stojący przy jednym jej brzegu przejdzie na brzeg przeciwny?</p>
+<p>Rozwiązanie wymaga przyrównania środków masy układu człowiek-łódka przed i po przejściu na przeciwny brzeg łódki; argumentuje się wtedy zazwyczaj, że ten warunek wynika z zasady zachowania pędu&hellip; Ale w jaki dokładnie sposób?</p>
+<p>Można zadać jeszcze ważniejsze z punktu widzenia fizyki pytanie:</p>
+<ul>
+<li>Co się stanie jeżeli łódka miała jakąś niezerową prędkość?</li>
+</ul>
+<h1 id="plan-podboju-kosmosu">Plan podboju kosmosu:</h1>
+<p>Spróbujemy wyjść z Zasady zachowania pędu i w jakiś sposób dojść do sensownych warunków, których rozwiązanie da nam odpowiedzi na nurtujące nas pytania.</p>
+<h2 id="ale-najpierw">Ale najpierw</h2>
+<p>Kiedy w ogóle możemy skorzystać z zasady zachowania pędu?</p>
+<p>Spójrzmy na drugą zasadę dynamiki Newtona:
+$$F_{\text{zewnętrzne}}(t) = m_i \cdot a_i(t).$$
+Przyjmijmy oznaczenia $P(t) = \sum_i p_i(t)= \sum_i m_iv_i(t)$ - pęd układu ($\sum$ oznacza sumę po wszystkich działających indeksach $i$. W późniejszych rozważaniach postaram się sumiennie zapominać o jej zapisywaniu).</p>
+<p>Jeżeli założymy, że masa całego układu się nie zmienia, możemy napisać
+$$F_{\text{zewnętrzne}} = \frac{d}{dt}P(t) = m_i \frac{d}{dt}v_i(t) = m_i a_i(t).$$
+Teraz przypomnijmy sobie co to znaczy, że pęd jest zachowany. Powiedzmy, że pęd jest zachowany na przedziale czasu $\mathbb{T} \equiv ]t_p, t_k[$. Niech $t_1, t_2\in \mathbb{T}$ - jakieś punkty w czasie.  Wtedy możemy powiedzieć, że
+$$\text{zachowany pęd} \iff p_i(t_2) - p_i(t_1) = 0 \implies p_i(t_2) = p_i(t_1),$$
+czyli na przedziale otwartym $\mathbb{T}$, na którym pęd miał być zachowany, jego zmiana jest równa zero.</p>
+<p>Teraz rozważmy $t\in \mathbb{T}$. Skoro przedział $\mathbb{T}$ jest otwarty, zawsze możemy wybrać sobie jakieś małe $\Delta t$, takie że $t + \Delta t$ wciąż będzie należało do $\mathbb{T}$. Druga zasada dynamiki przyjmuje postać
+$$F_\text{zewnętrzne} = m_i \frac{d}{dt} v_i(t) = m_i \lim_{\Delta t \to 0} \frac{1}{\Delta t}\left( v_i(t+\Delta t) - v_i(t)\right),$$
+ale przecież $t$ oraz $t+\Delta t$ należą do $\mathbb{T}$! Czyli ich różnica musi być równa zero, bo mamy zachowany pęd!</p>
+<p>Otrzymujemy więc warunek
+$$\underset{t\in\mathbb{T}}{\forall}\quad F_\text{zewnętrzne}(t) \equiv 0,$$
+gdzie znaczek &ldquo;odwrócone A&rdquo; oznacza &ldquo;dla każdego&rdquo;.</p>
+<p>Wiemy więc, że stwierdzenie, że pęd jest zachowany oznacza tyle samo, co stwierdzenie, że na układ nie działają żadne siły zewnętrzne.</p>
+<h1 id="weźmy-się-do-pracy">Weźmy się do pracy</h1>
+<p>Cały układ łódka-człowiek porusza się ze stałą prędkością (w tym też równą zero).</p>
+<p>Tak jak wcześniej ustalmy sobie przedział otwarty $\mathbb{T} = ]t_p, t_k[$, w którym pęd układu ma być zachowany.
+Jeżeli weźmiemy sobie teraz punkt $t_1\in\mathbb{T}$, możemy bez ogródek napisać warunek na zasadę zachowania pędu układu:
+$$\underset{t\in\mathbb{T}}{\forall}P(t) = P(t_1) \implies \underset{t\in\mathbb{T}}{\forall}p_i(t) = p_i(t_1) \implies \underset{t\in\mathbb{T}}{\forall}m_i v_i(t) = m_i v_i(t_1).$$
+Skoro oba punkty czasu należą do $\mathbb{T}$, który jest przedziałem otwartym, to zawsze można znaleźć takie $\Delta t$, żeby $t + \Delta t$ również należał do $\mathbb{T}$. Przepiszmy więc powyższy warunek zamieniając $v_i$ na pochodną położeń $\frac{d}{dt}r_i$
+$$m_i \lim_{\Delta t\to 0}\frac{r_i(t+\Delta t) - r_i(t)}{\Delta t} = m_i v_i(t_1).$$
+Załóżmy teraz na przykład, że ustalamy taki inercjalny układ odniesienia, w którym łódka się nie porusza. W związku z tym mamy $p_i(t_1) = 0 \implies v_i(t_1) = 0.$ Dostajemy nieco uproszczoną wersję
+$$m_i \lim_{\Delta t\to 0} \frac{1}{\Delta t} \left(r_i(t+\Delta t) - r_i(t)\right) = m_i \frac{d}{dt}r_i(t) = 0,$$
+lecz wciąż coś tu nie gra&hellip;
+Skorzystajmy z Twierdzenia Stokes&rsquo;a dla jednego wymiaru (zasadnicze twierdzenie rachunku różniczkowego).
+$$m_i \int_{t_1}^{t_c} \frac{d r_i}{dk}(k)dk = m_i\left(r_i(t_c) - r_i(t_1)\right) = 0,$$
+czyli ostatecznie
+$$m_i r_i(t_c) = m_i r_i(t_1).$$ Jest to warunek równoważny braku przesunięcia środka masy układu (przy założeniu stałej masy), czyli
+$$r_{c_1} = \frac{m_i r_i(t_c)}{m_i} = r_{c_2} = \frac{m_i r_i(t_1)}{m_i}.$$</p>
+<p>A co, jeżeli łódka poruszała się ze stałą prędkością, która akurat nie wynosiła zero? Rozwiązanie można otrzymać najprościej chyba powołując się na zasadę względności Galileusza.
+Za pomocą transformacji $x_G = x + V t$, gdzie</p>
+<ul>
+<li>$x_G$ - nowe poruszające się współrzędne,</li>
+<li>$V$ - stała prędkość, z którą porusza się układ $x_G$,</li>
+</ul>
+<p>można już łatwo obliczyć łączne przesunięcie łódki.</p>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="/categories/fizyka/">fizyka</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="/categories/liceum/">liceum</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="/tags/fizyka/">fizyka</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="/tags/liceum/">liceum</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="/tags/p%C4%99d/">pęd</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="/tags/kinematyka/">kinematyka</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
                 <title>Równanie kwadratowe</title>
-                <link>https://korsak.xyz/blog/kwadratowa/</link>
-                <guid isPermaLink="true">https://korsak.xyz/blog/kwadratowa/</guid>
+                <link>/blog/kwadratowa/</link>
+                <guid isPermaLink="true">/blog/kwadratowa/</guid>
                 <pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate>
                 
                     <author>korsakxyz@gmail.com (Jakub Korsak)</author>
@@ -71,11 +189,11 @@ Dla stałych $a,c$ takich, że $a \cdot c &lt; 0$, oba rozwiązania należą do 
 <p>No, chcielibyśmy, żeby wierzchołek znajdował się tak jak dla $\alpha(x)$ w argumencie równym zero.</p>
 <p>Współrzędne wierzchołka można znaleźć w sposób następujący (dla znających definicję pochodnej w punkcie):</p>
 <p>Skoro wierzchołek jest punktem, w którym funkcja nie ma nachylenia (jest ono równe zero), to można to przełożyć na język matematyki stwierdzeniem, że
-$$f&rsquo;(x = p) = 0,$$
+$$f'(x = p) = 0,$$
 gdzie $p$ - argument wierzchołka. Pochodną funkcji $f(x)$ można łatwo obliczyć. Ma ona postać:
-$$f&rsquo;(x) = 2ax + b.$$
+$$f'(x) = 2ax + b.$$
 Jeżeli skorzystamy z tych dwóch stwierdzeń, otrzymamy wzór na poziomą składową wierzchołka $W = (p,q):$
-$$f&rsquo;(p) = 0 \implies 2ap + b = 0 \implies p = -\frac{b}{2a}.$$
+$$f'(p) = 0 \implies 2ap + b = 0 \implies p = -\frac{b}{2a}.$$
 Wiemy zatem, że nowe współrzędne ($\heartsuit$) należy powiązać ze starymi wzorem
 $$x = \heartsuit - \frac{b}{2a}.$$
 Żeby zdecydować, czy powinien tu być znak plus, czy minus można na przykład położyć $x = p = -\frac{b}{2a}$ i sprawdzić, że rzeczywiście wtedy $\heartsuit = 0$.</p>
@@ -107,13 +225,13 @@ $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$</p>
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/categories/matematyka/">matematyka</category>
+                                    <category domain="/categories/matematyka/">matematyka</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/categories/liceum/">liceum</category>
+                                    <category domain="/categories/liceum/">liceum</category>
                                 
                             
                         
@@ -123,25 +241,25 @@ $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$</p>
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/matematyka/">matematyka</category>
+                                    <category domain="/tags/matematyka/">matematyka</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/liceum/">liceum</category>
+                                    <category domain="/tags/liceum/">liceum</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/r%C3%B3wnanie-kwadratowe/">równanie kwadratowe</category>
+                                    <category domain="/tags/r%C3%B3wnanie-kwadratowe/">równanie kwadratowe</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/analiza-matematyczna/">analiza matematyczna</category>
+                                    <category domain="/tags/analiza-matematyczna/">analiza matematyczna</category>
                                 
                             
                         
@@ -151,8 +269,8 @@ $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$</p>
         
             <item>
                 <title>Korepetycje z fizyki lub matematyki</title>
-                <link>https://korsak.xyz/blog/korepetycje/</link>
-                <guid isPermaLink="true">https://korsak.xyz/blog/korepetycje/</guid>
+                <link>/blog/korepetycje/</link>
+                <guid isPermaLink="true">/blog/korepetycje/</guid>
                 <pubDate>Sat, 22 Aug 2020 10:00:00 +0200</pubDate>
                 
                     <author>korsakxyz@gmail.com (Jakub Korsak)</author>
@@ -186,8 +304,8 @@ Uczyłem już zarówno dzieci z piątej klasy jak i maturzystów przygotowujący
         
             <item>
                 <title>Zwardoń</title>
-                <link>https://korsak.xyz/blog/zwardon/</link>
-                <guid isPermaLink="true">https://korsak.xyz/blog/zwardon/</guid>
+                <link>/blog/zwardon/</link>
+                <guid isPermaLink="true">/blog/zwardon/</guid>
                 <pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate>
                 
                     <author>korsakxyz@gmail.com (Jakub Korsak)</author>
@@ -277,8 +395,8 @@ $$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$</p>
         
             <item>
                 <title>Równanie Ciołkowskiego</title>
-                <link>https://korsak.xyz/blog/rakieta/</link>
-                <guid isPermaLink="true">https://korsak.xyz/blog/rakieta/</guid>
+                <link>/blog/rakieta/</link>
+                <guid isPermaLink="true">/blog/rakieta/</guid>
                 <pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate>
                 
                     <author>korsakxyz@gmail.com (Jakub Korsak)</author>
@@ -345,13 +463,13 @@ $$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$</p>
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/categories/fizyka/">fizyka</category>
+                                    <category domain="/categories/fizyka/">fizyka</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/categories/studia/">studia</category>
+                                    <category domain="/categories/studia/">studia</category>
                                 
                             
                         
@@ -361,49 +479,49 @@ $$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$</p>
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/fizyka/">fizyka</category>
+                                    <category domain="/tags/fizyka/">fizyka</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/studia/">studia</category>
+                                    <category domain="/tags/studia/">studia</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/rakieta/">rakieta</category>
+                                    <category domain="/tags/rakieta/">rakieta</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/r%C3%B3wnanie-cio%C5%82kowskiego/">równanie Ciołkowskiego</category>
+                                    <category domain="/tags/r%C3%B3wnanie-cio%C5%82kowskiego/">równanie Ciołkowskiego</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/dynamika/">dynamika</category>
+                                    <category domain="/tags/dynamika/">dynamika</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/mechanika-lagrange/">mechanika Lagrange</category>
+                                    <category domain="/tags/mechanika-lagrange/">mechanika Lagrange</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/tsiolkovskys-equation/">Tsiolkovsky&#39;s equation</category>
+                                    <category domain="/tags/tsiolkovskys-equation/">Tsiolkovsky&#39;s equation</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/lagran%C5%BCjan-rakiety/">lagranżjan rakiety</category>
+                                    <category domain="/tags/lagran%C5%BCjan-rakiety/">lagranżjan rakiety</category>
                                 
                             
                         
@@ -413,8 +531,8 @@ $$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$</p>
         
             <item>
                 <title>Zmienny współczynnik tarcia</title>
-                <link>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</link>
-                <guid isPermaLink="true">https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</guid>
+                <link>/blog/zmienny_wspolczynnik_tarcia/</link>
+                <guid isPermaLink="true">/blog/zmienny_wspolczynnik_tarcia/</guid>
                 <pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate>
                 
                     <author>korsakxyz@gmail.com (Jakub Korsak)</author>
@@ -465,13 +583,13 @@ $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) 
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/categories/fizyka/">fizyka</category>
+                                    <category domain="/categories/fizyka/">fizyka</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/categories/liceum/">liceum</category>
+                                    <category domain="/categories/liceum/">liceum</category>
                                 
                             
                         
@@ -481,31 +599,31 @@ $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) 
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/fizyka/">fizyka</category>
+                                    <category domain="/tags/fizyka/">fizyka</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/liceum/">liceum</category>
+                                    <category domain="/tags/liceum/">liceum</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/dynamika/">dynamika</category>
+                                    <category domain="/tags/dynamika/">dynamika</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/praca-si%C5%82y-tarcia/">praca siły tarcia</category>
+                                    <category domain="/tags/praca-si%C5%82y-tarcia/">praca siły tarcia</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/energia/">energia</category>
+                                    <category domain="/tags/energia/">energia</category>
                                 
                             
                         
@@ -515,8 +633,8 @@ $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) 
         
             <item>
                 <title>Zadanie ze szpulą</title>
-                <link>https://korsak.xyz/blog/szpula/</link>
-                <guid isPermaLink="true">https://korsak.xyz/blog/szpula/</guid>
+                <link>/blog/szpula/</link>
+                <guid isPermaLink="true">/blog/szpula/</guid>
                 <pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate>
                 
                     <author>korsakxyz@gmail.com (Jakub Korsak)</author>
@@ -565,13 +683,13 @@ $$T = T_1 + T_2 + T_3 = \frac{4\pi^2k^2r + \pi r}{v_0}.$$</p>
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/categories/fizyka/">fizyka</category>
+                                    <category domain="/categories/fizyka/">fizyka</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/categories/liceum/">liceum</category>
+                                    <category domain="/categories/liceum/">liceum</category>
                                 
                             
                         
@@ -581,31 +699,31 @@ $$T = T_1 + T_2 + T_3 = \frac{4\pi^2k^2r + \pi r}{v_0}.$$</p>
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/fizyka/">fizyka</category>
+                                    <category domain="/tags/fizyka/">fizyka</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/liceum/">liceum</category>
+                                    <category domain="/tags/liceum/">liceum</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/szpula/">szpula</category>
+                                    <category domain="/tags/szpula/">szpula</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/ni%C4%87/">nić</category>
+                                    <category domain="/tags/ni%C4%87/">nić</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://korsak.xyz/tags/kinematyka/">kinematyka</category>
+                                    <category domain="/tags/kinematyka/">kinematyka</category>
                                 
                             
                         

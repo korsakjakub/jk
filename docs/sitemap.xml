@@ -3,162 +3,172 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://korsak.xyz/tags/analiza-matematyczna/</loc>
+    <loc>/blog/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fizyka/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/fizyka/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/ped_i_srodek_masy/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kinematyka/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/liceum/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/liceum/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/p%C4%99d/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-10-03T19:13:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/analiza-matematyczna/</loc>
     <lastmod>2020-08-22T19:57:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/blog/</loc>
+    <loc>/tags/matematyka/</loc>
     <lastmod>2020-08-22T19:57:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/categories/</loc>
+    <loc>/categories/matematyka/</loc>
     <lastmod>2020-08-22T19:57:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/liceum/</loc>
+    <loc>/blog/kwadratowa/</loc>
     <lastmod>2020-08-22T19:57:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/categories/liceum/</loc>
+    <loc>/tags/r%C3%B3wnanie-kwadratowe/</loc>
     <lastmod>2020-08-22T19:57:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/matematyka/</loc>
-    <lastmod>2020-08-22T19:57:17+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/categories/matematyka/</loc>
-    <lastmod>2020-08-22T19:57:17+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/blog/kwadratowa/</loc>
-    <lastmod>2020-08-22T19:57:17+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/tags/r%C3%B3wnanie-kwadratowe/</loc>
-    <lastmod>2020-08-22T19:57:17+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/tags/</loc>
-    <lastmod>2020-08-22T19:57:17+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/blog/korepetycje/</loc>
+    <loc>/blog/korepetycje/</loc>
     <lastmod>2020-08-22T10:26:04+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/blog/zwardon/</loc>
+    <loc>/blog/zwardon/</loc>
     <lastmod>2020-08-22T10:29:01+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/dynamika/</loc>
+    <loc>/tags/dynamika/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/fizyka/</loc>
+    <loc>/tags/lagran%C5%BCjan-rakiety/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/categories/fizyka/</loc>
+    <loc>/tags/mechanika-lagrange/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/lagran%C5%BCjan-rakiety/</loc>
+    <loc>/tags/rakieta/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/mechanika-lagrange/</loc>
+    <loc>/blog/rakieta/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/rakieta/</loc>
+    <loc>/tags/r%C3%B3wnanie-cio%C5%82kowskiego/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/blog/rakieta/</loc>
+    <loc>/tags/studia/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/r%C3%B3wnanie-cio%C5%82kowskiego/</loc>
+    <loc>/categories/studia/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/studia/</loc>
+    <loc>/tags/tsiolkovskys-equation/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/categories/studia/</loc>
+    <loc>/tags/energia/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/tsiolkovskys-equation/</loc>
+    <loc>/tags/praca-si%C5%82y-tarcia/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/energia/</loc>
+    <loc>/blog/zmienny_wspolczynnik_tarcia/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/praca-si%C5%82y-tarcia/</loc>
+    <loc>/tags/ni%C4%87/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</loc>
+    <loc>/tags/szpula/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/kinematyka/</loc>
+    <loc>/blog/szpula/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/ni%C4%87/</loc>
+    <loc>/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://korsak.xyz/tags/szpula/</loc>
-    <lastmod>2020-05-25T20:46:38+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/blog/szpula/</loc>
-    <lastmod>2020-05-25T20:46:38+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/</loc>
-    <lastmod>2020-05-25T20:46:38+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://korsak.xyz/zapisy/</loc>
+    <loc>/zapisy/</loc>
     <lastmod>2020-05-25T20:46:38+02:00</lastmod>
   </url>
   
