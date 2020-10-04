@@ -15,13 +15,14 @@ jobs:
       - name: Build
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo --minify -d docs
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          publish_dir: ./docs
+          external_repository: korsakjakub/korsakjakub.github.io
+          publish_dir: ./public
           #   keep_files: true
           user_name: korsakjakub
           user_email: jakub.korsak@protonmail.com
