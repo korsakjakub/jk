@@ -7,7 +7,7 @@ categories: ["fizyka", "liceum"]
 tags: ["fizyka", "liceum", "pęd", "kinematyka"]
 ---
 # Na jakie pytania chcielibyśmy odpowiedzieć?
-1. Dlaczego, gdy schodzimy w roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?
+1. Dlaczego, gdy schodzimy z roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?
 2. Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?
 # Problem
 Często pojawiające się w różnych podręcznikach zadanie z zasady zachowania pędu brzmi następująco:
