@@ -2,13 +2,10 @@
 <html lang="pl">
 		{{ partial "head.html" . }}
   <body>
-		  {{ partial "nav.html" . }}
-		  {{ partial "breadcrumb.html" . }}
-    <div class="container">
-      <main id="main">
+  {{ partial "nav.html" . }}
+  <main>
        {{ block "main" . }}{{ end }}
-      </main>
-    </div>
 	{{ partial "mathjax.html" . }}
+  </main>
   </body>
 </html>
