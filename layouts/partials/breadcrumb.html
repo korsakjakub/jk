@@ -1,0 +1,12 @@
+<div class="breadcrumb">
+{{ define "breadcrumb" }}
+		{{ with .Parent }}
+		{{ template "breadcrumb" . }}
+						<a class="breadcrumb-link" href="{{ .Permalink }}">{{ if .IsHome }}Home{{ else }}{{.Title}}{{ end }}</a>:
+		{{ end }}
+		{{ end }}
+{{ if not .IsHome }}
+		{{ template "breadcrumb" . }}
+				{{.Title}}
+{{ end }}
+</div>

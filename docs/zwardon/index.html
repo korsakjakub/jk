@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pl">
+		<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+		<link rel="stylesheet" href="https://korsak.xyz/css/style.css">
+		<title>Zwardoń</title>
+</head>
+
+  <body>
+		  <nav class="pure-menu pure-menu-horizontal">
+		<ul class="pure-menu-list">
+				<a class="pure-menu-heading pure-menu-link" href="https://korsak.xyz/">Jakub Korsak</a>
+				
+		
+				<li class="pure-menu-item">
+		<a href="/zapisy/" class="pure-menu-link nav-link">Zapisy na zajęcia</a>
+				</li>
+		
+				<li class="pure-menu-item">
+		<a href="/blog/" class="pure-menu-link nav-link">Blog</a>
+				</li>
+		
+		</ul>
+</nav>
+
+		  <div class="breadcrumb">
+
+
+		
+		
+		
+		
+		
+		
+		
+						<a class="breadcrumb-link" href="https://korsak.xyz/">Home</a>:
+		
+		
+						<a class="breadcrumb-link" href="https://korsak.xyz/blog/">Blog</a>:
+		
+		
+				Zwardoń
+
+</div>
+
+    <div class="container">
+      <main id="main">
+       
+
+<h1>Zwardoń</h1>
+
+
+<i data-feather="calendar"></i> <time datetime="2020-05-20">May 20, 2020</time>
+
+
+<h1 id="zadanie">Zadanie</h1>
+<p>Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
+<img src="/zwardon.png" alt=""></p>
+<h1 id="rozwiązanie">Rozwiązanie</h1>
+<p>Niech położenie turysty od czasu - $\tau(t)$, położenie samochodu od czasu - $s(t)$. W oznaczeniach takich jak na rysunku, można przedstawić te funkcje następująco
+$$ \begin{align*}
+\tau(t) &amp;= v_{\tau} t \cr
+s(t) &amp;= \begin{cases}M - v_s(t-t_0) &amp; t &lt; T \cr
+0 &amp; t\in [T, T + t_{p_s}] \cr
+v_s(t-t_1) &amp; t &gt; T + t_{p_s}.\end{cases}
+\end{align*} $$
+Z treści zadania wynika, że nastąpiły dwa spotkania samochodu i turysty. Znamy ich położenia w czasie - odpowiednio $t_{p_1} = 60 + 15$ min oraz $t_{p_2} = 60 + 15 + 50$ min.
+Jako, że podczas spotkania i turysta i samochód zajmują to samo położenie w przestrzeni, można zapisać
+$$\begin{align*}
+x_{p_1} &amp;= v_\tau t_{p_1} = M - v_s(t_{p_1} - t_0), \cr
+x_{p_2} &amp;= v_\tau t_{p_2} = v_s(t_{p_2} - t_1).
+\end{align*}$$
+Poza tym, można zapisać związek między prędkością samochodu a czasem pomiędzy spotkaniami:
+$$\frac{x_{p_1}}{v_s} + t_{p_s} + \frac{x_{p_2}}{v_s} = t_{p_2} - t_{p_1}.$$
+Po odrzuceniu równości zawierającej wyraz $v_s t_1$, otrzymujemy układ czterech równań na cztery niewiadome ($x_{p_1}, x_{p_2},v_\tau, v_s$).
+Można zapisać go na przykład w postaci równania macierzowego
+$$\begin{bmatrix}x_{p_1}\cr x_{p_2}\cr v_s\cr v_\tau\end{bmatrix} \begin{bmatrix}
+1&amp;1&amp;t_{p_1} + t_{p_s} - t_{p_2}&amp; 0\cr
+1&amp;0&amp;t_{p_1} - t_0&amp; 0\cr
+0&amp;1&amp;0&amp;-t_{p_2}\cr
+1&amp;0&amp;0&amp;-t_{p_1}
+\end{bmatrix} =
+\begin{bmatrix} 0\cr M\cr 0\cr 0\end{bmatrix}.$$
+Jeżeli odwrócimy tę macierz, dostaniemy bardzo łatwo wszystkie niewiadome. Naszym zadaniem jest obliczenie czasu potrzebnego turyście do przejścia drogi między Zwardoniem i Milówką. Jest to po prostu $t = M/v_\tau$. Macierz odwrócimy metodą dopełnień algebraicznych, czyli za pomocą zależności między macierzą odwrotną ($A^{-1}$), macierzą dołączoną ($A^D$) i wyznacznikiem macierzy ($\det A$),
+$$A^{-1} = \frac{A^D}{\det A}.$$
+Macierz dołączona jest po prostu transponowaną macierzą dopełnień algebraicznych.
+Wyznacznik obliczymy korzystając z rozwinięcia Laplace&rsquo;a.
+Rozwiniemy wokół czwartego wiersza.
+$$\begin{align*}
+\det A &amp;= (-1)^{4+1} \cdot 1 \cdot
+\begin{vmatrix}
+1&amp;t_{p_1} + t_{p_s} - t_{p_2}&amp;0\cr
+0&amp;t_{p_1} - t_0&amp;0\cr
+1&amp;0&amp;-t_{p_2}
+\end{vmatrix} + (-1)^{4+4} \cdot (-t_{p_1}) \begin{vmatrix}
+1&amp;1&amp;t_{p_1}+t_{p_s} - t_{p_2}\cr
+1&amp;0&amp;t_{p_1} - t_0\cr
+0&amp;1&amp;0
+\end{vmatrix} = \cr
+&amp;= (-1)(-t_{p_2})(t_{p_1} - t_0) + (-t_{p_1})(t_0 - t_{p_1}) - t_{p_1}(t_{p_1} + t_{p_s} - t_{p_2}) = \cr
+&amp;= -t_0(t_{p_1} + t_{p_2}) + t_{p_1}(2t_{p_2} - t_{p_s}).
+\end{align*}$$
+Po wstawieniu do wzoru dostaniemy wektor
+$$\begin{bmatrix}
+x_{p_1} \cr x_{p_2} \cr v_s \cr v_\tau
+\end{bmatrix} =
+\begin{bmatrix}
+-\frac{M t_{p_1} (t_{p_1} - t_{p_2} + t_{p_s})}{-t_0 t_{p_1} - t_0 t_{p_2} + 2 t_{p_1} t_{p_2} - t_{p_1} t_{p_s}} \cr
+\frac{M t_{p_2} (-t_{p_1} + t_{p_2} - t_{p_s})}{-t_0 t_{p_1} - t_0 t_{p_2} + 2 t_{p_1} t_{p_2} - t_{p_1} t_{p_s}}\cr
+-\frac{M(t_{p_1} + t_{p_2})}{t_0 t_{p_1} + t_0 t_{p_2} - 2 t_{p_1} t_{p_2} + t_{p_1} t_{p_s}}\cr
+-\frac{M(t_{p_1} - t_{p_2} + t_{p_s})}{t_0 t_{p_1} + t_0 t_{p_2} - 2 t_{p_1} t_{p_2}+t_{p_1}t_{p_s}}
+\end{bmatrix}.$$
+Możemy podstawić liczby z zadania, dostaniemy
+$$\begin{bmatrix}
+x_{p_1} \cr x_{p_2} \cr v_s \cr v_\tau
+\end{bmatrix} =
+\begin{bmatrix}
+5\cr \frac{25}{3}\cr \frac{2}{3}\cr \frac{1}{15}
+\end{bmatrix}
+$$
+Jednostki prędkości tutaj mamy w $\frac{\text{km}}{\text{min}}$, więc ostatecznie, czas podróży turysty wynosi
+$$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$</p>
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "korsakxyz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      </main>
+    </div>
+	<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </body>
+</html>

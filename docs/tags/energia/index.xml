@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>energia on Jakub Korsak</title>
+    <link>https://korsak.xyz/tags/energia/</link>
+    <description>Recent content in energia on Jakub Korsak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Wed, 22 Apr 2020 15:35:46 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/energia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zmienny współczynnik tarcia</title>
+      <link>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</link>
+      <pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</guid>
+      <description>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją
+$$\mu(x) = \begin{cases} \mu_1, &amp;amp; x \in [0,x_1]\cr \mu_2, &amp;amp; x \in ]x_1, x_2]\cr \mu_3, &amp;amp; x &amp;gt; x_2 \end{cases}.$$ Po przebyciu jakiej odległości $x_3 &amp;gt; x_2$ klocek się zatrzyma?
+Powiedzmy, że klocek na początku znajduje się w punkcie $x = h/2$. Jako, że klocek ma tam prędkość o wartości $v_0$, ma w tym układzie odniesienia energię kinetyczną $K_0 = m v_0^2 / 2$.</description>
+    </item>
+    
+  </channel>
+</rss>

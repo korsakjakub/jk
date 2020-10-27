@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>studia on Jakub Korsak</title>
+    <link>https://korsak.xyz/categories/studia/</link>
+    <description>Recent content in studia on Jakub Korsak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Fri, 08 May 2020 10:48:05 +0200</lastBuildDate><atom:link href="https://korsak.xyz/categories/studia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Równanie Ciołkowskiego</title>
+      <link>https://korsak.xyz/rakieta/</link>
+      <pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/rakieta/</guid>
+      <description>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać $$dv = -udm,$$ gdzie
+ $v(t)$ - prędkość rakiety, $u$ - prędkość wyrzucanego paliwa w układzie związanym z rakietą, $m(t)$ - masa rakiety.  Zazwyczaj wyprowadza się je korzystając z zasady zachowania pędu, dzisiaj problem rozważymy od strony mechaniki Langrange.
+Problem Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuca paliwo w sposób ciągły i jednostajny, z prędkością względem rakiety $u$.</description>
+    </item>
+    
+  </channel>
+</rss>

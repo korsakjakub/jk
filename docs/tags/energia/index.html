@@ -1,305 +1,112 @@
-<!DOCTYPE html>
-<html lang="pl" data-theme="light">
-    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
-    <meta charset="UTF-8" />
-
-    <meta name="generator" content="Hugo 0.75.1" /><meta name="theme-color" content="#fff" />
-        <script>
-            const userPrefers = localStorage.getItem('theme');
-            const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-            const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
-            if (userPrefers === 'dark') {
-                changeModeMeta('dark');
-            } else if (userPrefers === 'light') {
-                changeModeMeta('light');
-            } else if (darkModeMediaQuery.matches) {
-                changeModeMeta('dark');
-            } else if (lightModeMediaQuery.matches) {
-                changeModeMeta('light');
-            }
-            function changeModeMeta(theme) {
-                document.documentElement.setAttribute('data-theme', theme);
-                if (theme === 'dark') {
-                    changeThemeColor('#282a36');
-                } else {
-                    changeThemeColor('#fff');
-                }
-            }
-            function changeThemeColor(themeColor) {
-                document.querySelector('meta[name="theme-color"]').setAttribute('content', themeColor);
-            }
-        </script>
-
-    
-
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-    
-    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
-    
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-
-    <title>energia | Jakub Korsak</title>
-
-    <link rel="stylesheet" href="/css/meme.min.ca271cf5e3bd211e50a38804c6a84350268abf115cfe78be2dee6e6c78415153.css" integrity="sha256-yicc9eO9IR5Qo4gExqhDUCaKvxFc/ni+Le5ubHhBUVM=" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" /></noscript>
-
-    <meta name="author" content="Jakub Korsak" />
-    <meta name="description" content="Fizyka, matematyka i inne bardzo przyjemne posty oraz zapisy na zajęcia." />
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Jakub Korsak" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="Jakub Korsak" />
-    <meta name="msapplication-starturl" content="../../" />
-    <meta name="msapplication-TileColor" content="#fff" />
-    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
-    <link rel="manifest" href="/manifest.json" />
-
-    
-    
-
-    
-    <link rel="canonical" href="/tags/energia/" />
-
-
-
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "datePublished": "2020-03-14T20:00:00+00:01",
-        "dateModified": "2020-05-25T20:46:38+02:00",
-        "url": "/tags/energia/",
-        "name": "energia",
-        "description": "Fizyka, matematyka i inne bardzo przyjemne posty oraz zapisy na zajęcia.",
-        "image": "/icons/apple-touch-icon.png",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Jakub Korsak",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "/icons/apple-touch-icon.png"
-            },
-            "url": "/"
-        },
-        "mainEntityOfPage": {
-            "@type": "WebSite",
-            "@id": "/"
-        }
-    }
-</script>
-
-    
-
-
-
-<meta name="twitter:card" content="summary" />
-
-
-    
-
-
-
-
-
-<meta property="og:title" content="energia" />
-<meta property="og:description" content="Fizyka, matematyka i inne bardzo przyjemne posty oraz zapisy na zajęcia." />
-<meta property="og:url" content="/tags/energia/" />
-<meta property="og:site_name" content="Jakub Korsak" />
-<meta property="og:locale" content="pl" /><meta property="og:image" content="/icons/apple-touch-icon.png" />
-    <meta property="og:type" content="website" />
-
-
-    
+<!doctype html>
+<html lang="pl">
+		<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+		<link rel="stylesheet" href="https://korsak.xyz/css/style.css">
+		<title>energia</title>
 </head>
 
-    <body>
-        <div class="container">
-            
-    <header class="header" data-scroll-header>
-        
-            <div class="header-wrapper">
-                <div class="header-inner">
-                    
-    <div class="site-brand">
-        
-            <a href="/" class="brand">Jakub Korsak</a>
-        
-    </div>
-
-                    <nav class="nav">
-    <ul class="menu" id="menu">
-        
-            
-        
-        
-        
-        
-            
-                <li class="menu-item"><a href="/zapisy/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon "><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">Zapisy na zajęcia</span></a>
-                </li>
-            
-        
-            
-                <li class="menu-item"><a href="/blog/"><span class="menu-item-name">Blog</span></a>
-                </li>
-            
-        
-            
-                
-                    <li class="menu-item">
-                        
-    
-        
-            
-        
-        <div id="theme-switcher">🌞</div>
-    
-
-
-                    </li>
-                
-            
-        
-    </ul>
+  <body>
+		  <nav class="pure-menu pure-menu-horizontal">
+		<ul class="pure-menu-list">
+				<a class="pure-menu-heading pure-menu-link" href="https://korsak.xyz/">Jakub Korsak</a>
+				
+		
+				<li class="pure-menu-item">
+		<a href="/zapisy/" class="pure-menu-link nav-link">Zapisy na zajęcia</a>
+				</li>
+		
+				<li class="pure-menu-item">
+		<a href="/blog/" class="pure-menu-link nav-link">Blog</a>
+				</li>
+		
+		</ul>
 </nav>
 
-                </div>
-            </div>
-            
-    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
-    <label for="nav-toggle" class="nav-toggle"></label>
-    <label for="nav-toggle" class="nav-curtain"></label>
+		  <div class="breadcrumb">
 
 
-        
-    </header>
+		
+		
+		
+		
+		
+		
+		
+						<a class="breadcrumb-link" href="https://korsak.xyz/">Home</a>:
+		
+		
+						<a class="breadcrumb-link" href="https://korsak.xyz/tags/">Tags</a>:
+		
+		
+				energia
+
+</div>
+
+    <div class="container">
+      <main id="main">
+       
+<h1 id="title">energia</h1>
+
+<br>
+
+<p>
+  <a class="blog-link" href="/zmienny_wspolczynnik_tarcia/">Zmienny współczynnik tarcia</a>
+  <br>
+
+
+<i data-feather="calendar"></i> <time datetime="2020-04-22">Apr 22, 2020</time>
+
+  <br>
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/fizyka">fizyka</a>,
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/liceum">liceum</a>,
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/dynamika">dynamika</a>,
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/praca-si%C5%82y-tarcia">praca siły tarcia</a>,
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/energia">energia</a>,
+  
+
+
+</p>
 
 
 
-
-            
-            
-    
-        <main class="main list" id="main">
-            <div class="main-inner">
-                <div class="content list-group">
-                    
-                        
-                        
-                    
-
-                    
-
-                    
-                    
-
-                    
-                    
-                    
-
-                    
-                    
-
-                    
-                    
-                    
-                </div>
-            </div>
-        </main>
-    
-
-            
-    <div id="back-to-top" class="back-to-top">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
+      </main>
     </div>
-
-            
-
-        </div>
-        <script src="/js/meme.min.7befaabd53cbd4bcd86f87fa1bb5123173e5c9ebff46c4da523776eba14145cd.js" integrity="sha256-e++qvVPL1LzYb4f6G7USMXPlyev/RsTaUjd266FBRc0="></script>
-
-
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-
-<script>
-    var scroll = new SmoothScroll('a[href*="#"]', {
-        speedAsDuration: true,
-        header: '[data-scroll-header]'
-    });
-</script>
-
-
-
-
-
-
-    <script>
-    if (typeof MathJax === 'undefined') {
-        window.MathJax = {
-            loader: {
-                load: ['[tex]/mhchem']
-            },
-            
-            tex: {
-                inlineMath: {'[+]': [['$', '$']]},
-                tags: 'ams',
-                packages: {'[+]': ['mhchem']}
-            }
-        };
-        (function() {
-            var script = document.createElement('script');
-            script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js';
-            script.defer = true;
-            document.head.appendChild(script);
-        })();
-    } else {
-        MathJax.texReset();
-        MathJax.typeset();
+	<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
     }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
 </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-
-
-
-
-
-    
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
-
-<script>
-    mediumZoom(document.querySelectorAll('div.post-body img'), {
-        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
-    })
-</script>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
-
-
-
-
-
-
-
-
-
-
-    </body>
+  </body>
 </html>

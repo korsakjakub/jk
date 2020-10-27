@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>matematyka on Jakub Korsak</title>
+    <link>https://korsak.xyz/categories/matematyka/</link>
+    <description>Recent content in matematyka on Jakub Korsak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sat, 22 Aug 2020 18:42:20 +0200</lastBuildDate><atom:link href="https://korsak.xyz/categories/matematyka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Równanie kwadratowe</title>
+      <link>https://korsak.xyz/kwadratowa/</link>
+      <pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/kwadratowa/</guid>
+      <description>Co to znaczy, że rozwiązujemy równanie kwadratowe? Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem $$ f(x) = ax^2 + bx + c,$$ to znalezienie takich argumentów $x_1$, $x_2$, które spełniają zależność $$f(x_1) = 0,\quad f(x_2) = 0$$ będzie tożsame z rozwiązaniem równania postaci $$ ax^2 + bx + c = 0.</description>
+    </item>
+    
+  </channel>
+</rss>

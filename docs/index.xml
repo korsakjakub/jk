@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jakub Korsak</title>
+    <link>https://korsak.xyz/</link>
+    <description>Recent content on Jakub Korsak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sat, 28 Mar 2020 22:05:01 +0100</lastBuildDate><atom:link href="https://korsak.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jak łatwo przesunąć statek</title>
+      <link>https://korsak.xyz/ped_i_srodek_masy/</link>
+      <pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/ped_i_srodek_masy/</guid>
+      <description>Na jakie pytania chcielibyśmy odpowiedzieć?  Dlaczego, gdy schodzimy w roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać? Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?  Problem Często pojawiające się w różnych podręcznikach zadanie z zasady zachowania pędu brzmi następująco:
+O ile przesunie się łódka, jeżeli człowiek najpierw stojący przy jednym jej brzegu przejdzie na brzeg przeciwny?</description>
+    </item>
+    
+    <item>
+      <title>Równanie kwadratowe</title>
+      <link>https://korsak.xyz/kwadratowa/</link>
+      <pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/kwadratowa/</guid>
+      <description>Co to znaczy, że rozwiązujemy równanie kwadratowe? Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem $$ f(x) = ax^2 + bx + c,$$ to znalezienie takich argumentów $x_1$, $x_2$, które spełniają zależność $$f(x_1) = 0,\quad f(x_2) = 0$$ będzie tożsame z rozwiązaniem równania postaci $$ ax^2 + bx + c = 0.</description>
+    </item>
+    
+    <item>
+      <title>Korepetycje z fizyki lub matematyki</title>
+      <link>https://korsak.xyz/korepetycje/</link>
+      <pubDate>Sat, 22 Aug 2020 10:00:00 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/korepetycje/</guid>
+      <description>Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego. Od kilku lat prowadzę korepetycje z matematyki i fizyki. Uczyłem już zarówno dzieci z piątej klasy jak i maturzystów przygotowujących się do matury rozszerzonej. Mam łatwość w kontaktach z młodzieżą, bo sam jeszcze do niej należę.
+Zajęcia prowadzę indywidualnie lub grupowo (szczegóły w formularzu), dla uczniów szkół podstawowych oraz średnich. W zależności od preferencji, zajęcia mogą przybierać różne formy:</description>
+    </item>
+    
+    <item>
+      <title>Zwardoń</title>
+      <link>https://korsak.xyz/zwardon/</link>
+      <pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/zwardon/</guid>
+      <description>Zadanie Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.</description>
+    </item>
+    
+    <item>
+      <title>Równanie Ciołkowskiego</title>
+      <link>https://korsak.xyz/rakieta/</link>
+      <pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/rakieta/</guid>
+      <description>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać $$dv = -udm,$$ gdzie
+ $v(t)$ - prędkość rakiety, $u$ - prędkość wyrzucanego paliwa w układzie związanym z rakietą, $m(t)$ - masa rakiety.  Zazwyczaj wyprowadza się je korzystając z zasady zachowania pędu, dzisiaj problem rozważymy od strony mechaniki Langrange.
+Problem Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuca paliwo w sposób ciągły i jednostajny, z prędkością względem rakiety $u$.</description>
+    </item>
+    
+    <item>
+      <title>Zmienny współczynnik tarcia</title>
+      <link>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</link>
+      <pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</guid>
+      <description>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją
+$$\mu(x) = \begin{cases} \mu_1, &amp;amp; x \in [0,x_1]\cr \mu_2, &amp;amp; x \in ]x_1, x_2]\cr \mu_3, &amp;amp; x &amp;gt; x_2 \end{cases}.$$ Po przebyciu jakiej odległości $x_3 &amp;gt; x_2$ klocek się zatrzyma?
+Powiedzmy, że klocek na początku znajduje się w punkcie $x = h/2$. Jako, że klocek ma tam prędkość o wartości $v_0$, ma w tym układzie odniesienia energię kinetyczną $K_0 = m v_0^2 / 2$.</description>
+    </item>
+    
+    <item>
+      <title>Zadanie ze szpulą</title>
+      <link>https://korsak.xyz/szpula/</link>
+      <pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/szpula/</guid>
+      <description>Problem Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.
+Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?
+Rozwiązanie   $T = t:$
+Punkt styku przesunął się od początku o $r \varphi(t)$ i tyle też wynosi długość rozwiniętej nici.
+  $T = t + \Delta t$:
+Punkt styku przesunął się od początku o $r \varphi(t+\Delta t)$, z punktem styku w czasie $T = t$ tworzy kąt $\varphi(t+\Delta t) - \varphi(t)$.</description>
+    </item>
+    
+    <item>
+      <title>Zapisy</title>
+      <link>https://korsak.xyz/zapisy/</link>
+      <pubDate>Sat, 28 Mar 2020 10:31:25 +0100</pubDate>
+      
+      <guid>https://korsak.xyz/zapisy/</guid>
+      <description> Ładuję… </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>liceum on Jakub Korsak</title>
+    <link>https://korsak.xyz/tags/liceum/</link>
+    <description>Recent content in liceum on Jakub Korsak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sat, 03 Oct 2020 16:22:39 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/liceum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jak łatwo przesunąć statek</title>
+      <link>https://korsak.xyz/ped_i_srodek_masy/</link>
+      <pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/ped_i_srodek_masy/</guid>
+      <description>Na jakie pytania chcielibyśmy odpowiedzieć?  Dlaczego, gdy schodzimy w roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać? Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?  Problem Często pojawiające się w różnych podręcznikach zadanie z zasady zachowania pędu brzmi następująco:
+O ile przesunie się łódka, jeżeli człowiek najpierw stojący przy jednym jej brzegu przejdzie na brzeg przeciwny?</description>
+    </item>
+    
+    <item>
+      <title>Równanie kwadratowe</title>
+      <link>https://korsak.xyz/kwadratowa/</link>
+      <pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/kwadratowa/</guid>
+      <description>Co to znaczy, że rozwiązujemy równanie kwadratowe? Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem $$ f(x) = ax^2 + bx + c,$$ to znalezienie takich argumentów $x_1$, $x_2$, które spełniają zależność $$f(x_1) = 0,\quad f(x_2) = 0$$ będzie tożsame z rozwiązaniem równania postaci $$ ax^2 + bx + c = 0.</description>
+    </item>
+    
+    <item>
+      <title>Zmienny współczynnik tarcia</title>
+      <link>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</link>
+      <pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</guid>
+      <description>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją
+$$\mu(x) = \begin{cases} \mu_1, &amp;amp; x \in [0,x_1]\cr \mu_2, &amp;amp; x \in ]x_1, x_2]\cr \mu_3, &amp;amp; x &amp;gt; x_2 \end{cases}.$$ Po przebyciu jakiej odległości $x_3 &amp;gt; x_2$ klocek się zatrzyma?
+Powiedzmy, że klocek na początku znajduje się w punkcie $x = h/2$. Jako, że klocek ma tam prędkość o wartości $v_0$, ma w tym układzie odniesienia energię kinetyczną $K_0 = m v_0^2 / 2$.</description>
+    </item>
+    
+    <item>
+      <title>Zadanie ze szpulą</title>
+      <link>https://korsak.xyz/szpula/</link>
+      <pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/szpula/</guid>
+      <description>Problem Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.
+Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?
+Rozwiązanie   $T = t:$
+Punkt styku przesunął się od początku o $r \varphi(t)$ i tyle też wynosi długość rozwiniętej nici.
+  $T = t + \Delta t$:
+Punkt styku przesunął się od początku o $r \varphi(t+\Delta t)$, z punktem styku w czasie $T = t$ tworzy kąt $\varphi(t+\Delta t) - \varphi(t)$.</description>
+    </item>
+    
+  </channel>
+</rss>

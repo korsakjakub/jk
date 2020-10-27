@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nić on Jakub Korsak</title>
+    <link>https://korsak.xyz/tags/ni%C4%87/</link>
+    <description>Recent content in nić on Jakub Korsak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sat, 11 Apr 2020 21:26:31 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/ni%C4%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zadanie ze szpulą</title>
+      <link>https://korsak.xyz/szpula/</link>
+      <pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate>
+      
+      <guid>https://korsak.xyz/szpula/</guid>
+      <description>Problem Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.
+Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?
+Rozwiązanie   $T = t:$
+Punkt styku przesunął się od początku o $r \varphi(t)$ i tyle też wynosi długość rozwiniętej nici.
+  $T = t + \Delta t$:
+Punkt styku przesunął się od początku o $r \varphi(t+\Delta t)$, z punktem styku w czasie $T = t$ tworzy kąt $\varphi(t+\Delta t) - \varphi(t)$.</description>
+    </item>
+    
+  </channel>
+</rss>
