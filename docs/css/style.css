@@ -25,6 +25,7 @@ body {
 		padding:0 10px;
 }
 main {
+		padding: 0 10px;
 		margin:auto;
 		max-width: 900px;
 		max-width: 850px;
@@ -104,4 +105,9 @@ img {
     display: inline-block;
     margin-right: 16px;
   }
+}
+
+.MathJax {
+		overflow-x: auto;
+		overflow-y: hidden;
 }
