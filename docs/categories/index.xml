@@ -6,42 +6,12 @@
     <description>Recent content in Categories on Jakub Korsak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Sat, 03 Oct 2020 16:22:39 +0200</lastBuildDate><atom:link href="https://korsak.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>fizyka</title>
-      <link>https://korsak.xyz/categories/fizyka/</link>
-      <pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate>
-      
-      <guid>https://korsak.xyz/categories/fizyka/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Sat, 03 Oct 2020 16:22:39 +0200</lastBuildDate>
     
-    <item>
-      <title>liceum</title>
-      <link>https://korsak.xyz/categories/liceum/</link>
-      <pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate>
-      
-      <guid>https://korsak.xyz/categories/liceum/</guid>
-      <description></description>
-    </item>
+	<atom:link href="https://korsak.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>matematyka</title>
-      <link>https://korsak.xyz/categories/matematyka/</link>
-      <pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate>
-      
-      <guid>https://korsak.xyz/categories/matematyka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>studia</title>
-      <link>https://korsak.xyz/categories/studia/</link>
-      <pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate>
-      
-      <guid>https://korsak.xyz/categories/studia/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
+
+

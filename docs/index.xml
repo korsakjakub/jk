@@ -6,15 +6,72 @@
     <description>Recent content on Jakub Korsak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Sat, 28 Mar 2020 22:05:01 +0100</lastBuildDate><atom:link href="https://korsak.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Mar 2020 22:05:01 +0100</lastBuildDate>
+    
+	<atom:link href="https://korsak.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Jak łatwo przesunąć statek</title>
       <link>https://korsak.xyz/ped_i_srodek_masy/</link>
       <pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate>
       
       <guid>https://korsak.xyz/ped_i_srodek_masy/</guid>
-      <description>Na jakie pytania chcielibyśmy odpowiedzieć?  Dlaczego, gdy schodzimy w roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać? Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?  Problem Często pojawiające się w różnych podręcznikach zadanie z zasady zachowania pędu brzmi następująco:
-O ile przesunie się łódka, jeżeli człowiek najpierw stojący przy jednym jej brzegu przejdzie na brzeg przeciwny?</description>
+      <description>&lt;h1 id=&#34;na-jakie-pytania-chcielibyśmy-odpowiedzieć&#34;&gt;Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Dlaczego, gdy schodzimy z roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?&lt;/li&gt;
+&lt;li&gt;Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;
+&lt;p&gt;Często pojawiające się w różnych podręcznikach zadanie z zasady zachowania pędu brzmi następująco:&lt;/p&gt;
+&lt;p&gt;O ile przesunie się łódka, jeżeli człowiek najpierw stojący przy jednym jej brzegu przejdzie na brzeg przeciwny?&lt;/p&gt;
+&lt;p&gt;Rozwiązanie wymaga przyrównania środków masy układu człowiek-łódka przed i po przejściu na przeciwny brzeg łódki; argumentuje się wtedy zazwyczaj, że ten warunek wynika z zasady zachowania pędu&amp;hellip; Ale w jaki dokładnie sposób?&lt;/p&gt;
+&lt;p&gt;Można zadać jeszcze ważniejsze z punktu widzenia fizyki pytanie:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Co się stanie jeżeli łódka miała jakąś niezerową prędkość?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;plan-podboju-kosmosu&#34;&gt;Plan podboju kosmosu:&lt;/h1&gt;
+&lt;p&gt;Spróbujemy wyjść z Zasady zachowania pędu i w jakiś sposób dojść do sensownych warunków, których rozwiązanie da nam odpowiedzi na nurtujące nas pytania.&lt;/p&gt;
+&lt;h2 id=&#34;ale-najpierw&#34;&gt;Ale najpierw&lt;/h2&gt;
+&lt;p&gt;Kiedy w ogóle możemy skorzystać z zasady zachowania pędu?&lt;/p&gt;
+&lt;p&gt;Spójrzmy na drugą zasadę dynamiki Newtona:
+$$F_{\text{zewnętrzne}}(t) = m_i \cdot a_i(t).$$
+Przyjmijmy oznaczenia $P(t) = \sum_i p_i(t)= \sum_i m_iv_i(t)$ - pęd układu ($\sum$ oznacza sumę po wszystkich działających indeksach $i$. W późniejszych rozważaniach postaram się sumiennie zapominać o jej zapisywaniu).&lt;/p&gt;
+&lt;p&gt;Jeżeli założymy, że masa całego układu się nie zmienia, możemy napisać
+$$F_{\text{zewnętrzne}} = \frac{d}{dt}P(t) = m_i \frac{d}{dt}v_i(t) = m_i a_i(t).$$
+Teraz przypomnijmy sobie co to znaczy, że pęd jest zachowany. Powiedzmy, że pęd jest zachowany na przedziale czasu $\mathbb{T} \equiv ]t_p, t_k[$. Niech $t_1, t_2\in \mathbb{T}$ - jakieś punkty w czasie.  Wtedy możemy powiedzieć, że
+$$\text{zachowany pęd} \iff p_i(t_2) - p_i(t_1) = 0 \implies p_i(t_2) = p_i(t_1),$$
+czyli na przedziale otwartym $\mathbb{T}$, na którym pęd miał być zachowany, jego zmiana jest równa zero.&lt;/p&gt;
+&lt;p&gt;Teraz rozważmy $t\in \mathbb{T}$. Skoro przedział $\mathbb{T}$ jest otwarty, zawsze możemy wybrać sobie jakieś małe $\Delta t$, takie że $t + \Delta t$ wciąż będzie należało do $\mathbb{T}$. Druga zasada dynamiki przyjmuje postać
+$$F_\text{zewnętrzne} = m_i \frac{d}{dt} v_i(t) = m_i \lim_{\Delta t \to 0} \frac{1}{\Delta t}\left( v_i(t+\Delta t) - v_i(t)\right),$$
+ale przecież $t$ oraz $t+\Delta t$ należą do $\mathbb{T}$! Czyli ich różnica musi być równa zero, bo mamy zachowany pęd!&lt;/p&gt;
+&lt;p&gt;Otrzymujemy więc warunek
+$$\underset{t\in\mathbb{T}}{\forall}\quad F_\text{zewnętrzne}(t) \equiv 0,$$
+gdzie znaczek &amp;ldquo;odwrócone A&amp;rdquo; oznacza &amp;ldquo;dla każdego&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Wiemy więc, że stwierdzenie, że pęd jest zachowany oznacza tyle samo, co stwierdzenie, że na układ nie działają żadne siły zewnętrzne.&lt;/p&gt;
+&lt;h1 id=&#34;weźmy-się-do-pracy&#34;&gt;Weźmy się do pracy&lt;/h1&gt;
+&lt;p&gt;Cały układ łódka-człowiek porusza się ze stałą prędkością (w tym też równą zero).&lt;/p&gt;
+&lt;p&gt;Tak jak wcześniej ustalmy sobie przedział otwarty $\mathbb{T} = ]t_p, t_k[$, w którym pęd układu ma być zachowany.
+Jeżeli weźmiemy sobie teraz punkt $t_1\in\mathbb{T}$, możemy bez ogródek napisać warunek na zasadę zachowania pędu układu:
+$$\underset{t\in\mathbb{T}}{\forall}P(t) = P(t_1) \implies \underset{t\in\mathbb{T}}{\forall}p_i(t) = p_i(t_1) \implies \underset{t\in\mathbb{T}}{\forall}m_i v_i(t) = m_i v_i(t_1).$$
+Skoro oba punkty czasu należą do $\mathbb{T}$, który jest przedziałem otwartym, to zawsze można znaleźć takie $\Delta t$, żeby $t + \Delta t$ również należał do $\mathbb{T}$. Przepiszmy więc powyższy warunek zamieniając $v_i$ na pochodną położeń $\frac{d}{dt}r_i$
+$$m_i \lim_{\Delta t\to 0}\frac{r_i(t+\Delta t) - r_i(t)}{\Delta t} = m_i v_i(t_1).$$
+Załóżmy teraz na przykład, że ustalamy taki inercjalny układ odniesienia, w którym łódka się nie porusza. W związku z tym mamy $p_i(t_1) = 0 \implies v_i(t_1) = 0.$ Dostajemy nieco uproszczoną wersję
+$$m_i \lim_{\Delta t\to 0} \frac{1}{\Delta t} \left(r_i(t+\Delta t) - r_i(t)\right) = m_i \frac{d}{dt}r_i(t) = 0,$$
+lecz wciąż coś tu nie gra&amp;hellip;
+Skorzystajmy z Twierdzenia Stokes&amp;rsquo;a dla jednego wymiaru (zasadnicze twierdzenie rachunku różniczkowego).
+$$m_i \int_{t_1}^{t_c} \frac{d r_i}{dk}(k)dk = m_i\left(r_i(t_c) - r_i(t_1)\right) = 0,$$
+czyli ostatecznie
+$$m_i r_i(t_c) = m_i r_i(t_1).$$ Jest to warunek równoważny braku przesunięcia środka masy układu (przy założeniu stałej masy), czyli
+$$r_{c_1} = \frac{m_i r_i(t_c)}{m_i} = r_{c_2} = \frac{m_i r_i(t_1)}{m_i}.$$&lt;/p&gt;
+&lt;p&gt;A co, jeżeli łódka poruszała się ze stałą prędkością, która akurat nie wynosiła zero? Rozwiązanie można otrzymać najprościej chyba powołując się na zasadę względności Galileusza.
+Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$x_G$ - nowe poruszające się współrzędne,&lt;/li&gt;
+&lt;li&gt;$V$ - stała prędkość, z którą porusza się układ $x_G$,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,7 +80,66 @@ O ile przesunie się łódka, jeżeli człowiek najpierw stojący przy jednym je
       <pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate>
       
       <guid>https://korsak.xyz/kwadratowa/</guid>
-      <description>Co to znaczy, że rozwiązujemy równanie kwadratowe? Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem $$ f(x) = ax^2 + bx + c,$$ to znalezienie takich argumentów $x_1$, $x_2$, które spełniają zależność $$f(x_1) = 0,\quad f(x_2) = 0$$ będzie tożsame z rozwiązaniem równania postaci $$ ax^2 + bx + c = 0.</description>
+      <description>&lt;h1 id=&#34;co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe&#34;&gt;Co to znaczy, że rozwiązujemy równanie kwadratowe?&lt;/h1&gt;
+&lt;p&gt;Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem
+$$ f(x) = ax^2 + bx + c,$$
+to znalezienie takich argumentów $x_1$, $x_2$, które spełniają zależność
+$$f(x_1) = 0,\quad f(x_2) = 0$$
+będzie tożsame z rozwiązaniem równania postaci
+$$ ax^2 + bx + c = 0.$$&lt;/p&gt;
+&lt;p&gt;Na chwilę zapomnijmy, że kojarzymy gotowy wzór na rozwiązania tego równania. Zamiast go podawać, chcielibyśmy go wyprowadzić z prostej geometrycznej obserwacji.&lt;/p&gt;
+&lt;p&gt;Niech $a&amp;gt;0$, $b&amp;gt;0$, $c&amp;lt;0$. Wtedy wiemy o wyglądzie tej funkcji cztery fakty&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ma kształt paraboli (jak każda funkcja kwadratowa),&lt;/li&gt;
+&lt;li&gt;Jej ramiona skierowane są w górę ($a&amp;gt;0$),&lt;/li&gt;
+&lt;li&gt;W punkcie $x = 0$, przyjmuje wartość ujemną ($f(0) = c &amp;lt; 0$),&lt;/li&gt;
+&lt;li&gt;Możliwe, że ten fakt będzie najmniej oczywisty: jej wierzchołek znajduje się w ujemnej półosi $OX$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Dowód (punktu czwartego):&lt;/p&gt;
+&lt;p&gt;Niech $\alpha(x) = ax^2 + c$. O funkcji tej wiemy, że jest parzysta (przyjmuje takie same wartości dla argumentów dodatnich i ujemnych). Można to łatwo sprawdzić porównując
+$$\alpha(x) = ax^2 + c \quad vs\quad \alpha(-x) = a(-x)^2 + c = ax^2 + c.$$
+Skoro jest parzysta i ma kształt paraboli, to wiemy, że jej wierzchołek leży w punkcie $W = (p = 0, q = c)$. Dodajmy następnie do funkcji $\alpha(x)$ nową funkcję $\beta(x) = bx$. Jeżeli przyjmiemy, tak jak wcześniej, $b&amp;gt;0$, to zauważymy, że dla dodatnich $x$ funkcja $f(x) = \alpha(x) + \beta(x)$ jest przez $\beta$ zwiększana, a dla ujemnych zmniejszana. Oznacza to, że każdy punkt wykresu funkcji $f(x)$ podniesie się dla dodatnich $x$ dokładnie o $bx$, a dla $x$ ujemnych analogicznie się obniży.&lt;/p&gt;
+&lt;p&gt;Jeżeli funkcja $\alpha(x)$ wierzchołek ma w punkcie $W$, to łatwo już zauważyć, że funkcja $f$ wierzchołek musi mieć w półosi argumentów ujemnych właśnie ze względu na nieparzysty przyczynek wpływający od funkcji $\beta(x)$, c.n.u.&lt;/p&gt;
+&lt;h2 id=&#34;fakt&#34;&gt;Fakt:&lt;/h2&gt;
+&lt;p&gt;Umiemy rozwiązywać funkcje typu $\alpha(x) = ax^2 + c$. Jeżeli postawimy warunek
+$$\alpha(x) = 0,$$
+to otrzymamy równanie
+$$ax^2 + c = 0 \implies x^2 = -\frac{c}{a} \implies x = \pm \sqrt{-\frac{c}{a}}.$$
+Dla stałych $a,c$ takich, że $a \cdot c &amp;lt; 0$, oba rozwiązania należą do zbioru liczb rzeczywistych.&lt;/p&gt;
+&lt;p&gt;(Fun fact: w przeciwnym przypadku otrzymujemy rozwiązania ze zbioru liczb zespolonych. Jeżeli $a\cdot c &amp;gt; 0$, to $x = \pm i \sqrt{\frac{c}{a}}$.)&lt;/p&gt;
+&lt;h2 id=&#34;obserwacja&#34;&gt;Obserwacja:&lt;/h2&gt;
+&lt;p&gt;Skoro umiemy rozwiązywać równania typu $\alpha(x) = 0$, to czy potrafimy przedstawić ogólną funkcję $f(x)$ w postaci czegoś bardziej przypominającego $\alpha(x)$?&lt;/p&gt;
+&lt;p&gt;Możemy spróbować po prostu przesunąć funkcję $f(x)$ w prawo (lub w lewo dla $b&amp;lt;0$)!&lt;/p&gt;
+&lt;p&gt;Tego typu przekształcenia dokonuje się zamianą zmiennych. Wyobraźmy sobie nowy układ współrzędnych, który od oryginalnego $(x,f(x))$ różni się tylko położeniem pionowej osi. Nowe zmienne nazwijmy jakoś ładnie, na przykład $\heartsuit$. Czyli nasz nowy układ współrzędnych ma postać $(\heartsuit, f(\heartsuit)).$&lt;/p&gt;
+&lt;p&gt;O ile chcemy ten wykres przesunąć?&lt;/p&gt;
+&lt;p&gt;No, chcielibyśmy, żeby wierzchołek znajdował się tak jak dla $\alpha(x)$ w argumencie równym zero.&lt;/p&gt;
+&lt;p&gt;Współrzędne wierzchołka można znaleźć w sposób następujący (dla znających definicję pochodnej w punkcie):&lt;/p&gt;
+&lt;p&gt;Skoro wierzchołek jest punktem, w którym funkcja nie ma nachylenia (jest ono równe zero), to można to przełożyć na język matematyki stwierdzeniem, że
+$$f&#39;(x = p) = 0,$$
+gdzie $p$ - argument wierzchołka. Pochodną funkcji $f(x)$ można łatwo obliczyć. Ma ona postać:
+$$f&#39;(x) = 2ax + b.$$
+Jeżeli skorzystamy z tych dwóch stwierdzeń, otrzymamy wzór na poziomą składową wierzchołka $W = (p,q):$
+$$f&#39;(p) = 0 \implies 2ap + b = 0 \implies p = -\frac{b}{2a}.$$
+Wiemy zatem, że nowe współrzędne ($\heartsuit$) należy powiązać ze starymi wzorem
+$$x = \heartsuit - \frac{b}{2a}.$$
+Żeby zdecydować, czy powinien tu być znak plus, czy minus można na przykład położyć $x = p = -\frac{b}{2a}$ i sprawdzić, że rzeczywiście wtedy $\heartsuit = 0$.&lt;/p&gt;
+&lt;p&gt;Zapiszmy funkcję $f$ w nowych współrzędnych:
+$$\begin{align*}0 = f(x) &amp;amp;= ax^2 + bx + c = \cr
+&amp;amp;= a\left(\heartsuit - \frac{b}{2a}\right)^2 + b\left(\heartsuit-\frac{b}{2a}\right) + c = \cr
+&amp;amp;= a\heartsuit^2 - \heartsuit b + \frac{b^2}{4a} + b\heartsuit - \frac{b^2}{2a} + c = \cr
+&amp;amp;= a\heartsuit^2 - \frac{b^2}{4a} + c.\end{align*}$$
+Otrzymujemy więc równanie
+$$0 = a\heartsuit^2 - \frac{b^2}{4a} + c.$$
+Zatem
+$$\heartsuit^2 = \frac{b^2}{4a^2} - \frac{4a\cdot c}{4a\cdot a} = \frac{b^2 - 4ac}{4a^2}.$$
+Tak jak z $\alpha(x)$, rozwiązujemy:
+$$\heartsuit = \pm \frac{\sqrt{b^2 - 4ac}}{2a}.$$
+Pamiętamy definicję serduszka: $\heartsuit = x + \frac{b}{2a}$. Więc jeżeli chcemy wrócić do oryginalnych zmiennych, to otrzymamy
+$$x = -\frac{b}{2a} \pm \frac{\sqrt{b^2 - 4ac}}{2a} = \frac{-b\pm \sqrt{b^2 - 4ac}}{2a}.$$
+Jeżeli wprowadzimy nowe oznaczenie: $\Delta = b^2 - 4ac$, to otrzymamy wzór, który pojawia się w podręcznikach:
+$$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$&lt;/p&gt;
+&lt;p&gt;(Kontynuacja fun factu: analogicznie do poprzedniego warunku $c\cdot a &amp;gt; 0$, mamy tutaj $b^2 - 4ac &amp;lt; 0$, które generuje rozwiązania ze zbioru liczb zespolonych. Wtedy po prostu piszemy przed pierwiastkiem kwadratowym jednostkę urojoną $i$ i mamy problem z głowy. No i piękne ciało algebraicznie domknięte!)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -32,8 +148,18 @@ O ile przesunie się łódka, jeżeli człowiek najpierw stojący przy jednym je
       <pubDate>Sat, 22 Aug 2020 10:00:00 +0200</pubDate>
       
       <guid>https://korsak.xyz/korepetycje/</guid>
-      <description>Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego. Od kilku lat prowadzę korepetycje z matematyki i fizyki. Uczyłem już zarówno dzieci z piątej klasy jak i maturzystów przygotowujących się do matury rozszerzonej. Mam łatwość w kontaktach z młodzieżą, bo sam jeszcze do niej należę.
-Zajęcia prowadzę indywidualnie lub grupowo (szczegóły w formularzu), dla uczniów szkół podstawowych oraz średnich. W zależności od preferencji, zajęcia mogą przybierać różne formy:</description>
+      <description>&lt;p&gt;Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego.
+Od kilku lat prowadzę korepetycje z matematyki i fizyki.
+&lt;!-- raw HTML omitted --&gt;
+Uczyłem już zarówno dzieci z piątej klasy jak i maturzystów przygotowujących się do matury rozszerzonej. Mam łatwość w kontaktach z młodzieżą, bo sam jeszcze do niej należę.&lt;/p&gt;
+&lt;p&gt;Zajęcia prowadzę indywidualnie lub grupowo (szczegóły w formularzu), dla uczniów szkół podstawowych oraz średnich. W zależności od preferencji, zajęcia mogą przybierać różne formy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;klasyczne korepetycje (przerabianie materiału ze szkoły)&lt;/li&gt;
+&lt;li&gt;przygotowanie do egzaminu ósmoklasisty / maturalnego&lt;/li&gt;
+&lt;li&gt;przygotowanie do konkursów i olimpiad przedmiotowych&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Aktualnie zajęcia prowadzę tylko w formie on-line, zapisy prowadzę przez &lt;a href=&#34;https://korsak.xyz/zapisy/&#34;&gt;formularz&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -42,7 +168,74 @@ Zajęcia prowadzę indywidualnie lub grupowo (szczegóły w formularzu), dla ucz
       <pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate>
       
       <guid>https://korsak.xyz/zwardon/</guid>
-      <description>Zadanie Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.</description>
+      <description>&lt;h1 id=&#34;zadanie&#34;&gt;Zadanie&lt;/h1&gt;
+&lt;p&gt;Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
+&lt;img src=&#34;https://korsak.xyz/zwardon.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;rozwiązanie&#34;&gt;Rozwiązanie&lt;/h1&gt;
+&lt;p&gt;Niech położenie turysty od czasu - $\tau(t)$, położenie samochodu od czasu - $s(t)$. W oznaczeniach takich jak na rysunku, można przedstawić te funkcje następująco
+$$ \begin{align*}
+\tau(t) &amp;amp;= v_{\tau} t \cr
+s(t) &amp;amp;= \begin{cases}M - v_s(t-t_0) &amp;amp; t &amp;lt; T \cr
+0 &amp;amp; t\in [T, T + t_{p_s}] \cr
+v_s(t-t_1) &amp;amp; t &amp;gt; T + t_{p_s}.\end{cases}
+\end{align*} $$
+Z treści zadania wynika, że nastąpiły dwa spotkania samochodu i turysty. Znamy ich położenia w czasie - odpowiednio $t_{p_1} = 60 + 15$ min oraz $t_{p_2} = 60 + 15 + 50$ min.
+Jako, że podczas spotkania i turysta i samochód zajmują to samo położenie w przestrzeni, można zapisać
+$$\begin{align*}
+x_{p_1} &amp;amp;= v_\tau t_{p_1} = M - v_s(t_{p_1} - t_0), \cr
+x_{p_2} &amp;amp;= v_\tau t_{p_2} = v_s(t_{p_2} - t_1).
+\end{align*}$$
+Poza tym, można zapisać związek między prędkością samochodu a czasem pomiędzy spotkaniami:
+$$\frac{x_{p_1}}{v_s} + t_{p_s} + \frac{x_{p_2}}{v_s} = t_{p_2} - t_{p_1}.$$
+Po odrzuceniu równości zawierającej wyraz $v_s t_1$, otrzymujemy układ czterech równań na cztery niewiadome ($x_{p_1}, x_{p_2},v_\tau, v_s$).
+Można zapisać go na przykład w postaci równania macierzowego
+$$\begin{bmatrix}x_{p_1}\cr x_{p_2}\cr v_s\cr v_\tau\end{bmatrix} \begin{bmatrix}
+1&amp;amp;1&amp;amp;t_{p_1} + t_{p_s} - t_{p_2}&amp;amp; 0\cr
+1&amp;amp;0&amp;amp;t_{p_1} - t_0&amp;amp; 0\cr
+0&amp;amp;1&amp;amp;0&amp;amp;-t_{p_2}\cr
+1&amp;amp;0&amp;amp;0&amp;amp;-t_{p_1}
+\end{bmatrix} =
+\begin{bmatrix} 0\cr M\cr 0\cr 0\end{bmatrix}.$$
+Jeżeli odwrócimy tę macierz, dostaniemy bardzo łatwo wszystkie niewiadome. Naszym zadaniem jest obliczenie czasu potrzebnego turyście do przejścia drogi między Zwardoniem i Milówką. Jest to po prostu $t = M/v_\tau$. Macierz odwrócimy metodą dopełnień algebraicznych, czyli za pomocą zależności między macierzą odwrotną ($A^{-1}$), macierzą dołączoną ($A^D$) i wyznacznikiem macierzy ($\det A$),
+$$A^{-1} = \frac{A^D}{\det A}.$$
+Macierz dołączona jest po prostu transponowaną macierzą dopełnień algebraicznych.
+Wyznacznik obliczymy korzystając z rozwinięcia Laplace&amp;rsquo;a.
+Rozwiniemy wokół czwartego wiersza.
+$$\begin{align*}
+\det A &amp;amp;= (-1)^{4+1} \cdot 1 \cdot
+\begin{vmatrix}
+1&amp;amp;t_{p_1} + t_{p_s} - t_{p_2}&amp;amp;0\cr
+0&amp;amp;t_{p_1} - t_0&amp;amp;0\cr
+1&amp;amp;0&amp;amp;-t_{p_2}
+\end{vmatrix} + (-1)^{4+4} \cdot (-t_{p_1}) \begin{vmatrix}
+1&amp;amp;1&amp;amp;t_{p_1}+t_{p_s} - t_{p_2}\cr
+1&amp;amp;0&amp;amp;t_{p_1} - t_0\cr
+0&amp;amp;1&amp;amp;0
+\end{vmatrix} = \cr
+&amp;amp;= (-1)(-t_{p_2})(t_{p_1} - t_0) + (-t_{p_1})(t_0 - t_{p_1}) - t_{p_1}(t_{p_1} + t_{p_s} - t_{p_2}) = \cr
+&amp;amp;= -t_0(t_{p_1} + t_{p_2}) + t_{p_1}(2t_{p_2} - t_{p_s}).
+\end{align*}$$
+Po wstawieniu do wzoru dostaniemy wektor
+$$\begin{bmatrix}
+x_{p_1} \cr x_{p_2} \cr v_s \cr v_\tau
+\end{bmatrix} =
+\begin{bmatrix}
+-\frac{M t_{p_1} (t_{p_1} - t_{p_2} + t_{p_s})}{-t_0 t_{p_1} - t_0 t_{p_2} + 2 t_{p_1} t_{p_2} - t_{p_1} t_{p_s}} \cr
+\frac{M t_{p_2} (-t_{p_1} + t_{p_2} - t_{p_s})}{-t_0 t_{p_1} - t_0 t_{p_2} + 2 t_{p_1} t_{p_2} - t_{p_1} t_{p_s}}\cr
+-\frac{M(t_{p_1} + t_{p_2})}{t_0 t_{p_1} + t_0 t_{p_2} - 2 t_{p_1} t_{p_2} + t_{p_1} t_{p_s}}\cr
+-\frac{M(t_{p_1} - t_{p_2} + t_{p_s})}{t_0 t_{p_1} + t_0 t_{p_2} - 2 t_{p_1} t_{p_2}+t_{p_1}t_{p_s}}
+\end{bmatrix}.$$
+Możemy podstawić liczby z zadania, dostaniemy
+$$\begin{bmatrix}
+x_{p_1} \cr x_{p_2} \cr v_s \cr v_\tau
+\end{bmatrix} =
+\begin{bmatrix}
+5\cr \frac{25}{3}\cr \frac{2}{3}\cr \frac{1}{15}
+\end{bmatrix}
+$$
+Jednostki prędkości tutaj mamy w $\frac{\text{km}}{\text{min}}$, więc ostatecznie, czas podróży turysty wynosi
+$$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -51,9 +244,55 @@ Zajęcia prowadzę indywidualnie lub grupowo (szczegóły w formularzu), dla ucz
       <pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate>
       
       <guid>https://korsak.xyz/rakieta/</guid>
-      <description>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać $$dv = -udm,$$ gdzie
- $v(t)$ - prędkość rakiety, $u$ - prędkość wyrzucanego paliwa w układzie związanym z rakietą, $m(t)$ - masa rakiety.  Zazwyczaj wyprowadza się je korzystając z zasady zachowania pędu, dzisiaj problem rozważymy od strony mechaniki Langrange.
-Problem Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuca paliwo w sposób ciągły i jednostajny, z prędkością względem rakiety $u$.</description>
+      <description>&lt;p&gt;Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
+$$dv = -udm,$$
+gdzie&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$v(t)$ - prędkość rakiety,&lt;/li&gt;
+&lt;li&gt;$u$ - prędkość wyrzucanego paliwa w układzie związanym z rakietą,&lt;/li&gt;
+&lt;li&gt;$m(t)$ - masa rakiety.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zazwyczaj wyprowadza się je korzystając z zasady zachowania pędu, dzisiaj problem rozważymy od strony mechaniki Langrange.&lt;/p&gt;
+&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;
+&lt;p&gt;Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuca paliwo w sposób ciągły i jednostajny, z prędkością &lt;strong&gt;względem rakiety&lt;/strong&gt; $u$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jak wygląda równanie ruchu rakiety?&lt;/li&gt;
+&lt;li&gt;Jakie to równanie ma rozwiązanie?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;rozwiązanie&#34;&gt;Rozwiązanie&lt;/h1&gt;
+&lt;p&gt;Jeżeli rozpatrywany ruch jest wzdłuż $\xi$ oraz rakieta znajduje się w potencjale zależnym od $\xi(t)$, funkcja lagrange tego układu ma postać
+$$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{m}(\tau) \left(\dot{\xi}(\tau) - u\right)^2 d\tau - V(\xi(t), t).$$
+Składnik zawierający całkę po czasie jest energią kinetyczną związaną z &lt;strong&gt;łączną&lt;/strong&gt; masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
+Jeżeli rozpatrzymy podział przedziału
+$$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
+$$\left&amp;lt; \dot{\xi} \right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
+oraz wyrzuca paliwo ze średnią szybkością wyrzucania
+$$\left&amp;lt; \dot{m} \right&amp;gt;_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$
+Masa tego paliwa wynosi zatem $\left&amp;lt;m\right&amp;gt;_j = \left&amp;lt;\dot{m}\right&amp;gt;_j (t_j - t_{j-1}) \equiv \left&amp;lt; \dot{m} \right&amp;gt;_j \Delta t_j.$
+Więc średnia energia kinetyczna na tym przedziale wynosi
+$$\left&amp;lt; T \text{ }\right&amp;gt;_j = \frac{1}{2} \left&amp;lt;\dot{m}\right&amp;gt;_j \left( \left&amp;lt;\dot{\xi}\right&amp;gt;_j - u\right)^2 \Delta t_j.$$
+Suma energii kinetycznych odpowiadających składowym podziału przedziału ma postać
+$$\left&amp;lt; T \text{ } \right&amp;gt; = \frac{1}{2} \sum_{j = 1}^n \left&amp;lt;\dot{m}\right&amp;gt;_j \left( \left&amp;lt;\dot{\xi}\right&amp;gt;_j - u\right)^2 \Delta t_j.$$
+W granicy $n\to \infty$, suma przechodzi w całkę pojawiającą się w funkcji Lagrange.&lt;/p&gt;
+&lt;p&gt;Mając lagranżjan, możemy już bez przeszkód skorzystać z równania Eulera - Lagrange
+$$\frac{d}{dt} \frac{\partial \mathcal{L}}{\partial \dot{\xi}} = \frac{\partial \mathcal{L}}{\partial \xi}.$$
+Prawa strona odpowiada sile pochodzącej od potencjału $V$,
+$$\frac{\partial \mathcal{L}}{\partial \xi} = \frac{\partial V}{\partial \xi} = F.$$
+To jeszcze lewa strona
+$$\begin{align*} \frac{d}{dt} \frac{\partial \mathcal{L}}{\partial \dot{\xi}} &amp;amp;= \frac{d}{dt}\left( \frac{\partial}{\partial \dot{\xi}}\frac{1}{2}m\dot{\xi}^2 - \frac{\partial}{\partial \dot{\xi}}\frac{1}{2}\int\limits_0^t \dot{m} \left(\dot{\xi} - u\right)^2 d\tau  \right) = \cr
+&amp;amp;= \frac{d}{dt} \left( m \dot{\xi} - \frac{1}{2}\int\limits_0^t \dot{m} \cdot 2 \left(\dot{\xi} - u\right) d\tau \right) = \cr
+&amp;amp;= \dot{m}\dot{\xi} + m \ddot{\xi} - \dot{m}\left(\dot{\xi} - u\right) .\end{align*}$$
+Po przyrównaniu lewej i prawej strony dostaniemy
+$$F = m\ddot{\xi} + \dot{m} u.$$
+Jest to równanie Ciołkowskiego z dodatkiem siły $F$.
+Po podzieleniu obustronnie przez $m$, położeniu $F =0$ oraz wycałkowaniu po czasie dostaniemy
+$$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
+Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
+$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m}{m_0}\right).$$
+Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
+$$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -62,9 +301,39 @@ Problem Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, któr
       <pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate>
       
       <guid>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</guid>
-      <description>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją
-$$\mu(x) = \begin{cases} \mu_1, &amp;amp; x \in [0,x_1]\cr \mu_2, &amp;amp; x \in ]x_1, x_2]\cr \mu_3, &amp;amp; x &amp;gt; x_2 \end{cases}.$$ Po przebyciu jakiej odległości $x_3 &amp;gt; x_2$ klocek się zatrzyma?
-Powiedzmy, że klocek na początku znajduje się w punkcie $x = h/2$. Jako, że klocek ma tam prędkość o wartości $v_0$, ma w tym układzie odniesienia energię kinetyczną $K_0 = m v_0^2 / 2$.</description>
+      <description>&lt;p&gt;Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją&lt;/p&gt;
+&lt;p&gt;$$\mu(x) = \begin{cases}
+\mu_1, &amp;amp; x \in [0,x_1]\cr
+\mu_2, &amp;amp; x \in ]x_1, x_2]\cr
+\mu_3, &amp;amp; x &amp;gt; x_2
+\end{cases}.$$
+Po przebyciu jakiej odległości $x_3 &amp;gt; x_2$ klocek się zatrzyma?&lt;/p&gt;
+&lt;p&gt;Powiedzmy, że klocek na początku znajduje się w punkcie $x = h/2$.
+Jako, że klocek ma tam prędkość o wartości $v_0$, ma w tym układzie odniesienia energię kinetyczną $K_0 = m v_0^2 / 2$.
+W momencie styku prawej granicy klocka z przejściem w obszar $x_1$, znajduje się on w punkcie $x = x_1 - h/2$.
+Klocek w tym obszarze stracił prędkość na rzecz siły tarcia. Praca wykonana przez siłę tarcia to
+$$dW_T = \mathbf{T}\cdot\mathbf{ds}.$$
+Można zapisać zasadę zachowania energii
+$$K_0 = K_1 + W_T.$$
+Dla $x\in X_1 = [h/2, x_1 - h/2]$, $\mu = \mu_1$, więc
+$$W_T[X_1] = \int\limits_{h/2}^{x_1-h/2} mg\mu_1 dx = mg\mu_1(x_1 - h).$$
+Analogicznie dla $x\in X_2 = [x_1 + h/2, x_2 - h/2]$
+$$W_T[X_2] = \int\limits_{x_1 + h/2}^{x_2 - h/2} mg\mu_2 dx = mg\mu_2(x_2 - x_1 - h)$$
+oraz dla $x\in X_3 = [x_2 + h/2, x_3]$
+$$W_T[X_3] = \int\limits_{x_2 + h/2}^{x_3} mg\mu_3 dx = mg\mu_3(x_3 - x_2 - h/2).$$
+Pozostały obszary, gdzie klocek przechodzi między $\mu_i$ i $\mu_{i+1}$.
+Wtedy dla $h_a$ - część po przejściu, $h_b$ - część przed przejściem mamy$$\mu(x) = \frac{\mu_i(h_b(x)) + \mu_{i+1}(h_a(x))}{h}.$$
+Jako, że $h = h_a + h_b$, to można przepisać $\mu$ jako
+$$\mu(h_a) = \frac{\mu_i(h-h_a) + \mu_{i+1} h_a}{h} = h_a\left(\frac{\mu_{i+1}}{h} - \frac{\mu_i}{h}\right) + \mu_i.$$
+Teraz można policzyć dla $x \in X_i = [x_i - h/2, x_i + h/2]$
+$$W_T[X_i] = \int\limits_0^h mg\mu(h_a)dh_a = \frac{1}{2}mgh(\mu_i+\mu_{i+1}),$$
+ewentualnie jako pole trapezu opisanego przez $h_a\in [0,h]$, $\mu = h_a(\mu_{i+1}/h - \mu_i/h)+\mu_i$.&lt;/p&gt;
+&lt;p&gt;Cała początkowa energia kinetyczna pod koniec przechodzi na sumę wszystkich prac wykonanych przez tarcie:
+$$\begin{align*}W = mg\mu_3(x_3 - x_2 - h/2) &amp;amp;= \frac{m}{2}v_0^2 - \frac{1}{2}mgh(\mu_1+\mu_2) - \frac{1}{2}mgh(\mu_2+\mu_3) - \cr
+&amp;amp;- mg\mu_1(x_1-h) - mg\mu_2(x_2-x_1-h)\end{align*}$$&lt;/p&gt;
+&lt;p&gt;W związku z tym klocek zatrzyma się po przebyciu odległości
+$$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) - \mu_1(x_1-h) - \mu_2(x_2-x_2-h)\right) + x_2 + h/2$$&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -73,12 +342,36 @@ Powiedzmy, że klocek na początku znajduje się w punkcie $x = h/2$. Jako, że 
       <pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate>
       
       <guid>https://korsak.xyz/szpula/</guid>
-      <description>Problem Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.
-Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?
-Rozwiązanie   $T = t:$
-Punkt styku przesunął się od początku o $r \varphi(t)$ i tyle też wynosi długość rozwiniętej nici.
-  $T = t + \Delta t$:
-Punkt styku przesunął się od początku o $r \varphi(t+\Delta t)$, z punktem styku w czasie $T = t$ tworzy kąt $\varphi(t+\Delta t) - \varphi(t)$.</description>
+      <description>&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;
+&lt;p&gt;Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p&gt;
+&lt;p&gt;Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p&gt;
+&lt;h1 id=&#34;rozwiązanie&#34;&gt;Rozwiązanie&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$T = t:$&lt;br&gt;
+Punkt styku przesunął się od początku o $r \varphi(t)$ i tyle też wynosi długość rozwiniętej nici.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$T = t + \Delta t$:&lt;br&gt;
+Punkt styku przesunął się od początku o $r \varphi(t+\Delta t)$, z punktem styku w czasie $T = t$ tworzy kąt $\varphi(t+\Delta t) - \varphi(t)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Droga $\xi$, którą przebył w czasie $\Delta t$ koniec nici wynosi
+$$\xi(t) = r\frac{\varphi(t) + \varphi(t+\Delta t)}{2}\left(\varphi(t+\Delta t) - \varphi(t)\right).$$
+Zamiast średniej można tu było wziąć w zasadzie równie dobrze $\varphi(t)$ lub $\varphi(t+\Delta t)$. Zauważmy jeszcze, że $\varphi(t+\Delta t) - \varphi(t) \equiv \Delta \varphi(t)$. Z drugiej strony, wartość prędkości końca nici jest stała, więc można zapisać
+$$\xi(t) = |\mathbf{v}| \Delta t,$$ gdzie $|\mathbf{v}| = |\mathbf{v_0}|$.&lt;/p&gt;
+&lt;p&gt;Można zatem napisać
+$$v_0 \Delta t = r\frac{\varphi(t) + \varphi(t+\Delta t)}{2}\Delta \varphi(t).$$
+Przejdźmy z $\Delta t \to dt$ i scałkujmy obustronnie
+$$v_0 \int\limits_0^{T_1} dt = r \int\limits_0^{2\pi k}\varphi d\varphi.$$
+Górna granica prawej strony to łączny kąt o który musi się przesunąć punkt styku, aby nić się rozwinęła (i była styczna do punktu styku). Otrzymujemy
+$$T_1 = \frac{2\pi^2 k^2r}{v_0}.$$
+Czas potrzebny na obrócenie się nici w okół punktu styku (teraz punktu zawieszenia) wynosi
+$$T_2 = \pi \frac{r}{v_0}.$$
+Pozostaje zauważyć, że od tego momentu, $T_3 = T_1$. W związku z tym, łączny czas wynosi
+$$T = T_1 + T_2 + T_3 = \frac{4\pi^2k^2r + \pi r}{v_0}.$$&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -87,8 +380,12 @@ Punkt styku przesunął się od początku o $r \varphi(t+\Delta t)$, z punktem s
       <pubDate>Sat, 28 Mar 2020 10:31:25 +0100</pubDate>
       
       <guid>https://korsak.xyz/zapisy/</guid>
-      <description> Ładuję… </description>
+      <description>
+&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeMT65O71n_I0cw4Bh9rKT9zmmUykyGMkYLECYLk0Y8iovAlw/viewform?embedded=true&#34; width=&#34;100%&#34; height=&#34;1457&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Ładuję…&lt;/iframe&gt;
+</description>
     </item>
     
   </channel>
 </rss>
+
+

@@ -10,23 +10,28 @@
 </head>
 
   <body>
-		  <nav class="pure-menu pure-menu-horizontal">
-		<ul class="pure-menu-list">
-				<a class="pure-menu-heading pure-menu-link" href="https://korsak.xyz/">Jakub Korsak</a>
+  <nav class="nav">
+		<ul>
+				<li>
+						<a href="https://korsak.xyz/">Jakub Korsak</a>
+				</li>
 				
 		
-				<li class="pure-menu-item">
-		<a href="/zapisy/" class="pure-menu-link nav-link">Zapisy na zajęcia</a>
+				<li>
+		<a href="/zapisy/" class="nav-link">Zapisy na zajęcia</a>
 				</li>
 		
-				<li class="pure-menu-item">
-		<a href="/blog/" class="pure-menu-link nav-link">Blog</a>
+				<li>
+		<a href="/blog/" class="nav-link">Blog</a>
 				</li>
 		
 		</ul>
 </nav>
 
-		  <div class="breadcrumb">
+  <main>
+       
+<h1>Zmienny współczynnik tarcia</h1>
+<div class="breadcrumb">
 
 
 		
@@ -46,11 +51,6 @@
 
 </div>
 
-    <div class="container">
-      <main id="main">
-       
-
-<h1>Zmienny współczynnik tarcia</h1>
 
 
 <i data-feather="calendar"></i> <time datetime="2020-04-22">Apr 22, 2020</time>
@@ -74,7 +74,8 @@
   
 
 
-<p>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją</p>
+    <div class="content">
+		<p>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją</p>
 <p>$$\mu(x) = \begin{cases}
 \mu_1, &amp; x \in [0,x_1]\cr
 \mu_2, &amp; x \in ]x_1, x_2]\cr
@@ -107,8 +108,7 @@ $$\begin{align*}W = mg\mu_3(x_3 - x_2 - h/2) &amp;= \frac{m}{2}v_0^2 - \frac{1}{
 <p>W związku z tym klocek zatrzyma się po przebyciu odległości
 $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) - \mu_1(x_1-h) - \mu_2(x_2-x_2-h)\right) + x_2 + h/2$$</p>
 
-
-<div id="disqus_thread"></div>
+		<div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -128,9 +128,8 @@ $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) 
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-      </main>
     </div>
+
 	<script>
   MathJax = {
     tex: {
@@ -154,5 +153,6 @@ $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) 
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+  </main>
   </body>
 </html>

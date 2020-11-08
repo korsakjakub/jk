@@ -6,17 +6,69 @@
     <description>Recent content in mechanika Lagrange on Jakub Korsak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Fri, 08 May 2020 10:48:05 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/mechanika-lagrange/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 May 2020 10:48:05 +0200</lastBuildDate>
+    
+	<atom:link href="https://korsak.xyz/tags/mechanika-lagrange/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Równanie Ciołkowskiego</title>
       <link>https://korsak.xyz/rakieta/</link>
       <pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate>
       
       <guid>https://korsak.xyz/rakieta/</guid>
-      <description>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać $$dv = -udm,$$ gdzie
- $v(t)$ - prędkość rakiety, $u$ - prędkość wyrzucanego paliwa w układzie związanym z rakietą, $m(t)$ - masa rakiety.  Zazwyczaj wyprowadza się je korzystając z zasady zachowania pędu, dzisiaj problem rozważymy od strony mechaniki Langrange.
-Problem Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuca paliwo w sposób ciągły i jednostajny, z prędkością względem rakiety $u$.</description>
+      <description>&lt;p&gt;Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
+$$dv = -udm,$$
+gdzie&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$v(t)$ - prędkość rakiety,&lt;/li&gt;
+&lt;li&gt;$u$ - prędkość wyrzucanego paliwa w układzie związanym z rakietą,&lt;/li&gt;
+&lt;li&gt;$m(t)$ - masa rakiety.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zazwyczaj wyprowadza się je korzystając z zasady zachowania pędu, dzisiaj problem rozważymy od strony mechaniki Langrange.&lt;/p&gt;
+&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;
+&lt;p&gt;Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuca paliwo w sposób ciągły i jednostajny, z prędkością &lt;strong&gt;względem rakiety&lt;/strong&gt; $u$.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jak wygląda równanie ruchu rakiety?&lt;/li&gt;
+&lt;li&gt;Jakie to równanie ma rozwiązanie?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;rozwiązanie&#34;&gt;Rozwiązanie&lt;/h1&gt;
+&lt;p&gt;Jeżeli rozpatrywany ruch jest wzdłuż $\xi$ oraz rakieta znajduje się w potencjale zależnym od $\xi(t)$, funkcja lagrange tego układu ma postać
+$$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{m}(\tau) \left(\dot{\xi}(\tau) - u\right)^2 d\tau - V(\xi(t), t).$$
+Składnik zawierający całkę po czasie jest energią kinetyczną związaną z &lt;strong&gt;łączną&lt;/strong&gt; masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
+Jeżeli rozpatrzymy podział przedziału
+$$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
+$$\left&amp;lt; \dot{\xi} \right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
+oraz wyrzuca paliwo ze średnią szybkością wyrzucania
+$$\left&amp;lt; \dot{m} \right&amp;gt;_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$
+Masa tego paliwa wynosi zatem $\left&amp;lt;m\right&amp;gt;_j = \left&amp;lt;\dot{m}\right&amp;gt;_j (t_j - t_{j-1}) \equiv \left&amp;lt; \dot{m} \right&amp;gt;_j \Delta t_j.$
+Więc średnia energia kinetyczna na tym przedziale wynosi
+$$\left&amp;lt; T \text{ }\right&amp;gt;_j = \frac{1}{2} \left&amp;lt;\dot{m}\right&amp;gt;_j \left( \left&amp;lt;\dot{\xi}\right&amp;gt;_j - u\right)^2 \Delta t_j.$$
+Suma energii kinetycznych odpowiadających składowym podziału przedziału ma postać
+$$\left&amp;lt; T \text{ } \right&amp;gt; = \frac{1}{2} \sum_{j = 1}^n \left&amp;lt;\dot{m}\right&amp;gt;_j \left( \left&amp;lt;\dot{\xi}\right&amp;gt;_j - u\right)^2 \Delta t_j.$$
+W granicy $n\to \infty$, suma przechodzi w całkę pojawiającą się w funkcji Lagrange.&lt;/p&gt;
+&lt;p&gt;Mając lagranżjan, możemy już bez przeszkód skorzystać z równania Eulera - Lagrange
+$$\frac{d}{dt} \frac{\partial \mathcal{L}}{\partial \dot{\xi}} = \frac{\partial \mathcal{L}}{\partial \xi}.$$
+Prawa strona odpowiada sile pochodzącej od potencjału $V$,
+$$\frac{\partial \mathcal{L}}{\partial \xi} = \frac{\partial V}{\partial \xi} = F.$$
+To jeszcze lewa strona
+$$\begin{align*} \frac{d}{dt} \frac{\partial \mathcal{L}}{\partial \dot{\xi}} &amp;amp;= \frac{d}{dt}\left( \frac{\partial}{\partial \dot{\xi}}\frac{1}{2}m\dot{\xi}^2 - \frac{\partial}{\partial \dot{\xi}}\frac{1}{2}\int\limits_0^t \dot{m} \left(\dot{\xi} - u\right)^2 d\tau  \right) = \cr
+&amp;amp;= \frac{d}{dt} \left( m \dot{\xi} - \frac{1}{2}\int\limits_0^t \dot{m} \cdot 2 \left(\dot{\xi} - u\right) d\tau \right) = \cr
+&amp;amp;= \dot{m}\dot{\xi} + m \ddot{\xi} - \dot{m}\left(\dot{\xi} - u\right) .\end{align*}$$
+Po przyrównaniu lewej i prawej strony dostaniemy
+$$F = m\ddot{\xi} + \dot{m} u.$$
+Jest to równanie Ciołkowskiego z dodatkiem siły $F$.
+Po podzieleniu obustronnie przez $m$, położeniu $F =0$ oraz wycałkowaniu po czasie dostaniemy
+$$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
+Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
+$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m}{m_0}\right).$$
+Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
+$$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$&lt;/p&gt;
+</description>
     </item>
     
   </channel>
 </rss>
+
+

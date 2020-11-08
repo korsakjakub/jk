@@ -10,23 +10,28 @@
 </head>
 
   <body>
-		  <nav class="pure-menu pure-menu-horizontal">
-		<ul class="pure-menu-list">
-				<a class="pure-menu-heading pure-menu-link" href="https://korsak.xyz/">Jakub Korsak</a>
+  <nav class="nav">
+		<ul>
+				<li>
+						<a href="https://korsak.xyz/">Jakub Korsak</a>
+				</li>
 				
 		
-				<li class="pure-menu-item">
-		<a href="/zapisy/" class="pure-menu-link nav-link">Zapisy na zajęcia</a>
+				<li>
+		<a href="/zapisy/" class="nav-link">Zapisy na zajęcia</a>
 				</li>
 		
-				<li class="pure-menu-item">
-		<a href="/blog/" class="pure-menu-link nav-link">Blog</a>
+				<li>
+		<a href="/blog/" class="nav-link">Blog</a>
 				</li>
 		
 		</ul>
 </nav>
 
-		  <div class="breadcrumb">
+  <main>
+       
+<h1>Zwardoń</h1>
+<div class="breadcrumb">
 
 
 		
@@ -46,17 +51,13 @@
 
 </div>
 
-    <div class="container">
-      <main id="main">
-       
-
-<h1>Zwardoń</h1>
 
 
 <i data-feather="calendar"></i> <time datetime="2020-05-20">May 20, 2020</time>
 
 
-<h1 id="zadanie">Zadanie</h1>
+    <div class="content">
+		<h1 id="zadanie">Zadanie</h1>
 <p>Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
 <img src="/zwardon.png" alt=""></p>
 <h1 id="rozwiązanie">Rozwiązanie</h1>
@@ -124,8 +125,7 @@ $$
 Jednostki prędkości tutaj mamy w $\frac{\text{km}}{\text{min}}$, więc ostatecznie, czas podróży turysty wynosi
 $$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$</p>
 
-
-<div id="disqus_thread"></div>
+		<div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -145,9 +145,8 @@ $$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$</p>
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-      </main>
     </div>
+
 	<script>
   MathJax = {
     tex: {
@@ -171,5 +170,6 @@ $$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$</p>
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+  </main>
   </body>
 </html>

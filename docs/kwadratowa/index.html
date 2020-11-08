@@ -10,23 +10,28 @@
 </head>
 
   <body>
-		  <nav class="pure-menu pure-menu-horizontal">
-		<ul class="pure-menu-list">
-				<a class="pure-menu-heading pure-menu-link" href="https://korsak.xyz/">Jakub Korsak</a>
+  <nav class="nav">
+		<ul>
+				<li>
+						<a href="https://korsak.xyz/">Jakub Korsak</a>
+				</li>
 				
 		
-				<li class="pure-menu-item">
-		<a href="/zapisy/" class="pure-menu-link nav-link">Zapisy na zajęcia</a>
+				<li>
+		<a href="/zapisy/" class="nav-link">Zapisy na zajęcia</a>
 				</li>
 		
-				<li class="pure-menu-item">
-		<a href="/blog/" class="pure-menu-link nav-link">Blog</a>
+				<li>
+		<a href="/blog/" class="nav-link">Blog</a>
 				</li>
 		
 		</ul>
 </nav>
 
-		  <div class="breadcrumb">
+  <main>
+       
+<h1>Równanie kwadratowe</h1>
+<div class="breadcrumb">
 
 
 		
@@ -46,11 +51,6 @@
 
 </div>
 
-    <div class="container">
-      <main id="main">
-       
-
-<h1>Równanie kwadratowe</h1>
 
 
 <i data-feather="calendar"></i> <time datetime="2020-08-22">Aug 22, 2020</time>
@@ -71,7 +71,8 @@
   
 
 
-<h1 id="co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe">Co to znaczy, że rozwiązujemy równanie kwadratowe?</h1>
+    <div class="content">
+		<h1 id="co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe">Co to znaczy, że rozwiązujemy równanie kwadratowe?</h1>
 <p>Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem
 $$ f(x) = ax^2 + bx + c,$$
 to znalezienie takich argumentów $x_1$, $x_2$, które spełniają zależność
@@ -131,8 +132,7 @@ Jeżeli wprowadzimy nowe oznaczenie: $\Delta = b^2 - 4ac$, to otrzymamy wzór, k
 $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$</p>
 <p>(Kontynuacja fun factu: analogicznie do poprzedniego warunku $c\cdot a &gt; 0$, mamy tutaj $b^2 - 4ac &lt; 0$, które generuje rozwiązania ze zbioru liczb zespolonych. Wtedy po prostu piszemy przed pierwiastkiem kwadratowym jednostkę urojoną $i$ i mamy problem z głowy. No i piękne ciało algebraicznie domknięte!)</p>
 
-
-<div id="disqus_thread"></div>
+		<div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -152,9 +152,8 @@ $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$</p>
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-      </main>
     </div>
+
 	<script>
   MathJax = {
     tex: {
@@ -178,5 +177,6 @@ $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$</p>
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+  </main>
   </body>
 </html>
