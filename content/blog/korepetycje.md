@@ -5,7 +5,6 @@ draft: false
 ---
 Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego.
 Od kilku lat prowadzę korepetycje z matematyki i fizyki.
-![zdjęcie](/jakub.jpg)
 
 Uczyłem już zarówno dzieci z piątej klasy jak i maturzystów przygotowujących się do matury rozszerzonej. Mam łatwość w kontaktach z młodzieżą, bo sam jeszcze do niej należę.
 
