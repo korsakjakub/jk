@@ -1,10 +1,12 @@
-<nav class="pure-menu pure-menu-horizontal pure-menu-scrollable">
-		<ul class="pure-menu-list">
-				<a class="pure-menu-heading pure-menu-link" href="{{ .Site.BaseURL }}">Jakub Korsak</a>
+<nav class="nav">
+		<ul>
+				<li>
+						<a href="{{ .Site.BaseURL }}">Jakub Korsak</a>
+				</li>
 				{{ $current := . }}
 		{{ range .Site.Menus.main }}
-				<li class="pure-menu-item">
-		<a href="{{ .URL }}" class="pure-menu-link nav-link">{{ .Name }}</a>
+				<li>
+		<a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
 				</li>
 		{{ end }}
 		</ul>

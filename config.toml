@@ -3,6 +3,9 @@ languageCode = "pl-pl"
 title = "Jakub Korsak"
 disqusShortname = "korsakxyz"
 
+[author]
+  name = "Jakub Korsak"
+
 [permalinks]
   blog = "/:filename/"
 

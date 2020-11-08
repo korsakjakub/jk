@@ -4,5 +4,7 @@
 		{{ $css := "css/style.css" | absURL }}
 		<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
 		<link rel="stylesheet" href="{{ $css }}">
-		<title>{{ .Title }}</title>
+		{{ range .AlternativeOutputFormats -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+		{{ end -}}	<title>{{ .Title }}</title>
 </head>

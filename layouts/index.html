@@ -1,7 +1,8 @@
 {{ define "main" }}
+{{ .Content }}
 
-<h1>Posty:</h1>
-{{- range ( where site.RegularPages "Section" "blog" ).ByPublishDate.Reverse }}
+<h2>Ostatnie kilka postów:</h2>
+{{- range first 4 ( where site.RegularPages "Section" "blog" ).ByPublishDate.Reverse }}
 <p>
   <a class="blog-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
   <br>
