@@ -2,6 +2,7 @@
 title: "Zwardoń"
 date: 2020-05-20T10:03:39+02:00
 draft: false
+tags: [liceum, matematyka, kinematyka]
 ---
 # Zadanie
 Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.

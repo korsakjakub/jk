@@ -1,13 +1,14 @@
 ---
 title: "Czy można usłyszeć kształt bębna?"
 date: 2020-09-14T20:39:43+02:00
-draft: true
+draft: false
+tags: [studia, matematyka, analiza matematyczna, równanie falowe, równanie dyfuzji]
 ---
 
 ## Krótka odpowiedź: Trochę tak, trochę nie.
 
 # Wstęp
-Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{M}(\mathcal{C}^\infty)$ (rozmaitość), ograniczoną brzegiem $\partial\mathcal{M}(\mathcal{C}^\infty)$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny
+Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{\Omega}$ (rozmaitość), ograniczoną brzegiem $\Gamma$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny
 $$F(x,y,t) \equiv F(\rho, t)$$
 spełnia równanie falowe
 $$\ddot{F} = c^2 \Delta F,$$
@@ -27,13 +28,13 @@ Możnaby powiedzieć, że $\Delta$ to operator liniowy $L$ i wtedy otrzymamy zag
 $$L \psi = \lambda \psi,$$
 gdzie $\lambda$ - wartości własne, a $\psi \in \mathcal{L}^2(\mathbb{R})$ to wektory własne.
 
-Czyli dla zadanego regionu $\mathcal{M}$ ograniczonego gładką krzywą $\partial\mathcal{M}$, możemy dostać sekwencję liczb $\lambda_1, \lambda_2,\ldots$, które będą spełniały problem
+Czyli dla zadanego regionu $\Omega$ ograniczonego gładką krzywą $\Gamma$, możemy dostać sekwencję liczb $\lambda_1, \lambda_2,\ldots$, które będą spełniały problem
 $$L \psi = \lambda_n \psi.$$
 
 # Problem
 Chcielibyśmy zadać teraz pytanie odwrotne:
 
-Czy jeżeli ktoś przyśle nam nagrany bardzo dobrym mikrofonem bęben, to czy mając słuch absolutny jesteśmy w stanie ten bęben narysować? Czyli co możemy powiedzieć o geometrii regionu $\mathcal{M}$ i $\partial\mathcal{M}$, jeżeli ktoś przyśle nam sms-em zbiór wszystkich wartości własnych $\lambda_1,\ldots, \lambda_m$.
+Czy jeżeli ktoś przyśle nam nagrany bardzo dobrym mikrofonem bęben, to czy mając słuch absolutny jesteśmy w stanie ten bęben narysować? Czyli co możemy powiedzieć o geometrii regionu $\Omega$ i $\Gamma$, jeżeli ktoś przyśle nam sms-em zbiór wszystkich wartości własnych $\lambda_1,\ldots, \lambda_m$.
 
 Inaczej sformułowany problem brzmi: Czy istnieją dwa bębny o różnych kształtach, które brzmią dokładnie tak samo?
 
@@ -95,10 +96,10 @@ $$\lim_{\lambda\to\infty} \frac{N(\lambda)}{\lambda} = \frac{|\Omega|}{4\pi}.$$
 Wygląda na to, że czasami można przybliżyć pole membrany, pod warunkiem, że mamy dostatecznie dużo jej wartości własnych. W ogólności mówi o tym
 
 ## Twierdzenie (Weyl)
-Niech $\mathcal{M}$ - rozmaitość z brzegiem, $\dim(\mathcal{M}) = n$. Dla problemu własnego
+Niech $\Omega$ - rozmaitość z brzegiem, $\dim(\Omega) = n$. Dla problemu własnego
 $$\begin{align*}
-\Delta \psi &= \lambda \psi, \quad\rho\in \mathcal{M}\cr
-\psi &= 0, \quad \rho\in\partial\mathcal{M}
+\Delta \psi &= \lambda \psi, \quad\rho\in \Omega\cr
+\psi &= 0, \quad \rho\in\Gamma
 ,\end{align*}$$
 liczba wartości własnych poniżej progu $\lambda$ w stosunku do pewnej potęgi wartości tego progu w granicy wynosi
 $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda^{n/2}} = \frac{\omega_n}{(2\pi)^n}\mathrm{vol}(\Omega),$$
@@ -134,13 +135,13 @@ Czyli na przykład fajne $\psi_n$, które to spełniają to takie, że
 $$\lim_{r\to\Gamma}\psi_n(r) = 0.$$
 
 ### Bardziej obrazowo - co tu się mniej więcej dzieje?
-Trzymamy nad blatem na jakiejś wysokości słoik miodu i zaczynamy go wylewać małym strumieniem nad środkiem blatu. W takim razie te cząsteczki miodu, które dopiero co dotknęły stołu jeszcze nie wiedzą co za straszne rzeczy je czekają na brzegu. Więc jeżeli uznamy, że $t\to 0$, to można przypuszczać, że miód nie ,,czuje'' warunku brzegowego.
+Rozważamy równanie dyfuzji, ale musimy pamiętać, że jest to równanie ,,natychmiastowe''! Na początku rozważymy sobie sytuację, gdy zapomnimy, że rozwiązujemy problem z brzegiem i założymy, że dla bardzo małych czasów problem brzegu jest pomijalny. W końcu istnieje tylko punktowe źródło stężenia. Czyli na chwilę umawiamy się, że dla $t\to 0$ nasze równanie nie ,,czuje'' warunków brzegowych.
 
 Oznacza to, że chcielibyśmy rozważyć taką funkcję stężenia $P_0(r,t)$, która spełnia takie samo równanie dyfuzji jak $P_\Omega$, czyli
 $$\dot{P}_0 = \Delta P_0,$$
 ma nałożony taki sam warunek brzegowy $\lim_{t\to 0} \left<T(P_0),\varphi\right> = \left<\delta_\rho,\varphi\right>$ oraz
 $$\lim_{t\to 0} \frac{P_\Omega}{P_0} = 1.$$
-Różni się od $P_\Omega$ jedynie brakiem ograniczenia w przestrzeni. Dodatkowo załóżmy jeszcze, że tak samo jak $P_\Omega$, $P_0$ jest nieujemne - czyli w żadnym punkcie stołu nie ma ujemnej wartości miodu.
+Różni się od $P_\Omega$ jedynie brakiem ograniczenia w przestrzeni. Dodatkowo załóżmy jeszcze, że tak samo jak $P_\Omega$, $P_0$ jest nieujemne - czyli w żadnym punkcie naszej przestrzeni nie ma ujemnego stężenia.
 
 Z analizy III pamiętamy, że rozwiązanie tego problemu ma postać
 $$P_0(r,t) = \frac{1}{4\pi a^2 t} \int_{\mathbb{R}} ds f(s) \exp\left(-\frac{\Vert r-s\Vert^2}{4a^2 t}\right),$$
@@ -167,7 +168,7 @@ Trzeba teraz na chwilkę pogrzebać w teorii miary. Niech $\Lambda = \\{\lambda_
 Mamy ich przeliczalnie dużo, więc niech $\mu(\lambda) = \sum_{\lambda_n<\lambda} \psi_n^2$ - miara (taka do zliczania). W takim razie zachodzi
 $$\int_\Lambda e^{-\lambda t} d\mu \underset{t\to 0}{\sim} \sum_{\lambda_n \in \Lambda} e^{-\lambda_n t} \psi_n^2 = \sum_{n = 1}^\infty e^{-\lambda_n t} \psi_n^2.$$
 
-### Przerywnik - Twierdzenie Tauberiańskie(?) (Hardy-Littlewood-Karamata)
+### Przerywnik - Twierdzenie Tauberiańskie (Hardy-Littlewood-Karamata)
 Niech
 $$\omega(\lambda) = \int_\Lambda e^{-\lambda t} d\mu(\lambda).$$
 Wtedy dla $\alpha\in \mathbb{R}_+$
@@ -193,9 +194,9 @@ Oznacza to, że nie uwolnimy się od Twierdzenia Weyl'a.
 
 ## Co jeszcze?
 
-Dalej rozważając równanie dyfuzji, zobaczymy co można zauważyć w pobliżu brzegu naszej membrany (albo gdy miód dociera do krawędzi stołu).
+Dalej rozważając równanie dyfuzji, zobaczymy co można zauważyć w pobliżu brzegu naszej membrany.
 
-Wcześniej stwierdziliśmy, że na samym początku, to ,,coś'' co dyfuzuje, nie czuje brzegu. Ale po jakimś czasie, kiedy pierwsze cząsteczki zbliżą się do niego, to pewnie coś się zmieni.
+Wcześniej stwierdziliśmy, że na samym początku, to ,,coś'' co dyfuzuje, nie czuje brzegu. Ale jeżeli wrzucimy źródło bardzo bardzo blisko brzegu, to to nasze oddziaływanie z nim będzie zachowywało się dość charakterystycznie.
 
 Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho$.
 
@@ -213,7 +214,7 @@ $$\int_\Omega P_\Omega(\rho,t) \underset{t\to 0}{\sim} \int_\Omega P_{l(\rho)}(\
 
 Żeby znaleźć rozwiązanie równania dyfuzji dla $P_{l(\rho)}$, wyobraźmy sobie następującą sytuację:
 
-Kiedy nasza ,,fala dyfuzji'' dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji'' pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta$. Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'$. Zatem mamy
+Kiedy nasza ,,fala dyfuzji'' (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji'' pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta$. Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'$. Zatem mamy
 $$P_{l(\rho)}(\rho,t) = \frac{1}{4\pi t} - \frac{1}{4\pi t}\exp\left(-\frac{(2\delta)^2}{4t}\right),$$
 gdzie $\delta = \Vert q - \rho \Vert$ jest minimalną odległością między $\rho$ i brzegiem $\Gamma$.
 
@@ -222,7 +223,7 @@ $$\int_\Omega P_\Omega(\rho,t) = \sum_{n=1}^\infty e^{-\lambda_n t} \underset{t\
 Żeby dowiedzieć się o co tu chodzi, musimy obliczyć tę całkę. Pomyślmy przez chwilę nad krzywą $\Gamma(\delta)$ składającą się z punktów oddalonych od $\Gamma$ o $\delta$ od wewnątrz (rysunek po prawej stronie).
 Dla dostatecznie małych $\delta$, $\Gamma(\delta)$ powinna przypominać $\Gamma$. Skoro rozważana całka ma postać
 $$\int_\Omega e^{-2\delta^2/t},$$
-to znaczy, że największe przyczynki będą pochodziły właśnie od małych $\delta$. Niech $L(\delta)$ - długość brzegu $\Gamma(\delta)$. Chcielibyśmy całkować po brzegach na odległości $\delta$ od zera aż do pewnej niewielkiej $\delta_0$. Zachodzi zatem
+to znaczy, że największe przyczynki będą pochodziły właśnie od małych $\delta.$ Niech $L(\delta)$ - długość brzegu $\Gamma(\delta)$. Chcielibyśmy całkować po brzegach na odległości $\delta$ od zera aż do pewnej niewielkiej $\delta_0$. Zachodzi zatem
 $$\int_\Omega \exp\left(-\frac{\delta^2}{t}\right) = \int_0^{\delta_0} \exp{-\frac{\delta^2}{t}}L(\delta)d\delta + \text{coś małego}.$$
 Zamiana zmiennych: niech $\xi = \frac{1}{\sqrt{t}} \delta$, więc $d\xi = \frac{1}{\sqrt{t}} d\delta$. Więc po podstawieniu
 $$\int_0^{\delta_0} \exp\left(-\frac{\delta^2}{t}\right)L(\delta)d\delta = \sqrt{t} \int_0^{\delta_0/\sqrt{t}} e^{-\xi^2}L(\xi\sqrt{t})d\xi.$$

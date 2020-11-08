@@ -15,8 +15,9 @@
 		--green: #859900;
 }
 body {
-		background: #eee8d5;
+		background: white;
 		color: var(--brblack);
+	    font-family: "Computer Modern Serif", serif;
 }
 .content {
 		max-width: 650px;
@@ -68,7 +69,8 @@ li:hover {
 		color: var(--brwhite);
 }
 img {
-		width: 100%;
+		max-width: 100%;
+		max-height: 40vh;
 }
 
 .nav ul {
