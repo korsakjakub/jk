@@ -23,7 +23,7 @@ $$\begin{align*}
 \Delta F &= \frac{1}{2} e^{i\omega t} \Delta U(\rho) \cr
 e^{i\omega t} \neq 0 &\implies \Delta U(\rho) + \omega^2 U(\rho) = 0
 \end{align*}.$$
-Trzeba by jeszcze wziąć pod uwagę, że na brzegu membrana ma się nie wychylać. Można to zapisać warunkiem, czyli gdy $\rho$ dąży od wewnątrz do $\partial M$, to $U\to 0$.
+Trzeba by jeszcze wziąć pod uwagę, że na brzegu membrana ma się nie wychylać. Można to zapisać warunkiem, czyli gdy $\rho$ dąży od wewnątrz do $\Gamma$, to $U\to 0$.
 Możnaby powiedzieć, że $\Delta$ to operator liniowy $L$ i wtedy otrzymamy zagadnienie własne:
 $$L \psi = \lambda \psi,$$
 gdzie $\lambda$ - wartości własne, a $\psi \in \mathcal{L}^2(\mathbb{R})$ to wektory własne.
