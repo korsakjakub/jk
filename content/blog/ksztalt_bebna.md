@@ -23,8 +23,8 @@ $$\begin{align*}
 \Delta F &= \frac{1}{2} e^{i\omega t} \Delta U(\rho) \cr
 e^{i\omega t} \neq 0 &\implies \Delta U(\rho) + \omega^2 U(\rho) = 0
 \end{align*}.$$
-Trzeba by jeszcze wziąć pod uwagę, że na brzegu membrana ma się nie wychylać. Można to zapisać warunkiem, czyli gdy $\rho$ dąży od wewnątrz do $\Gamma$, to $U\to 0$.
-Możnaby powiedzieć, że $\Delta$ to operator liniowy $L$ i wtedy otrzymamy zagadnienie własne:
+Trzeba by jeszcze wziąć pod uwagę, że na brzegu membrana ma się nie wychylać. Można to zapisać takim warunkiem, że gdy $\rho$ dąży od wewnątrz do $\Gamma$, to $U\to 0.$
+Można by powiedzieć, że $\Delta$ to operator liniowy $L$ i wtedy otrzymamy zagadnienie własne:
 $$L \psi = \lambda \psi,$$
 gdzie $\lambda$ - wartości własne, a $\psi \in \mathcal{L}^2(\mathbb{R})$ to wektory własne.
 
@@ -34,18 +34,18 @@ $$L \psi = \lambda_n \psi.$$
 # Problem
 Chcielibyśmy zadać teraz pytanie odwrotne:
 
-Czy jeżeli ktoś przyśle nam nagrany bardzo dobrym mikrofonem bęben, to czy mając słuch absolutny jesteśmy w stanie ten bęben narysować? Czyli co możemy powiedzieć o geometrii regionu $\Omega$ i $\Gamma$, jeżeli ktoś przyśle nam sms-em zbiór wszystkich wartości własnych $\lambda_1,\ldots, \lambda_m$.
+Czy jeżeli ktoś przyśle nam nagrany bardzo dobrym mikrofonem bęben, to czy mając słuch absolutny jesteśmy w stanie ten bęben narysować? Czyli co możemy powiedzieć o geometrii regionu $\Omega$ i $\Gamma$, jeżeli ktoś przyśle nam sms-em zbiór wszystkich wartości własnych $\lambda_1,\ldots, \lambda_m.$
 
 Inaczej sformułowany problem brzmi: Czy istnieją dwa bębny o różnych kształtach, które brzmią dokładnie tak samo?
 
-Czyli niech $\mathcal{M}_1$ i $\mathcal{M}_2$ - rozmaitości na $\mathbb{R}^2$ ograniczone odpowiednio $\partial\mathcal{M}_1$ i $\partial\mathcal{M}_2$.
+Czyli niech $\mathcal{M}_1$ i $\mathcal{M}_2$ - rozmaitości na $\mathbb{R}^2$ ograniczone odpowiednio $\partial\mathcal{M}_1$ i $\partial\mathcal{M}_2.$
 
-Rozważmy problemy własne dla $L = \Delta$.
+Rozważmy problemy własne dla $L = \Delta.$
 $$\begin{align*}
 L U(\rho) &= \lambda U(\rho), \quad\rho\in \mathcal{M}_1 &L V(\rho) &= \eta V(\rho), \quad\rho\in \mathcal{M}_2 \cr
 U &= 0, \quad\rho\in\partial\mathcal{M}_1 &V &= 0, \quad\rho\in\partial\mathcal{M}_2
 \end{align*}$$
-Niech teraz $\underset{n}{\forall}\quad\lambda_n = \eta_n$. Czy $\mathcal{M}_1$ i $\mathcal{M}_2$ są identyczne w sensie geometrii euklidesowej?
+Niech teraz $\underset{n}{\forall}\quad\lambda_n = \eta_n.$ Czy $\mathcal{M}_1$ i $\mathcal{M}_2$ są identyczne w sensie geometrii euklidesowej?
 
 ## Dygresja
 Niech $\Omega = [0,a]\subset\mathbb{R}^2$ - zbiór domknięty. Rozważmy problem
@@ -55,17 +55,17 @@ $$\begin{align*}
 .\end{align*}$$
 Rozwiązaniem tego problemu są funkcje
 $$\psi_m(x) = \sin\Big(\frac{m\pi}{a}x\Big),$$
-z wartościami własnymi $\lambda_m = \left(\frac{m\pi}{a}\right)^2$, dla $m\in \mathbb{N}$. Zdefiniujmy sobie funkcję, która będzie nam zliczać wartości własne poniżej jakiegoś progu.
+z wartościami własnymi $\lambda_m = \left(\frac{m\pi}{a}\right)^2$, dla $m\in \mathbb{N}.$ Zdefiniujmy sobie funkcję, która będzie nam zliczać wartości własne poniżej jakiegoś progu.
 
 $$N(\lambda) := \left| \\{ m: \lambda_m < \lambda \\} \right|.$$
 Dla naszych $\lambda_m$ mamy
 $$N(\lambda) = \left| \left\\{ m: \left(\frac{m\pi}{a}\right)^2 < \lambda \right\\} \right| = \max \left\\{ m: m < \frac{a}{\pi} \sqrt{\lambda}\right\\}.$$
-Więc dla $\lambda \to \infty$, $N(\lambda) < \frac{a}{\pi}\sqrt{\lambda}$. Czyli
+Więc dla $\lambda \to \infty$, $N(\lambda) < \frac{a}{\pi}\sqrt{\lambda}.$ Czyli
 $$\lim_{\lambda\to \infty} \frac{N(\lambda)}{\sqrt{\lambda}} = \frac{a}{\pi}$$
-Ale $\Omega = [0,a]$, więc $a = |\Omega|$. Czyli dla struny, możemy już z samej liczby wartości własnych wnioskować coś na temat jej długości.
+Ale $\Omega = [0,a]$, więc $a = |\Omega|.$ Czyli dla struny, możemy już z samej liczby wartości własnych wnioskować coś na temat jej długości.
 
 ## Pytanie: A co jak zamiast struny jest membrana (prześcieradło)?
-Niech $\Omega = [0,a]\times[0,b]$ i niech $\psi(x,y) = \alpha(x)\beta(y)$.
+Niech $\Omega = [0,a]\times[0,b]$ i niech $\psi(x,y) = \alpha(x)\beta(y).$
 Wtedy
 $$\begin{align*}
 &\Delta \psi = \alpha''\beta + \alpha\beta\'\' = \lambda \alpha\beta\cr
@@ -96,7 +96,7 @@ $$\lim_{\lambda\to\infty} \frac{N(\lambda)}{\lambda} = \frac{|\Omega|}{4\pi}.$$
 Wygląda na to, że czasami można przybliżyć pole membrany, pod warunkiem, że mamy dostatecznie dużo jej wartości własnych. W ogólności mówi o tym
 
 ## Twierdzenie (Weyl)
-Niech $\Omega$ - rozmaitość z brzegiem, $\dim(\Omega) = n$. Dla problemu własnego
+Niech $\Omega$ - rozmaitość z brzegiem, $\dim(\Omega) = n.$ Dla problemu własnego
 $$\begin{align*}
 \Delta \psi &= \lambda \psi, \quad\rho\in \Omega\cr
 \psi &= 0, \quad \rho\in\Gamma
@@ -113,7 +113,7 @@ $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_2}{(2\pi)^2}
 
 ## A teraz coś z zupełnie innej beczki
 
-Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma$. Zakładamy, że na brzegu to ,,coś'' znika i nie odkłada się na nim.
+Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma.$ Zakładamy, że na brzegu to ,,coś'' znika i nie odkłada się na nim.
 
 Stężenie ,,czegoś'' $P_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
 $$\dot{P}_\Omega = \Delta P_\Omega,$$
@@ -147,7 +147,7 @@ Z analizy III pamiętamy, że rozwiązanie tego problemu ma postać
 $$P_0(r,t) = \frac{1}{4\pi a^2 t} \int_{\mathbb{R}} ds f(s) \exp\left(-\frac{\Vert r-s\Vert^2}{4a^2 t}\right),$$
 gdzie
 - $a$ - współczynnik dyfuzji, u nas $a=1$,
-- $f$ - warunek początkowy, u nas $\delta_\rho$.
+- $f$ - warunek początkowy, u nas $\delta_\rho.$
 
 Ale $<\delta_\rho,\varphi> = \varphi(\rho)$, więc
 $$P_0(r,t) = \frac{1}{4\pi t} \exp\left(-\frac{\Vert r-\rho\Vert^2}{4 t}\right).$$
@@ -157,11 +157,11 @@ $$\lim_{a\to b} \frac{A}{B} = 1.$$
 (starałem się jej unikać, bo mi się nie podoba, ale tutaj będzie dużo prościej)
 
 $$P_\Omega(r,t) = \sum_{n=1}^\infty e^{-\lambda_n t}\psi_n(\rho)\psi_n(r) \underset{t\to 0}{\sim} \frac{1}{4\pi t} \exp\left(- \frac{\Vert r-\rho \Vert^2}{4 t}\right).$$
-Z dużą dozą ostrożności powiedzmy, że $\rho = r$. Wtedy wychodzi
+Z dużą dozą ostrożności powiedzmy, że $\rho = r.$ Wtedy wychodzi
 $$\sum_{n=1}^\infty e^{-\lambda_n t}\psi_n^2(r) \underset{t\to 0}{\sim} \frac{1}{4\pi t}.$$
 Teraz, jeżeli jeszcze szczelniej zamkniemy oczy i scałkujemy obustronnie korzystając przy okazji z warunku normalizacyjnego dla $\psi$, to dostaniemy
 $$\sum_{n=1}^\infty e^{-\lambda_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t},$$
-bo $\int_\Omega dr \psi^2 = 1$, $\int_\Omega dr = |\Omega|$.
+bo $\int_\Omega dr \psi^2 = 1$, $\int_\Omega dr = |\Omega|.$
 
 Trzeba teraz na chwilkę pogrzebać w teorii miary. Niech $\Lambda = \\{\lambda_1, \lambda_2, \ldots \\}$ - zbiór wszystkich wartości własnych.
 
@@ -181,7 +181,7 @@ Skoro mamy twierdzenie Tauberiańskie, to znaczy, że
 $$\mu(\lambda) = \sum_{\lambda_n < \lambda} \psi_n^2 \underset{\lambda\to \infty}{\sim} \frac{C}{\Gamma(\alpha+1)}\lambda^\alpha,$$
 ale u nas
 $$\sum_{\lambda_n < \lambda} \psi_n^2  \underset{\lambda\to\infty}{\sim} \frac{1}{4\pi} \lambda,$$
-czyli $\alpha = 1$ i $C = \frac{1}{4\pi}$.
+czyli $\alpha = 1$ i $C = \frac{1}{4\pi}.$
 
 Co teraz? Scałkujmy obustronnie
 $$\sum_{\lambda_n<\lambda} \int_\Omega \psi_n^2 \underset{\lambda\to\infty}{\sim} \frac{\lambda}{4\pi}\int_\Omega 1,$$
@@ -198,9 +198,9 @@ Dalej rozważając równanie dyfuzji, zobaczymy co można zauważyć w pobliżu 
 
 Wcześniej stwierdziliśmy, że na samym początku, to ,,coś'' co dyfuzuje, nie czuje brzegu. Ale jeżeli wrzucimy źródło bardzo bardzo blisko brzegu, to to nasze oddziaływanie z nim będzie zachowywało się dość charakterystycznie.
 
-Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho$.
+Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho.$
 
-Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q$. Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
+Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q.$ Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
 ![](/membrane.png)
 Załóżmy jednak na razie, że $t$ jest dostatecznie małe, żeby można było przybliżać
 $$P_\Omega \underset{t\to 0}{\sim} P_{l(\rho)}.$$
@@ -214,18 +214,18 @@ $$\int_\Omega P_\Omega(\rho,t) \underset{t\to 0}{\sim} \int_\Omega P_{l(\rho)}(\
 
 Żeby znaleźć rozwiązanie równania dyfuzji dla $P_{l(\rho)}$, wyobraźmy sobie następującą sytuację:
 
-Kiedy nasza ,,fala dyfuzji'' (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji'' pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta$. Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'$. Zatem mamy
+Kiedy nasza ,,fala dyfuzji'' (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji'' pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta.$ Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'.$ Zatem mamy
 $$P_{l(\rho)}(\rho,t) = \frac{1}{4\pi t} - \frac{1}{4\pi t}\exp\left(-\frac{(2\delta)^2}{4t}\right),$$
-gdzie $\delta = \Vert q - \rho \Vert$ jest minimalną odległością między $\rho$ i brzegiem $\Gamma$.
+gdzie $\delta = \Vert q - \rho \Vert$ jest minimalną odległością między $\rho$ i brzegiem $\Gamma.$
 
 Wtedy
 $$\int_\Omega P_\Omega(\rho,t) = \sum_{n=1}^\infty e^{-\lambda_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t} - \frac{1}{4 \pi t}\int_\Omega e^{-\delta^2/t}.$$
 Żeby dowiedzieć się o co tu chodzi, musimy obliczyć tę całkę. Pomyślmy przez chwilę nad krzywą $\Gamma(\delta)$ składającą się z punktów oddalonych od $\Gamma$ o $\delta$ od wewnątrz (rysunek po prawej stronie).
-Dla dostatecznie małych $\delta$, $\Gamma(\delta)$ powinna przypominać $\Gamma$. Skoro rozważana całka ma postać
+Dla dostatecznie małych $\delta$, $\Gamma(\delta)$ powinna przypominać $\Gamma.$ Skoro rozważana całka ma postać
 $$\int_\Omega e^{-2\delta^2/t},$$
-to znaczy, że największe przyczynki będą pochodziły właśnie od małych $\delta.$ Niech $L(\delta)$ - długość brzegu $\Gamma(\delta)$. Chcielibyśmy całkować po brzegach na odległości $\delta$ od zera aż do pewnej niewielkiej $\delta_0$. Zachodzi zatem
+to znaczy, że największe przyczynki będą pochodziły właśnie od małych $\delta.$ Niech $L(\delta)$ - długość brzegu $\Gamma(\delta).$ Chcielibyśmy całkować po brzegach na odległości $\delta$ od zera aż do pewnej niewielkiej $\delta_0.$ Zachodzi zatem
 $$\int_\Omega \exp\left(-\frac{\delta^2}{t}\right) = \int_0^{\delta_0} \exp{-\frac{\delta^2}{t}}L(\delta)d\delta + \text{coś małego}.$$
-Zamiana zmiennych: niech $\xi = \frac{1}{\sqrt{t}} \delta$, więc $d\xi = \frac{1}{\sqrt{t}} d\delta$. Więc po podstawieniu
+Zamiana zmiennych: niech $\xi = \frac{1}{\sqrt{t}} \delta$, więc $d\xi = \frac{1}{\sqrt{t}} d\delta.$ Więc po podstawieniu
 $$\int_0^{\delta_0} \exp\left(-\frac{\delta^2}{t}\right)L(\delta)d\delta = \sqrt{t} \int_0^{\delta_0/\sqrt{t}} e^{-\xi^2}L(\xi\sqrt{t})d\xi.$$
 Biorąc tylko pierwszy wyraz rozwinięcia $L(\xi\sqrt{t}) \approx L(0) \equiv L$, dostajemy
 $$\int_\Omega \exp\left(-\frac{\delta^2}{t}\right) \underset{t\to 0}{\sim} L\sqrt{t}\int_0^\infty e^{-\xi^2}d\xi = L\frac{\sqrt{\pi t}}{2}.$$
