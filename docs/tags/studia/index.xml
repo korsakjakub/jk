@@ -13,10 +13,10 @@
     
     <item>
       <title>Czy można usłyszeć kształt bębna?</title>
-      <link>https://korsak.xyz/ksztalt_bebna/</link>
+      <link>https://korsak.xyz/blog/ksztalt_bebna/</link>
       <pubDate>Mon, 14 Sep 2020 20:39:43 +0200</pubDate>
       
-      <guid>https://korsak.xyz/ksztalt_bebna/</guid>
+      <guid>https://korsak.xyz/blog/ksztalt_bebna/</guid>
       <description>&lt;h2 id=&#34;krótka-odpowiedź-trochę-tak-trochę-nie&#34;&gt;Krótka odpowiedź: Trochę tak, trochę nie.&lt;/h2&gt;
 &lt;h1 id=&#34;wstęp&#34;&gt;Wstęp&lt;/h1&gt;
 &lt;p&gt;Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{\Omega}$ (rozmaitość), ograniczoną brzegiem $\Gamma$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny
@@ -221,10 +221,10 @@ gdzie:&lt;/p&gt;
     
     <item>
       <title>Równanie Ciołkowskiego</title>
-      <link>https://korsak.xyz/rakieta/</link>
+      <link>https://korsak.xyz/blog/rakieta/</link>
       <pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate>
       
-      <guid>https://korsak.xyz/rakieta/</guid>
+      <guid>https://korsak.xyz/blog/rakieta/</guid>
       <description>&lt;p&gt;Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
 $$dv = -udm,$$
 gdzie&lt;/p&gt;

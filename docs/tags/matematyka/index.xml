@@ -13,10 +13,10 @@
     
     <item>
       <title>Czy można usłyszeć kształt bębna?</title>
-      <link>https://korsak.xyz/ksztalt_bebna/</link>
+      <link>https://korsak.xyz/blog/ksztalt_bebna/</link>
       <pubDate>Mon, 14 Sep 2020 20:39:43 +0200</pubDate>
       
-      <guid>https://korsak.xyz/ksztalt_bebna/</guid>
+      <guid>https://korsak.xyz/blog/ksztalt_bebna/</guid>
       <description>&lt;h2 id=&#34;krótka-odpowiedź-trochę-tak-trochę-nie&#34;&gt;Krótka odpowiedź: Trochę tak, trochę nie.&lt;/h2&gt;
 &lt;h1 id=&#34;wstęp&#34;&gt;Wstęp&lt;/h1&gt;
 &lt;p&gt;Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{\Omega}$ (rozmaitość), ograniczoną brzegiem $\Gamma$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny
@@ -221,10 +221,10 @@ gdzie:&lt;/p&gt;
     
     <item>
       <title>Równanie kwadratowe</title>
-      <link>https://korsak.xyz/kwadratowa/</link>
+      <link>https://korsak.xyz/blog/kwadratowa/</link>
       <pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate>
       
-      <guid>https://korsak.xyz/kwadratowa/</guid>
+      <guid>https://korsak.xyz/blog/kwadratowa/</guid>
       <description>&lt;h1 id=&#34;co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe&#34;&gt;Co to znaczy, że rozwiązujemy równanie kwadratowe?&lt;/h1&gt;
 &lt;p&gt;Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem
 $$ f(x) = ax^2 + bx + c,$$
@@ -289,10 +289,10 @@ $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$&lt;/p&gt;
     
     <item>
       <title>Zwardoń</title>
-      <link>https://korsak.xyz/zwardon/</link>
+      <link>https://korsak.xyz/blog/zwardon/</link>
       <pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate>
       
-      <guid>https://korsak.xyz/zwardon/</guid>
+      <guid>https://korsak.xyz/blog/zwardon/</guid>
       <description>&lt;h1 id=&#34;zadanie&#34;&gt;Zadanie&lt;/h1&gt;
 &lt;p&gt;Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
 &lt;img src=&#34;https://korsak.xyz/zwardon.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;

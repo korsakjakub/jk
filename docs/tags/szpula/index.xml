@@ -13,10 +13,10 @@
     
     <item>
       <title>Zadanie ze szpulą</title>
-      <link>https://korsak.xyz/szpula/</link>
+      <link>https://korsak.xyz/blog/szpula/</link>
       <pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate>
       
-      <guid>https://korsak.xyz/szpula/</guid>
+      <guid>https://korsak.xyz/blog/szpula/</guid>
       <description>&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;
 &lt;p&gt;Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p&gt;
 &lt;p&gt;Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p&gt;

@@ -13,10 +13,10 @@
     
     <item>
       <title>Jak łatwo przesunąć statek</title>
-      <link>https://korsak.xyz/ped_i_srodek_masy/</link>
+      <link>https://korsak.xyz/blog/ped_i_srodek_masy/</link>
       <pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate>
       
-      <guid>https://korsak.xyz/ped_i_srodek_masy/</guid>
+      <guid>https://korsak.xyz/blog/ped_i_srodek_masy/</guid>
       <description>&lt;h1 id=&#34;na-jakie-pytania-chcielibyśmy-odpowiedzieć&#34;&gt;Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Dlaczego, gdy schodzimy z roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?&lt;/li&gt;
@@ -76,10 +76,10 @@ Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p&gt;
     
     <item>
       <title>Równanie kwadratowe</title>
-      <link>https://korsak.xyz/kwadratowa/</link>
+      <link>https://korsak.xyz/blog/kwadratowa/</link>
       <pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate>
       
-      <guid>https://korsak.xyz/kwadratowa/</guid>
+      <guid>https://korsak.xyz/blog/kwadratowa/</guid>
       <description>&lt;h1 id=&#34;co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe&#34;&gt;Co to znaczy, że rozwiązujemy równanie kwadratowe?&lt;/h1&gt;
 &lt;p&gt;Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem
 $$ f(x) = ax^2 + bx + c,$$
@@ -144,10 +144,10 @@ $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$&lt;/p&gt;
     
     <item>
       <title>Zwardoń</title>
-      <link>https://korsak.xyz/zwardon/</link>
+      <link>https://korsak.xyz/blog/zwardon/</link>
       <pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate>
       
-      <guid>https://korsak.xyz/zwardon/</guid>
+      <guid>https://korsak.xyz/blog/zwardon/</guid>
       <description>&lt;h1 id=&#34;zadanie&#34;&gt;Zadanie&lt;/h1&gt;
 &lt;p&gt;Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
 &lt;img src=&#34;https://korsak.xyz/zwardon.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -220,10 +220,10 @@ $$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$&lt;/p&
     
     <item>
       <title>Zmienny współczynnik tarcia</title>
-      <link>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</link>
+      <link>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</link>
       <pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate>
       
-      <guid>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</guid>
+      <guid>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</guid>
       <description>&lt;p&gt;Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją&lt;/p&gt;
 &lt;p&gt;$$\mu(x) = \begin{cases}
 \mu_1, &amp;amp; x \in [0,x_1]\cr
@@ -261,10 +261,10 @@ $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) 
     
     <item>
       <title>Zadanie ze szpulą</title>
-      <link>https://korsak.xyz/szpula/</link>
+      <link>https://korsak.xyz/blog/szpula/</link>
       <pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate>
       
-      <guid>https://korsak.xyz/szpula/</guid>
+      <guid>https://korsak.xyz/blog/szpula/</guid>
       <description>&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;
 &lt;p&gt;Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p&gt;
 &lt;p&gt;Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p&gt;

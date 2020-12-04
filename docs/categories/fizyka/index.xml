@@ -13,10 +13,10 @@
     
     <item>
       <title>Jak łatwo przesunąć statek</title>
-      <link>https://korsak.xyz/ped_i_srodek_masy/</link>
+      <link>https://korsak.xyz/blog/ped_i_srodek_masy/</link>
       <pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate>
       
-      <guid>https://korsak.xyz/ped_i_srodek_masy/</guid>
+      <guid>https://korsak.xyz/blog/ped_i_srodek_masy/</guid>
       <description>&lt;h1 id=&#34;na-jakie-pytania-chcielibyśmy-odpowiedzieć&#34;&gt;Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Dlaczego, gdy schodzimy z roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?&lt;/li&gt;
@@ -76,10 +76,10 @@ Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p&gt;
     
     <item>
       <title>Równanie Ciołkowskiego</title>
-      <link>https://korsak.xyz/rakieta/</link>
+      <link>https://korsak.xyz/blog/rakieta/</link>
       <pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate>
       
-      <guid>https://korsak.xyz/rakieta/</guid>
+      <guid>https://korsak.xyz/blog/rakieta/</guid>
       <description>&lt;p&gt;Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
 $$dv = -udm,$$
 gdzie&lt;/p&gt;
@@ -133,10 +133,10 @@ $$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$&lt;/p&gt;
     
     <item>
       <title>Zmienny współczynnik tarcia</title>
-      <link>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</link>
+      <link>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</link>
       <pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate>
       
-      <guid>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</guid>
+      <guid>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</guid>
       <description>&lt;p&gt;Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją&lt;/p&gt;
 &lt;p&gt;$$\mu(x) = \begin{cases}
 \mu_1, &amp;amp; x \in [0,x_1]\cr

@@ -7,7 +7,7 @@ disqusShortname = "korsakxyz"
   name = "Jakub Korsak"
 
 [permalinks]
-  blog = "/:filename/"
+  blog = "/blog/:filename/"
 
 [menu]
   [[menu.main]]

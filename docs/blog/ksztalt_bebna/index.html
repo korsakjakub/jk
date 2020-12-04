@@ -1,261 +1,84 @@
-<!DOCTYPE html>
-<html lang="pl" data-theme="light">
-    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
-    <meta charset="UTF-8" />
-
-    <meta name="generator" content="Hugo 0.74.3" /><meta name="theme-color" content="#fff" />
-        <script>
-            const userPrefers = localStorage.getItem('theme');
-            const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-            const lightModeMediaQuery = window.matchMedia('(prefers-color-scheme: light)');
-            if (userPrefers === 'dark') {
-                changeModeMeta('dark');
-            } else if (userPrefers === 'light') {
-                changeModeMeta('light');
-            } else if (darkModeMediaQuery.matches) {
-                changeModeMeta('dark');
-            } else if (lightModeMediaQuery.matches) {
-                changeModeMeta('light');
-            }
-            function changeModeMeta(theme) {
-                document.documentElement.setAttribute('data-theme', theme);
-                if (theme === 'dark') {
-                    changeThemeColor('#282a36');
-                } else {
-                    changeThemeColor('#fff');
-                }
-            }
-            function changeThemeColor(themeColor) {
-                document.querySelector('meta[name="theme-color"]').setAttribute('content', themeColor);
-            }
-        </script>
-
-    
-
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-    
-    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
-    
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-
-    <title>Czy można usłyszeć kształt bębna? | Jakub Korsak</title>
-
-    <link rel="stylesheet" href="/css/meme.min.ca271cf5e3bd211e50a38804c6a84350268abf115cfe78be2dee6e6c78415153.css" integrity="sha256-yicc9eO9IR5Qo4gExqhDUCaKvxFc/ni+Le5ubHhBUVM=" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" /></noscript>
-
-    <meta name="author" content="Jakub Korsak" />
-    <meta name="description" content="Krótka odpowiedź: Trochę tak, trochę nie. Wstęp Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{M}(\mathcal{C}^\infty)$ (rozmaitość), ograniczoną brzegiem $\partial\mathcal{M}(\mathcal{C}^\infty)$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny $$F(x,y,t) \equiv F(\rho, t)$$ spełnia równanie falowe $$\ddot{F} = c^2 \Delta F,$$ gdzie $c$ jest pewną stałą." />
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Jakub Korsak" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="Jakub Korsak" />
-    <meta name="msapplication-starturl" content="../../" />
-    <meta name="msapplication-TileColor" content="#fff" />
-    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
-    <link rel="manifest" href="/manifest.json" />
-
-    
-    
-
-    
-    <link rel="canonical" href="/blog/ksztalt_bebna/" />
-
-
-
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "datePublished": "2020-09-14T20:39:43+02:00",
-        "dateModified": "2020-09-18T00:03:10+02:00",
-        "url": "/blog/ksztalt_bebna/",
-        "headline": "Czy można usłyszeć kształt bębna?",
-        "description": "Krótka odpowiedź: Trochę tak, trochę nie. Wstęp Jeżeli wyobrazimy sobie dwuwymiarową membranę $\\mathcal{M}(\\mathcal{C}^\\infty)$ (rozmaitość), ograniczoną brzegiem $\\partial\\mathcal{M}(\\mathcal{C}^\\infty)$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny $$F(x,y,t) \\equiv F(\\rho, t)$$ spełnia równanie falowe $$\\ddot{F} = c^2 \\Delta F,$$ gdzie $c$ jest pewną stałą.",
-        "inLanguage" : "pl",
-        "articleSection": "blog",
-        "wordCount":  1997 ,
-        "image": ["eigen_elipsa.png","membrane.png"],
-        "author": {
-            "@type": "Person",
-            "description": "Moja strona domowa",
-            "email": "korsakxyz@gmail.com",
-            "image": "/icons/apple-touch-icon.png",
-            "url": "/",
-            "name": "Jakub Korsak"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Jakub Korsak",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "/icons/apple-touch-icon.png"
-            },
-            "url": "/"
-        },
-        "mainEntityOfPage": {
-            "@type": "WebSite",
-            "@id": "/"
-        }
-    }
-</script>
-
-    
-
-
-
-<meta name="twitter:card" content="summary_large_image" />
-
-
-
-    
-
-
-
-
-
-<meta property="og:title" content="Czy można usłyszeć kształt bębna?" />
-<meta property="og:description" content="Krótka odpowiedź: Trochę tak, trochę nie. Wstęp Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{M}(\mathcal{C}^\infty)$ (rozmaitość), ograniczoną brzegiem $\partial\mathcal{M}(\mathcal{C}^\infty)$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny $$F(x,y,t) \equiv F(\rho, t)$$ spełnia równanie falowe $$\ddot{F} = c^2 \Delta F,$$ gdzie $c$ jest pewną stałą." />
-<meta property="og:url" content="/blog/ksztalt_bebna/" />
-<meta property="og:site_name" content="Jakub Korsak" />
-<meta property="og:locale" content="pl" /><meta property="og:image" content="eigen_elipsa.png" />
-<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2020-09-14T20:39:43+02:00" />
-    <meta property="article:modified_time" content="2020-09-18T00:03:10+02:00" />
-    
-    <meta property="article:section" content="blog" />
-
-
-
-    
+<!doctype html>
+<html lang="pl">
+		<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+		<link rel="stylesheet" href="https://korsak.xyz/css/style.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css">
+		<title>Czy można usłyszeć kształt bębna?</title>
 </head>
 
-    <body>
-        <div class="container">
-            
-    <header class="header" data-scroll-header>
-        
-            <div class="header-wrapper">
-                <div class="header-inner">
-                    
-    <div class="site-brand">
-        
-            <a href="/" class="brand">Jakub Korsak</a>
-        
-    </div>
-
-                    <nav class="nav">
-    <ul class="menu" id="menu">
-        
-            
-        
-        
-        
-        
-            
-                <li class="menu-item"><a href="/zapisy/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon "><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">Zapisy na zajęcia</span></a>
-                </li>
-            
-        
-            
-                <li class="menu-item"><a href="/blog/"><span class="menu-item-name">Blog</span></a>
-                </li>
-            
-        
-            
-                
-                    <li class="menu-item">
-                        
-    
-        
-            
-        
-        <div id="theme-switcher">🌞</div>
-    
-
-
-                    </li>
-                
-            
-        
-    </ul>
+  <body>
+  <nav class="nav">
+		<ul>
+				<li>
+						<a href="https://korsak.xyz/">Jakub Korsak</a>
+				</li>
+				
+		
+				<li>
+		<a href="/zapisy/" class="nav-link">Zapisy na zajęcia</a>
+				</li>
+		
+				<li>
+		<a href="/blog/" class="nav-link">Blog</a>
+				</li>
+		
+		</ul>
 </nav>
 
-                </div>
-            </div>
-            
-    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
-    <label for="nav-toggle" class="nav-toggle"></label>
-    <label for="nav-toggle" class="nav-curtain"></label>
+  <main>
+       
+<h1>Czy można usłyszeć kształt bębna?</h1>
+<div class="breadcrumb">
 
 
-        
-    </header>
+		
+		
+		
+		
+		
+		
+		
+						<a class="breadcrumb-link" href="https://korsak.xyz/">Home</a>:
+		
+		
+						<a class="breadcrumb-link" href="https://korsak.xyz/blog/">Blog</a>:
+		
+		
+				Czy można usłyszeć kształt bębna?
 
-
-
-
-            
-            
-    <main class="main single" id="main">
-    <div class="main-inner">
-
-        <article class="content post" data-small-caps="true" data-type="blog" data-toc-num="true">
-
-            <h1 class="post-title">Czy można usłyszeć kształt bębna?</h1>
-
-            
-
-            
-                
-            
-
-            
-                
-
-<div class="post-meta">
-    
-        
-        <time datetime="2020-09-14T20:39:43+02:00" class="post-meta-item published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2020.9.14</time>
-    
-    
-        
-        <time datetime="2020-09-18T00:03:10+02:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2020.9.18</time>
-    
-    
-    
-        
-        
-        
-            
-        
-    
-    
-        
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1997</span>
-    
-    
-        
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;10&nbsp;</span>
-    
-    
 </div>
-            
 
-            <div class="post-body"><h2 id="krótka-odpowiedź-trochę-tak-trochę-nie"><a href="#krótka-odpowiedź-trochę-tak-trochę-nie" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Krótka odpowiedź: Trochę tak, trochę nie.</h2>
-<h1 id="wstęp"><a href="#wstęp" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Wstęp</h1>
-<p style="text-indent:0"><span class="drop-cap">J</span>eżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{M}(\mathcal{C}^\infty)$ (rozmaitość), ograniczoną brzegiem $\partial\mathcal{M}(\mathcal{C}^\infty)$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny
+
+
+<i data-feather="calendar"></i> <time datetime="2020-09-14">Sep 14, 2020</time>
+
+  <br>
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/studia">studia</a>,
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/matematyka">matematyka</a>,
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/analiza-matematyczna">analiza matematyczna</a>,
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/r%C3%B3wnanie-falowe">równanie falowe</a>,
+  
+  
+  <a class="tag-link" href="https://korsak.xyz/tags/r%C3%B3wnanie-dyfuzji">równanie dyfuzji</a>,
+  
+
+
+    <div class="content">
+		<h2 id="krótka-odpowiedź-trochę-tak-trochę-nie">Krótka odpowiedź: Trochę tak, trochę nie.</h2>
+<h1 id="wstęp">Wstęp</h1>
+<p>Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{\Omega}$ (rozmaitość), ograniczoną brzegiem $\Gamma$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny
 $$F(x,y,t) \equiv F(\rho, t)$$
 spełnia równanie falowe
 $$\ddot{F} = c^2 \Delta F,$$
@@ -269,24 +92,24 @@ $$\begin{align*}
 \Delta F &amp;= \frac{1}{2} e^{i\omega t} \Delta U(\rho) \cr
 e^{i\omega t} \neq 0 &amp;\implies \Delta U(\rho) + \omega^2 U(\rho) = 0
 \end{align*}.$$
-Trzeba by jeszcze wziąć pod uwagę, że na brzegu membrana ma się nie wychylać. Można to zapisać warunkiem, czyli gdy $\rho$ dąży od wewnątrz do $\partial M$, to $U\to 0$.
-Możnaby powiedzieć, że $\Delta$ to operator liniowy $L$ i wtedy otrzymamy zagadnienie własne:
+Trzeba by jeszcze wziąć pod uwagę, że na brzegu membrana ma się nie wychylać. Można to zapisać takim warunkiem, że gdy $\rho$ dąży od wewnątrz do $\Gamma$, to $U\to 0.$
+Można by powiedzieć, że $\Delta$ to operator liniowy $L$ i wtedy otrzymamy zagadnienie własne:
 $$L \psi = \lambda \psi,$$
 gdzie $\lambda$ - wartości własne, a $\psi \in \mathcal{L}^2(\mathbb{R})$ to wektory własne.</p>
-<p>Czyli dla zadanego regionu $\mathcal{M}$ ograniczonego gładką krzywą $\partial\mathcal{M}$, możemy dostać sekwencję liczb $\lambda_1, \lambda_2,\ldots$, które będą spełniały problem
+<p>Czyli dla zadanego regionu $\Omega$ ograniczonego gładką krzywą $\Gamma$, możemy dostać sekwencję liczb $\lambda_1, \lambda_2,\ldots$, które będą spełniały problem
 $$L \psi = \lambda_n \psi.$$</p>
-<h1 id="problem"><a href="#problem" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Problem</h1>
+<h1 id="problem">Problem</h1>
 <p>Chcielibyśmy zadać teraz pytanie odwrotne:</p>
-<p>Czy jeżeli ktoś przyśle nam nagrany bardzo dobrym mikrofonem bęben, to czy mając słuch absolutny jesteśmy w stanie ten bęben narysować? Czyli co możemy powiedzieć o geometrii regionu $\mathcal{M}$ i $\partial\mathcal{M}$, jeżeli ktoś przyśle nam sms-em zbiór wszystkich wartości własnych $\lambda_1,\ldots, \lambda_m$.</p>
+<p>Czy jeżeli ktoś przyśle nam nagrany bardzo dobrym mikrofonem bęben, to czy mając słuch absolutny jesteśmy w stanie ten bęben narysować? Czyli co możemy powiedzieć o geometrii regionu $\Omega$ i $\Gamma$, jeżeli ktoś przyśle nam sms-em zbiór wszystkich wartości własnych $\lambda_1,\ldots, \lambda_m.$</p>
 <p>Inaczej sformułowany problem brzmi: Czy istnieją dwa bębny o różnych kształtach, które brzmią dokładnie tak samo?</p>
-<p>Czyli niech $\mathcal{M}_1$ i $\mathcal{M}_2$ - rozmaitości na $\mathbb{R}^2$ ograniczone odpowiednio $\partial\mathcal{M}_1$ i $\partial\mathcal{M}_2$.</p>
-<p>Rozważmy problemy własne dla $L = \Delta$.
+<p>Czyli niech $\mathcal{M}_1$ i $\mathcal{M}_2$ - rozmaitości na $\mathbb{R}^2$ ograniczone odpowiednio $\partial\mathcal{M}_1$ i $\partial\mathcal{M}_2.$</p>
+<p>Rozważmy problemy własne dla $L = \Delta.$
 $$\begin{align*}
 L U(\rho) &amp;= \lambda U(\rho), \quad\rho\in \mathcal{M}_1 &amp;L V(\rho) &amp;= \eta V(\rho), \quad\rho\in \mathcal{M}_2 \cr
 U &amp;= 0, \quad\rho\in\partial\mathcal{M}_1 &amp;V &amp;= 0, \quad\rho\in\partial\mathcal{M}_2
 \end{align*}$$
-Niech teraz $\underset{n}{\forall}\quad\lambda_n = \eta_n$. Czy $\mathcal{M}_1$ i $\mathcal{M}_2$ są identyczne w sensie geometrii euklidesowej?</p>
-<h2 id="dygresja"><a href="#dygresja" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Dygresja</h2>
+Niech teraz $\underset{n}{\forall}\quad\lambda_n = \eta_n.$ Czy $\mathcal{M}_1$ i $\mathcal{M}_2$ są identyczne w sensie geometrii euklidesowej?</p>
+<h2 id="dygresja">Dygresja</h2>
 <p>Niech $\Omega = [0,a]\subset\mathbb{R}^2$ - zbiór domknięty. Rozważmy problem
 $$\begin{align*}
 \psi_{,xx}(x) &amp;= \lambda \psi(x), \quad x\in\Omega \cr
@@ -294,19 +117,19 @@ $$\begin{align*}
 .\end{align*}$$
 Rozwiązaniem tego problemu są funkcje
 $$\psi_m(x) = \sin\Big(\frac{m\pi}{a}x\Big),$$
-z wartościami własnymi $\lambda_m = \left(\frac{m\pi}{a}\right)^2$, dla $m\in \mathbb{N}$. Zdefiniujmy sobie funkcję, która będzie nam zliczać wartości własne poniżej jakiegoś progu.</p>
+z wartościami własnymi $\lambda_m = \left(\frac{m\pi}{a}\right)^2$, dla $m\in \mathbb{N}.$ Zdefiniujmy sobie funkcję, która będzie nam zliczać wartości własne poniżej jakiegoś progu.</p>
 <p>$$N(\lambda) := \left| \{ m: \lambda_m &lt; \lambda \} \right|.$$
 Dla naszych $\lambda_m$ mamy
 $$N(\lambda) = \left| \left\{ m: \left(\frac{m\pi}{a}\right)^2 &lt; \lambda \right\} \right| = \max \left\{ m: m &lt; \frac{a}{\pi} \sqrt{\lambda}\right\}.$$
-Więc dla $\lambda \to \infty$, $N(\lambda) &lt; \frac{a}{\pi}\sqrt{\lambda}$. Czyli
+Więc dla $\lambda \to \infty$, $N(\lambda) &lt; \frac{a}{\pi}\sqrt{\lambda}.$ Czyli
 $$\lim_{\lambda\to \infty} \frac{N(\lambda)}{\sqrt{\lambda}} = \frac{a}{\pi}$$
-Ale $\Omega = [0,a]$, więc $a = |\Omega|$. Czyli dla struny, możemy już z samej liczby wartości własnych wnioskować coś na temat jej długości.</p>
-<h2 id="pytanie-a-co-jak-zamiast-struny-jest-membrana-prześcieradło"><a href="#pytanie-a-co-jak-zamiast-struny-jest-membrana-prześcieradło" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Pytanie: A co jak zamiast struny jest membrana (prześcieradło)?</h2>
-<p>Niech $\Omega = [0,a]\times[0,b]$ i niech $\psi(x,y) = \alpha(x)\beta(y)$.
+Ale $\Omega = [0,a]$, więc $a = |\Omega|.$ Czyli dla struny, możemy już z samej liczby wartości własnych wnioskować coś na temat jej długości.</p>
+<h2 id="pytanie-a-co-jak-zamiast-struny-jest-membrana-prześcieradło">Pytanie: A co jak zamiast struny jest membrana (prześcieradło)?</h2>
+<p>Niech $\Omega = [0,a]\times[0,b]$ i niech $\psi(x,y) = \alpha(x)\beta(y).$
 Wtedy
 $$\begin{align*}
-&amp;\Delta \psi = \alpha&rsquo;'\beta + \alpha\beta'' = \lambda \alpha\beta\cr
-&amp;\frac{\alpha&rsquo;'}{\alpha}(x) + \frac{\beta&rsquo;'}{\beta}(y) = \lambda\cr
+&amp;\Delta \psi = \alpha''\beta + \alpha\beta'' = \lambda \alpha\beta\cr
+&amp;\frac{\alpha''}{\alpha}(x) + \frac{\beta''}{\beta}(y) = \lambda\cr
 &amp;\alpha'' = p^2 \alpha \implies \alpha(x) = A \sin(px) + B \cos(px)\cr
 &amp;\beta'' = q^2\beta \implies \beta(y) = C \sin(qy) + D \cos(qy)\cr
 &amp;\alpha(0) = \alpha(a) = \beta(0) = \beta(b) \implies B = 0, D = 0\cr
@@ -327,25 +150,25 @@ Sprawdzimy jakiego rzędu jest następny wyraz - żeby to zrobić, przesuniemy u
 $$N(\lambda) = \frac{|\Omega|}{4\pi}\lambda - \frac{\sqrt{\lambda}}{\pi}(a+b) - 1 = \frac{|\Omega|}{4\pi}\lambda - \frac{\sqrt{\mathrm{obw}(\Omega)}}{2\pi}\sqrt{\lambda} - 1.$$
 Możemy więc już powiedzieć, że
 $$\lim_{\lambda\to\infty} \frac{N(\lambda)}{\lambda} = \frac{|\Omega|}{4\pi}.$$</p>
-<h2 id="wniosek"><a href="#wniosek" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Wniosek</h2>
+<h2 id="wniosek">Wniosek</h2>
 <p>Wygląda na to, że czasami można przybliżyć pole membrany, pod warunkiem, że mamy dostatecznie dużo jej wartości własnych. W ogólności mówi o tym</p>
-<h2 id="twierdzenie-weyl"><a href="#twierdzenie-weyl" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Twierdzenie (Weyl)</h2>
-<p>Niech $\mathcal{M}$ - rozmaitość z brzegiem, $\dim(\mathcal{M}) = n$. Dla problemu własnego
+<h2 id="twierdzenie-weyl">Twierdzenie (Weyl)</h2>
+<p>Niech $\Omega$ - rozmaitość z brzegiem, $\dim(\Omega) = n.$ Dla problemu własnego
 $$\begin{align*}
-\Delta \psi &amp;= \lambda \psi, \quad\rho\in \mathcal{M}\cr
-\psi &amp;= 0, \quad \rho\in\partial\mathcal{M}
+\Delta \psi &amp;= \lambda \psi, \quad\rho\in \Omega\cr
+\psi &amp;= 0, \quad \rho\in\Gamma
 ,\end{align*}$$
 liczba wartości własnych poniżej progu $\lambda$ w stosunku do pewnej potęgi wartości tego progu w granicy wynosi
 $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda^{n/2}} = \frac{\omega_n}{(2\pi)^n}\mathrm{vol}(\Omega),$$
 gdzie $\omega_n$ - objętość kuli z $\mathbb{R}^n$ o promieniu jeden.</p>
-<h3 id="przykład"><a href="#przykład" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Przykład</h3>
+<h3 id="przykład">Przykład</h3>
 <p>Dla $n = 1$ (struna)
 $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_1}{(2\pi)^1}|\Omega| = \frac{2}{2\pi}|\Omega| = \frac{|\Omega|}{\pi}.$$
 Dla $n = 2$ (membrana)
 $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_2}{(2\pi)^2}|\Omega| = \frac{\pi}{4\pi^2}|\Omega| = \frac{|\Omega|}{4\pi}.$$</p>
-<h2 id="a-teraz-coś-z-zupełnie-innej-beczki"><a href="#a-teraz-coś-z-zupełnie-innej-beczki" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>A teraz coś z zupełnie innej beczki</h2>
-<p>Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma$. Zakładamy, że na brzegu to ,,coś&rsquo;&rsquo; znika i nie odkłada się na nim.</p>
-<p>Stężenie ,,czegoś&rsquo;&rsquo; $P_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
+<h2 id="a-teraz-coś-z-zupełnie-innej-beczki">A teraz coś z zupełnie innej beczki</h2>
+<p>Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma.$ Zakładamy, że na brzegu to ,,coś'' znika i nie odkłada się na nim.</p>
+<p>Stężenie ,,czegoś'' $P_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
 $$\dot{P}_\Omega = \Delta P_\Omega,$$
 z warunkiem brzegowym
 $$\lim_{r\to\Gamma} P_\Omega(r,t) = 0$$
@@ -362,19 +185,19 @@ I skoro mamy warunek znikania na brzegu, to znaczy, że
 $$\lim_{r\to\Gamma}P_\Omega = 0 = \lim_{r\to\Gamma}\sum_{n=1}^\infty e^{-\lambda_n t} \psi_n(\rho) \psi_n(r) \implies \lim_{r\to\Gamma} \sum_{n=1}^\infty \psi_n(r) = 0.$$
 Czyli na przykład fajne $\psi_n$, które to spełniają to takie, że
 $$\lim_{r\to\Gamma}\psi_n(r) = 0.$$</p>
-<h3 id="bardziej-obrazowo---co-tu-się-mniej-więcej-dzieje"><a href="#bardziej-obrazowo---co-tu-się-mniej-więcej-dzieje" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Bardziej obrazowo - co tu się mniej więcej dzieje?</h3>
-<p>Trzymamy nad blatem na jakiejś wysokości słoik miodu i zaczynamy go wylewać małym strumieniem nad środkiem blatu. W takim razie te cząsteczki miodu, które dopiero co dotknęły stołu jeszcze nie wiedzą co za straszne rzeczy je czekają na brzegu. Więc jeżeli uznamy, że $t\to 0$, to można przypuszczać, że miód nie ,,czuje&rsquo;&rsquo; warunku brzegowego.</p>
+<h3 id="bardziej-obrazowo---co-tu-się-mniej-więcej-dzieje">Bardziej obrazowo - co tu się mniej więcej dzieje?</h3>
+<p>Rozważamy równanie dyfuzji, ale musimy pamiętać, że jest to równanie ,,natychmiastowe''! Na początku rozważymy sobie sytuację, gdy zapomnimy, że rozwiązujemy problem z brzegiem i założymy, że dla bardzo małych czasów problem brzegu jest pomijalny. W końcu istnieje tylko punktowe źródło stężenia. Czyli na chwilę umawiamy się, że dla $t\to 0$ nasze równanie nie ,,czuje'' warunków brzegowych.</p>
 <p>Oznacza to, że chcielibyśmy rozważyć taką funkcję stężenia $P_0(r,t)$, która spełnia takie samo równanie dyfuzji jak $P_\Omega$, czyli
 $$\dot{P}_0 = \Delta P_0,$$
 ma nałożony taki sam warunek brzegowy $\lim_{t\to 0} \left&lt;T(P_0),\varphi\right&gt; = \left&lt;\delta_\rho,\varphi\right&gt;$ oraz
 $$\lim_{t\to 0} \frac{P_\Omega}{P_0} = 1.$$
-Różni się od $P_\Omega$ jedynie brakiem ograniczenia w przestrzeni. Dodatkowo załóżmy jeszcze, że tak samo jak $P_\Omega$, $P_0$ jest nieujemne - czyli w żadnym punkcie stołu nie ma ujemnej wartości miodu.</p>
+Różni się od $P_\Omega$ jedynie brakiem ograniczenia w przestrzeni. Dodatkowo załóżmy jeszcze, że tak samo jak $P_\Omega$, $P_0$ jest nieujemne - czyli w żadnym punkcie naszej przestrzeni nie ma ujemnego stężenia.</p>
 <p>Z analizy III pamiętamy, że rozwiązanie tego problemu ma postać
 $$P_0(r,t) = \frac{1}{4\pi a^2 t} \int_{\mathbb{R}} ds f(s) \exp\left(-\frac{\Vert r-s\Vert^2}{4a^2 t}\right),$$
 gdzie</p>
 <ul>
 <li>$a$ - współczynnik dyfuzji, u nas $a=1$,</li>
-<li>$f$ - warunek początkowy, u nas $\delta_\rho$.</li>
+<li>$f$ - warunek początkowy, u nas $\delta_\rho.$</li>
 </ul>
 <p>Ale $&lt;\delta_\rho,\varphi&gt; = \varphi(\rho)$, więc
 $$P_0(r,t) = \frac{1}{4\pi t} \exp\left(-\frac{\Vert r-\rho\Vert^2}{4 t}\right).$$</p>
@@ -382,27 +205,27 @@ $$P_0(r,t) = \frac{1}{4\pi t} \exp\left(-\frac{\Vert r-\rho\Vert^2}{4 t}\right).
 $$\lim_{a\to b} \frac{A}{B} = 1.$$
 (starałem się jej unikać, bo mi się nie podoba, ale tutaj będzie dużo prościej)</p>
 <p>$$P_\Omega(r,t) = \sum_{n=1}^\infty e^{-\lambda_n t}\psi_n(\rho)\psi_n(r) \underset{t\to 0}{\sim} \frac{1}{4\pi t} \exp\left(- \frac{\Vert r-\rho \Vert^2}{4 t}\right).$$
-Z dużą dozą ostrożności powiedzmy, że $\rho = r$. Wtedy wychodzi
+Z dużą dozą ostrożności powiedzmy, że $\rho = r.$ Wtedy wychodzi
 $$\sum_{n=1}^\infty e^{-\lambda_n t}\psi_n^2(r) \underset{t\to 0}{\sim} \frac{1}{4\pi t}.$$
 Teraz, jeżeli jeszcze szczelniej zamkniemy oczy i scałkujemy obustronnie korzystając przy okazji z warunku normalizacyjnego dla $\psi$, to dostaniemy
 $$\sum_{n=1}^\infty e^{-\lambda_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t},$$
-bo $\int_\Omega dr \psi^2 = 1$, $\int_\Omega dr = |\Omega|$.</p>
+bo $\int_\Omega dr \psi^2 = 1$, $\int_\Omega dr = |\Omega|.$</p>
 <p>Trzeba teraz na chwilkę pogrzebać w teorii miary. Niech $\Lambda = \{\lambda_1, \lambda_2, \ldots \}$ - zbiór wszystkich wartości własnych.</p>
 <p>Mamy ich przeliczalnie dużo, więc niech $\mu(\lambda) = \sum_{\lambda_n&lt;\lambda} \psi_n^2$ - miara (taka do zliczania). W takim razie zachodzi
 $$\int_\Lambda e^{-\lambda t} d\mu \underset{t\to 0}{\sim} \sum_{\lambda_n \in \Lambda} e^{-\lambda_n t} \psi_n^2 = \sum_{n = 1}^\infty e^{-\lambda_n t} \psi_n^2.$$</p>
-<h3 id="przerywnik---twierdzenie-tauberiańskie-hardy-littlewood-karamata"><a href="#przerywnik---twierdzenie-tauberiańskie-hardy-littlewood-karamata" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Przerywnik - Twierdzenie Tauberiańskie(?) (Hardy-Littlewood-Karamata)</h3>
+<h3 id="przerywnik---twierdzenie-tauberiańskie-hardy-littlewood-karamata">Przerywnik - Twierdzenie Tauberiańskie (Hardy-Littlewood-Karamata)</h3>
 <p>Niech
 $$\omega(\lambda) = \int_\Lambda e^{-\lambda t} d\mu(\lambda).$$
 Wtedy dla $\alpha\in \mathbb{R}_+$
 $$\mu(\lambda) \underset{\lambda\to\infty}{\sim} \frac{C}{\Gamma(\alpha+1)}\lambda^\alpha.$$</p>
-<h3 id="wracamy-do-naszego-problemu"><a href="#wracamy-do-naszego-problemu" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Wracamy do naszego problemu:</h3>
+<h3 id="wracamy-do-naszego-problemu">Wracamy do naszego problemu:</h3>
 <p>Zapisujemy to, czego się właśnie dowiedzieliśmy:
 $$\int_\Lambda e^{-\lambda t} d\mu \underset{t\to 0}{\sim} \sum_{n=1}^\infty e^{-\lambda_n t} \psi_n^2 \underset{t\to 0}{\sim} \frac{1}{4\pi t} = \frac{1}{4\pi} \int_0^\infty e^{-\lambda t}d\lambda.$$
 Skoro mamy twierdzenie Tauberiańskie, to znaczy, że
 $$\mu(\lambda) = \sum_{\lambda_n &lt; \lambda} \psi_n^2 \underset{\lambda\to \infty}{\sim} \frac{C}{\Gamma(\alpha+1)}\lambda^\alpha,$$
 ale u nas
 $$\sum_{\lambda_n &lt; \lambda} \psi_n^2  \underset{\lambda\to\infty}{\sim} \frac{1}{4\pi} \lambda,$$
-czyli $\alpha = 1$ i $C = \frac{1}{4\pi}$.</p>
+czyli $\alpha = 1$ i $C = \frac{1}{4\pi}.$</p>
 <p>Co teraz? Scałkujmy obustronnie
 $$\sum_{\lambda_n&lt;\lambda} \int_\Omega \psi_n^2 \underset{\lambda\to\infty}{\sim} \frac{\lambda}{4\pi}\int_\Omega 1,$$
 czyli
@@ -410,11 +233,11 @@ $$\sum_{\lambda_n &lt; \lambda} 1 \underset{\lambda\to\infty}{\sim} \frac{|\Omeg
 Zauważmy, że to po lewej stronie, to jest definicja naszej wspaniałej funkcji zliczającej wartości własne!
 $$N(\lambda) \underset{\lambda\to\infty}{\sim} \frac{|\Omega|}{4\pi}\lambda \implies \lim_{\lambda\to\infty} \frac{N(\lambda)}{\lambda} = \frac{|\Omega|}{4\pi}.$$
 Oznacza to, że nie uwolnimy się od Twierdzenia Weyl&rsquo;a.</p>
-<h2 id="co-jeszcze"><a href="#co-jeszcze" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Co jeszcze?</h2>
-<p>Dalej rozważając równanie dyfuzji, zobaczymy co można zauważyć w pobliżu brzegu naszej membrany (albo gdy miód dociera do krawędzi stołu).</p>
-<p>Wcześniej stwierdziliśmy, że na samym początku, to ,,coś&rsquo;&rsquo; co dyfuzuje, nie czuje brzegu. Ale po jakimś czasie, kiedy pierwsze cząsteczki zbliżą się do niego, to pewnie coś się zmieni.</p>
-<p>Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho$.</p>
-<p>Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q$. Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
+<h2 id="co-jeszcze">Co jeszcze?</h2>
+<p>Dalej rozważając równanie dyfuzji, zobaczymy co można zauważyć w pobliżu brzegu naszej membrany.</p>
+<p>Wcześniej stwierdziliśmy, że na samym początku, to ,,coś'' co dyfuzuje, nie czuje brzegu. Ale jeżeli wrzucimy źródło bardzo bardzo blisko brzegu, to to nasze oddziaływanie z nim będzie zachowywało się dość charakterystycznie.</p>
+<p>Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho.$</p>
+<p>Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q.$ Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
 <img src="/membrane.png" alt="">
 Załóżmy jednak na razie, że $t$ jest dostatecznie małe, żeby można było przybliżać
 $$P_\Omega \underset{t\to 0}{\sim} P_{l(\rho)}.$$
@@ -425,24 +248,24 @@ $$\lim_{r\to l(\rho)}P_{l(\rho)}(r,t) = 0$$</p>
 <p>Możemy nawet odważnie przypuścić, że
 $$\int_\Omega P_\Omega(\rho,t) \underset{t\to 0}{\sim} \int_\Omega P_{l(\rho)}(\rho,t).$$</p>
 <p>Żeby znaleźć rozwiązanie równania dyfuzji dla $P_{l(\rho)}$, wyobraźmy sobie następującą sytuację:</p>
-<p>Kiedy nasza ,,fala dyfuzji&rsquo;&rsquo; dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji&rsquo;&rsquo; pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta$. Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'$. Zatem mamy
+<p>Kiedy nasza ,,fala dyfuzji'' (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji'' pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta.$ Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'.$ Zatem mamy
 $$P_{l(\rho)}(\rho,t) = \frac{1}{4\pi t} - \frac{1}{4\pi t}\exp\left(-\frac{(2\delta)^2}{4t}\right),$$
-gdzie $\delta = \Vert q - \rho \Vert$ jest minimalną odległością między $\rho$ i brzegiem $\Gamma$.</p>
+gdzie $\delta = \Vert q - \rho \Vert$ jest minimalną odległością między $\rho$ i brzegiem $\Gamma.$</p>
 <p>Wtedy
 $$\int_\Omega P_\Omega(\rho,t) = \sum_{n=1}^\infty e^{-\lambda_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t} - \frac{1}{4 \pi t}\int_\Omega e^{-\delta^2/t}.$$
 Żeby dowiedzieć się o co tu chodzi, musimy obliczyć tę całkę. Pomyślmy przez chwilę nad krzywą $\Gamma(\delta)$ składającą się z punktów oddalonych od $\Gamma$ o $\delta$ od wewnątrz (rysunek po prawej stronie).
-Dla dostatecznie małych $\delta$, $\Gamma(\delta)$ powinna przypominać $\Gamma$. Skoro rozważana całka ma postać
+Dla dostatecznie małych $\delta$, $\Gamma(\delta)$ powinna przypominać $\Gamma.$ Skoro rozważana całka ma postać
 $$\int_\Omega e^{-2\delta^2/t},$$
-to znaczy, że największe przyczynki będą pochodziły właśnie od małych $\delta$. Niech $L(\delta)$ - długość brzegu $\Gamma(\delta)$. Chcielibyśmy całkować po brzegach na odległości $\delta$ od zera aż do pewnej niewielkiej $\delta_0$. Zachodzi zatem
+to znaczy, że największe przyczynki będą pochodziły właśnie od małych $\delta.$ Niech $L(\delta)$ - długość brzegu $\Gamma(\delta).$ Chcielibyśmy całkować po brzegach na odległości $\delta$ od zera aż do pewnej niewielkiej $\delta_0.$ Zachodzi zatem
 $$\int_\Omega \exp\left(-\frac{\delta^2}{t}\right) = \int_0^{\delta_0} \exp{-\frac{\delta^2}{t}}L(\delta)d\delta + \text{coś małego}.$$
-Zamiana zmiennych: niech $\xi = \frac{1}{\sqrt{t}} \delta$, więc $d\xi = \frac{1}{\sqrt{t}} d\delta$. Więc po podstawieniu
+Zamiana zmiennych: niech $\xi = \frac{1}{\sqrt{t}} \delta$, więc $d\xi = \frac{1}{\sqrt{t}} d\delta.$ Więc po podstawieniu
 $$\int_0^{\delta_0} \exp\left(-\frac{\delta^2}{t}\right)L(\delta)d\delta = \sqrt{t} \int_0^{\delta_0/\sqrt{t}} e^{-\xi^2}L(\xi\sqrt{t})d\xi.$$
 Biorąc tylko pierwszy wyraz rozwinięcia $L(\xi\sqrt{t}) \approx L(0) \equiv L$, dostajemy
 $$\int_\Omega \exp\left(-\frac{\delta^2}{t}\right) \underset{t\to 0}{\sim} L\sqrt{t}\int_0^\infty e^{-\xi^2}d\xi = L\frac{\sqrt{\pi t}}{2}.$$
 Wracając do stężenia $P_{l(\rho)}$, możemy podstawić wynik naszej całki
 $$\int_\Omega P_\Omega = \sum_{n = 1}^\infty e^{-\lambda_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t} - \frac{1}{4\pi t} \cdot L \frac{\sqrt{\pi t}}{2} = \frac{|\Omega|}{4\pi t} - \frac{L}{8\sqrt{\pi t}}.$$
 Oznacza to, że na dodatek możemy usłyszeć obwód naszej membrany.</p>
-<h3 id="rzutem-na-taśmę---nierówność-izoperymetryczna"><a href="#rzutem-na-taśmę---nierówność-izoperymetryczna" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>Rzutem na taśmę - Nierówność izoperymetryczna</h3>
+<h3 id="rzutem-na-taśmę---nierówność-izoperymetryczna">Rzutem na taśmę - Nierówność izoperymetryczna</h3>
 <p>Dla dowolnej figury płaskiej zachodzi
 $$\frac{4\pi A}{p^2} \le 1,$$
 gdzie:</p>
@@ -452,281 +275,52 @@ gdzie:</p>
 </ul>
 <p>Równość zachodzi jedynie dla koła.</p>
 <p>Oznacza to, że znając spektrum wartości własnych pewnej okrągłej membrany, możemy używać go jako kryterium do sprawdzania, czy inne membrany są okrągłe.</p>
-</div>
 
-        </article>
-
-        
-
-        
+		<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
     
     
     
-        <ul class="post-copyright">
-            <li class="copyright-item author"><span class="copyright-item-text"></span><a href="/" target="_blank" rel="noopener">Jakub Korsak</a></li>
-            
-                
-                
-                
-                
-                <li class="copyright-item link"><span class="copyright-item-text"></span><a href="/blog/ksztalt_bebna/" target="_blank" rel="noopener">/blog/ksztalt_bebna/</a></li>
-            
-            
-        </ul>
-    
-
-
-
-        
-    <div class="updated-badge-container"><div title="Updated @ 2020-09-18 00:03:10 CEST" style="cursor:help;display:inline-block">
-
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2020-09-18</text><text x="915" y="140" textLength="650" transform="scale(.1)">2020-09-18</text></g></svg></div></div>
-
-
-        
-
-        
-
-<div class="post-share">
-
-        
-
-        <div class="share-items">
-
-            
-
-            
-                
-                <div class="share-item facebook">
-                    
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/ksztalt_bebna/" title="" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
-                </div>
-            
-
-            
-
-            
-                
-                <div class="share-item telegram">
-                    
-                    <a href="https://t.me/share/url?url=/blog/ksztalt_bebna/&amp;text=Czy%20mo%c5%bcna%20us%c5%82ysze%c4%87%20kszta%c5%82t%20b%c4%99bna?" title="" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
-                </div>
-            
-
-            
-
-            
-
-            
-
-            
-
-            
-                
-                <div class="share-item qrcode">
-                    <div class="qrcode-container" title=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qrcode-icon"><path d="M0 224h192V32H0v192zM64 96h64v64H64V96zm192-64v192h192V32H256zm128 128h-64V96h64v64zM0 480h192V288H0v192zm64-128h64v64H64v-64zm352-64h32v128h-96v-32h-32v96h-64V288h96v32h64v-32zm0 160h32v32h-32v-32zm-64 0h32v32h-32v-32z"/></svg><div id="qrcode-img"></div>
-                    </div>
-                    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
-
-<script>
-    var typeNumber = 0;
-    var errorCorrectionLevel = 'L';
-    var qr = qrcode(typeNumber, errorCorrectionLevel);
-    qr.addData('\/blog\/ksztalt_bebna\/');
-    qr.make();
-    document.getElementById('qrcode-img').innerHTML = qr.createImgTag();
-</script>
-
-                </div>
-            
-
-        </div>
-
-    </div>
-
-
-
-
-        
-    
-    
-
-
-        
-    
-
-
-        
-    <footer class="minimal-footer">
-        
-        
-        
-            
-        
-    </footer>
-
-
-        
-
-        
-    
-        
-        
-    
-    
-    
-    
-        <ul class="post-nav">
-            
-            
-                <li class="post-nav-next">
-                    <a href="/blog/kwadratowa/" rel="next">Równanie kwadratowe ></a>
-                </li>
-            
-        </ul>
-    
-
-
-        
-    
-
-        <div class="load-comments">
-            <div id="load-comments"></div>
-        </div>
-
-        
-            <div id="disqus_thread"></div>
-        
-
-        
-
-        
-
-    
-
-
-
-    </div>
-</main>
-
-
-            
-    <div id="back-to-top" class="back-to-top">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
-    </div>
-
-            
-
-        </div>
-        <script src="/js/meme.min.7befaabd53cbd4bcd86f87fa1bb5123173e5c9ebff46c4da523776eba14145cd.js" integrity="sha256-e++qvVPL1LzYb4f6G7USMXPlyev/RsTaUjd266FBRc0="></script>
-
-
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-
-<script>
-    var scroll = new SmoothScroll('a[href*="#"]', {
-        speedAsDuration: true,
-        header: '[data-scroll-header]'
-    });
-</script>
-
-
-
-
-
-
-    <script>
-    if (typeof MathJax === 'undefined') {
-        window.MathJax = {
-            loader: {
-                load: ['[tex]/mhchem']
-            },
-            
-            tex: {
-                inlineMath: {'[+]': [['$', '$']]},
-                tags: 'ams',
-                packages: {'[+]': ['mhchem']}
-            }
-        };
-        (function() {
-            var script = document.createElement('script');
-            script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js';
-            script.defer = true;
-            document.head.appendChild(script);
-        })();
-    } else {
-        MathJax.texReset();
-        MathJax.typeset();
-    }
-</script>
-
-
-
-
-
-
-    
-
-        
-            <script>
-    function loadComments() {
-        if (typeof DISQUS === 'undefined') {
-            var disqus_config = function() {
-                this.page.url = '\/blog\/ksztalt_bebna\/';
-                this.page.identifier = '\/blog\/ksztalt_bebna\/';
-                this.page.title = 'Czy można usłyszeć kształt bębna?';
-            };
-            (function() {
-                var d = document, s = d.createElement('script'); s.async = true;
-                s.src = 'https://korsak-xyz.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        } else {
-            DISQUS.reset({
-                reload: true,
-                config: function() {
-                    this.page.url = '\/blog\/ksztalt_bebna\/';
-                    this.page.identifier = '\/blog\/ksztalt_bebna\/';
-                    this.page.title = 'Czy można usłyszeć kształt bębna?';
-                }
-            });
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
         }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "korsakxyz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+	<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
     }
-		loadComments()
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
 </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-        
-
-        
-
-        
-
-    
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
-
-<script>
-    mediumZoom(document.querySelectorAll('div.post-body img'), {
-        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
-    })
-</script>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
-
-
-
-
-
-
-
-
-
-
-    </body>
+  </main>
+  </body>
 </html>

@@ -13,10 +13,10 @@
     
     <item>
       <title>Zmienny współczynnik tarcia</title>
-      <link>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</link>
+      <link>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</link>
       <pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate>
       
-      <guid>https://korsak.xyz/zmienny_wspolczynnik_tarcia/</guid>
+      <guid>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</guid>
       <description>&lt;p&gt;Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją&lt;/p&gt;
 &lt;p&gt;$$\mu(x) = \begin{cases}
 \mu_1, &amp;amp; x \in [0,x_1]\cr
