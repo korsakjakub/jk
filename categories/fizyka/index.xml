@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fizyka on Jakub Korsak</title><link>https://korsak.xyz/categories/fizyka/</link><description>Recent content in fizyka on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sat, 03 Oct 2020 16:22:39 +0200</lastBuildDate><atom:link href="https://korsak.xyz/categories/fizyka/index.xml" rel="self" type="application/rss+xml"/><item><title>Jak łatwo przesunąć statek</title><link>https://korsak.xyz/blog/ped_i_srodek_masy/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://korsak.xyz/blog/ped_i_srodek_masy/</guid><description>&lt;h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1>
+&lt;ol>
+&lt;li>Dlaczego, gdy schodzimy z roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?&lt;/li>
+&lt;li>Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?&lt;/li>
+&lt;/ol>
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>Często pojawiające się w różnych podręcznikach zadanie z zasady zachowania pędu brzmi następująco:&lt;/p>
+&lt;p>O ile przesunie się łódka, jeżeli człowiek najpierw stojący przy jednym jej brzegu przejdzie na brzeg przeciwny?&lt;/p>
+&lt;p>Rozwiązanie wymaga przyrównania środków masy układu człowiek-łódka przed i po przejściu na przeciwny brzeg łódki; argumentuje się wtedy zazwyczaj, że ten warunek wynika z zasady zachowania pędu&amp;hellip; Ale w jaki dokładnie sposób?&lt;/p>
+&lt;p>Można zadać jeszcze ważniejsze z punktu widzenia fizyki pytanie:&lt;/p>
+&lt;ul>
+&lt;li>Co się stanie jeżeli łódka miała jakąś niezerową prędkość?&lt;/li>
+&lt;/ul>
+&lt;h1 id="plan-podboju-kosmosu">Plan podboju kosmosu:&lt;/h1>
+&lt;p>Spróbujemy wyjść z Zasady zachowania pędu i w jakiś sposób dojść do sensownych warunków, których rozwiązanie da nam odpowiedzi na nurtujące nas pytania.&lt;/p>
+&lt;h2 id="ale-najpierw">Ale najpierw&lt;/h2>
+&lt;p>Kiedy w ogóle możemy skorzystać z zasady zachowania pędu?&lt;/p>
+&lt;p>Spójrzmy na drugą zasadę dynamiki Newtona:
+$$F_{\text{zewnętrzne}}(t) = m_i \cdot a_i(t).$$
+Przyjmijmy oznaczenia $P(t) = \sum_i p_i(t)= \sum_i m_iv_i(t)$ - pęd układu ($\sum$ oznacza sumę po wszystkich działających indeksach $i$. W późniejszych rozważaniach postaram się sumiennie zapominać o jej zapisywaniu).&lt;/p>
+&lt;p>Jeżeli założymy, że masa całego układu się nie zmienia, możemy napisać
+$$F_{\text{zewnętrzne}} = \frac{d}{dt}P(t) = m_i \frac{d}{dt}v_i(t) = m_i a_i(t).$$
+Teraz przypomnijmy sobie co to znaczy, że pęd jest zachowany. Powiedzmy, że pęd jest zachowany na przedziale czasu $\mathbb{T} \equiv ]t_p, t_k[$. Niech $t_1, t_2\in \mathbb{T}$ - jakieś punkty w czasie. Wtedy możemy powiedzieć, że
+$$\text{zachowany pęd} \iff p_i(t_2) - p_i(t_1) = 0 \implies p_i(t_2) = p_i(t_1),$$
+czyli na przedziale otwartym $\mathbb{T}$, na którym pęd miał być zachowany, jego zmiana jest równa zero.&lt;/p>
+&lt;p>Teraz rozważmy $t\in \mathbb{T}$. Skoro przedział $\mathbb{T}$ jest otwarty, zawsze możemy wybrać sobie jakieś małe $\Delta t$, takie że $t + \Delta t$ wciąż będzie należało do $\mathbb{T}$. Druga zasada dynamiki przyjmuje postać
+$$F_\text{zewnętrzne} = m_i \frac{d}{dt} v_i(t) = m_i \lim_{\Delta t \to 0} \frac{1}{\Delta t}\left( v_i(t+\Delta t) - v_i(t)\right),$$
+ale przecież $t$ oraz $t+\Delta t$ należą do $\mathbb{T}$! Czyli ich różnica musi być równa zero, bo mamy zachowany pęd!&lt;/p>
+&lt;p>Otrzymujemy więc warunek
+$$\underset{t\in\mathbb{T}}{\forall}\quad F_\text{zewnętrzne}(t) \equiv 0,$$
+gdzie znaczek &amp;ldquo;odwrócone A&amp;rdquo; oznacza &amp;ldquo;dla każdego&amp;rdquo;.&lt;/p>
+&lt;p>Wiemy więc, że stwierdzenie, że pęd jest zachowany oznacza tyle samo, co stwierdzenie, że na układ nie działają żadne siły zewnętrzne.&lt;/p>
+&lt;h1 id="weźmy-się-do-pracy">Weźmy się do pracy&lt;/h1>
+&lt;p>Cały układ łódka-człowiek porusza się ze stałą prędkością (w tym też równą zero).&lt;/p>
+&lt;p>Tak jak wcześniej ustalmy sobie przedział otwarty $\mathbb{T} = ]t_p, t_k[$, w którym pęd układu ma być zachowany.
+Jeżeli weźmiemy sobie teraz punkt $t_1\in\mathbb{T}$, możemy bez ogródek napisać warunek na zasadę zachowania pędu układu:
+$$\underset{t\in\mathbb{T}}{\forall}P(t) = P(t_1) \implies \underset{t\in\mathbb{T}}{\forall}p_i(t) = p_i(t_1) \implies \underset{t\in\mathbb{T}}{\forall}m_i v_i(t) = m_i v_i(t_1).$$
+Skoro oba punkty czasu należą do $\mathbb{T}$, który jest przedziałem otwartym, to zawsze można znaleźć takie $\Delta t$, żeby $t + \Delta t$ również należał do $\mathbb{T}$. Przepiszmy więc powyższy warunek zamieniając $v_i$ na pochodną położeń $\frac{d}{dt}r_i$
+$$m_i \lim_{\Delta t\to 0}\frac{r_i(t+\Delta t) - r_i(t)}{\Delta t} = m_i v_i(t_1).$$
+Załóżmy teraz na przykład, że ustalamy taki inercjalny układ odniesienia, w którym łódka się nie porusza. W związku z tym mamy $p_i(t_1) = 0 \implies v_i(t_1) = 0.$ Dostajemy nieco uproszczoną wersję
+$$m_i \lim_{\Delta t\to 0} \frac{1}{\Delta t} \left(r_i(t+\Delta t) - r_i(t)\right) = m_i \frac{d}{dt}r_i(t) = 0,$$
+lecz wciąż coś tu nie gra&amp;hellip;
+Skorzystajmy z Twierdzenia Stokes&amp;rsquo;a dla jednego wymiaru (zasadnicze twierdzenie rachunku różniczkowego).
+$$m_i \int_{t_1}^{t_c} \frac{d r_i}{dk}(k)dk = m_i\left(r_i(t_c) - r_i(t_1)\right) = 0,$$
+czyli ostatecznie
+$$m_i r_i(t_c) = m_i r_i(t_1).$$ Jest to warunek równoważny braku przesunięcia środka masy układu (przy założeniu stałej masy), czyli
+$$r_{c_1} = \frac{m_i r_i(t_c)}{m_i} = r_{c_2} = \frac{m_i r_i(t_1)}{m_i}.$$&lt;/p>
+&lt;p>A co, jeżeli łódka poruszała się ze stałą prędkością, która akurat nie wynosiła zero? Rozwiązanie można otrzymać najprościej chyba powołując się na zasadę względności Galileusza.
+Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p>
+&lt;ul>
+&lt;li>$x_G$ - nowe poruszające się współrzędne,&lt;/li>
+&lt;li>$V$ - stała prędkość, z którą porusza się układ $x_G$,&lt;/li>
+&lt;/ul>
+&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Równanie Ciołkowskiego</title><link>https://korsak.xyz/blog/rakieta/</link><pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate><guid>https://korsak.xyz/blog/rakieta/</guid><description>&lt;p>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
+$$dv = -udm,$$
+gdzie&lt;/p>
+&lt;ul>
+&lt;li>$v(t)$ - prędkość rakiety,&lt;/li>
+&lt;li>$u$ - prędkość wyrzucanego paliwa w układzie związanym z rakietą,&lt;/li>
+&lt;li>$m(t)$ - masa rakiety.&lt;/li>
+&lt;/ul>
+&lt;p>Zazwyczaj wyprowadza się je korzystając z zasady zachowania pędu, dzisiaj problem rozważymy od strony mechaniki Langrange.&lt;/p>
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuca paliwo w sposób ciągły i jednostajny, z prędkością &lt;strong>względem rakiety&lt;/strong> $u$.&lt;/p>
+&lt;ul>
+&lt;li>Jak wygląda równanie ruchu rakiety?&lt;/li>
+&lt;li>Jakie to równanie ma rozwiązanie?&lt;/li>
+&lt;/ul>
+&lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
+&lt;p>Jeżeli rozpatrywany ruch jest wzdłuż $\xi$ oraz rakieta znajduje się w potencjale zależnym od $\xi(t)$, funkcja lagrange tego układu ma postać
+$$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{m}(\tau) \left(\dot{\xi}(\tau) - u\right)^2 d\tau - V(\xi(t), t).$$
+Składnik zawierający całkę po czasie jest energią kinetyczną związaną z &lt;strong>łączną&lt;/strong> masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
+Jeżeli rozpatrzymy podział przedziału
+$$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
+$$\left&amp;lt; \dot{\xi} \right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
+oraz wyrzuca paliwo ze średnią szybkością wyrzucania
+$$\left&amp;lt; \dot{m} \right&amp;gt;_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$
+Masa tego paliwa wynosi zatem $\left&amp;lt;m\right&amp;gt;_j = \left&amp;lt;\dot{m}\right&amp;gt;_j (t_j - t_{j-1}) \equiv \left&amp;lt; \dot{m} \right&amp;gt;_j \Delta t_j.$
+Więc średnia energia kinetyczna na tym przedziale wynosi
+$$\left&amp;lt; T \text{ }\right&amp;gt;_j = \frac{1}{2} \left&amp;lt;\dot{m}\right&amp;gt;_j \left( \left&amp;lt;\dot{\xi}\right&amp;gt;_j - u\right)^2 \Delta t_j.$$
+Suma energii kinetycznych odpowiadających składowym podziału przedziału ma postać
+$$\left&amp;lt; T \text{ } \right&amp;gt; = \frac{1}{2} \sum_{j = 1}^n \left&amp;lt;\dot{m}\right&amp;gt;_j \left( \left&amp;lt;\dot{\xi}\right&amp;gt;_j - u\right)^2 \Delta t_j.$$
+W granicy $n\to \infty$, suma przechodzi w całkę pojawiającą się w funkcji Lagrange.&lt;/p>
+&lt;p>Mając lagranżjan, możemy już bez przeszkód skorzystać z równania Eulera - Lagrange
+$$\frac{d}{dt} \frac{\partial \mathcal{L}}{\partial \dot{\xi}} = \frac{\partial \mathcal{L}}{\partial \xi}.$$
+Prawa strona odpowiada sile pochodzącej od potencjału $V$,
+$$\frac{\partial \mathcal{L}}{\partial \xi} = \frac{\partial V}{\partial \xi} = F.$$
+To jeszcze lewa strona
+$$\begin{align*} \frac{d}{dt} \frac{\partial \mathcal{L}}{\partial \dot{\xi}} &amp;amp;= \frac{d}{dt}\left( \frac{\partial}{\partial \dot{\xi}}\frac{1}{2}m\dot{\xi}^2 - \frac{\partial}{\partial \dot{\xi}}\frac{1}{2}\int\limits_0^t \dot{m} \left(\dot{\xi} - u\right)^2 d\tau \right) = \cr
+&amp;amp;= \frac{d}{dt} \left( m \dot{\xi} - \frac{1}{2}\int\limits_0^t \dot{m} \cdot 2 \left(\dot{\xi} - u\right) d\tau \right) = \cr
+&amp;amp;= \dot{m}\dot{\xi} + m \ddot{\xi} - \dot{m}\left(\dot{\xi} - u\right) .\end{align*}$$
+Po przyrównaniu lewej i prawej strony dostaniemy
+$$F = m\ddot{\xi} + \dot{m} u.$$
+Jest to równanie Ciołkowskiego z dodatkiem siły $F$.
+Po podzieleniu obustronnie przez $m$, położeniu $F =0$ oraz wycałkowaniu po czasie dostaniemy
+$$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
+Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
+$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m}{m_0}\right).$$
+Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
+$$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$&lt;/p></description></item><item><title>Zmienny współczynnik tarcia</title><link>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</link><pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate><guid>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</guid><description>&lt;p>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją&lt;/p>
+&lt;p>$$\mu(x) = \begin{cases}
+\mu_1, &amp;amp; x \in [0,x_1]\cr
+\mu_2, &amp;amp; x \in ]x_1, x_2]\cr
+\mu_3, &amp;amp; x &amp;gt; x_2
+\end{cases}.$$
+Po przebyciu jakiej odległości $x_3 &amp;gt; x_2$ klocek się zatrzyma?&lt;/p>
+&lt;p>Powiedzmy, że klocek na początku znajduje się w punkcie $x = h/2$.
+Jako, że klocek ma tam prędkość o wartości $v_0$, ma w tym układzie odniesienia energię kinetyczną $K_0 = m v_0^2 / 2$.
+W momencie styku prawej granicy klocka z przejściem w obszar $x_1$, znajduje się on w punkcie $x = x_1 - h/2$.
+Klocek w tym obszarze stracił prędkość na rzecz siły tarcia. Praca wykonana przez siłę tarcia to
+$$dW_T = \mathbf{T}\cdot\mathbf{ds}.$$
+Można zapisać zasadę zachowania energii
+$$K_0 = K_1 + W_T.$$
+Dla $x\in X_1 = [h/2, x_1 - h/2]$, $\mu = \mu_1$, więc
+$$W_T[X_1] = \int\limits_{h/2}^{x_1-h/2} mg\mu_1 dx = mg\mu_1(x_1 - h).$$
+Analogicznie dla $x\in X_2 = [x_1 + h/2, x_2 - h/2]$
+$$W_T[X_2] = \int\limits_{x_1 + h/2}^{x_2 - h/2} mg\mu_2 dx = mg\mu_2(x_2 - x_1 - h)$$
+oraz dla $x\in X_3 = [x_2 + h/2, x_3]$
+$$W_T[X_3] = \int\limits_{x_2 + h/2}^{x_3} mg\mu_3 dx = mg\mu_3(x_3 - x_2 - h/2).$$
+Pozostały obszary, gdzie klocek przechodzi między $\mu_i$ i $\mu_{i+1}$.
+Wtedy dla $h_a$ - część po przejściu, $h_b$ - część przed przejściem mamy$$\mu(x) = \frac{\mu_i(h_b(x)) + \mu_{i+1}(h_a(x))}{h}.$$
+Jako, że $h = h_a + h_b$, to można przepisać $\mu$ jako
+$$\mu(h_a) = \frac{\mu_i(h-h_a) + \mu_{i+1} h_a}{h} = h_a\left(\frac{\mu_{i+1}}{h} - \frac{\mu_i}{h}\right) + \mu_i.$$
+Teraz można policzyć dla $x \in X_i = [x_i - h/2, x_i + h/2]$
+$$W_T[X_i] = \int\limits_0^h mg\mu(h_a)dh_a = \frac{1}{2}mgh(\mu_i+\mu_{i+1}),$$
+ewentualnie jako pole trapezu opisanego przez $h_a\in [0,h]$, $\mu = h_a(\mu_{i+1}/h - \mu_i/h)+\mu_i$.&lt;/p>
+&lt;p>Cała początkowa energia kinetyczna pod koniec przechodzi na sumę wszystkich prac wykonanych przez tarcie:
+$$\begin{align*}W = mg\mu_3(x_3 - x_2 - h/2) &amp;amp;= \frac{m}{2}v_0^2 - \frac{1}{2}mgh(\mu_1+\mu_2) - \frac{1}{2}mgh(\mu_2+\mu_3) - \cr
+&amp;amp;- mg\mu_1(x_1-h) - mg\mu_2(x_2-x_1-h)\end{align*}$$&lt;/p>
+&lt;p>W związku z tym klocek zatrzyma się po przebyciu odległości
+$$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) - \mu_1(x_1-h) - \mu_2(x_2-x_2-h)\right) + x_2 + h/2$$&lt;/p></description></item></channel></rss>
