@@ -1,7 +1,6 @@
 ---
 title: "Czy można usłyszeć kształt bębna?"
 date: 2020-09-14T20:39:43+02:00
-draft: false
 tags: [studia, matematyka, analiza matematyczna, równanie falowe, równanie dyfuzji]
 ---
 
