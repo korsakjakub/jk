@@ -53,7 +53,7 @@ Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p>
 &lt;/ul>
 &lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Zwardoń</title><link>https://korsak.xyz/blog/zwardon/</link><pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate><guid>https://korsak.xyz/blog/zwardon/</guid><description>&lt;h1 id="zadanie">Zadanie&lt;/h1>
 &lt;p>Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
-&lt;img src="https://korsak.xyz/zwardon.png" alt="">&lt;/p>
+&lt;img src="https://korsak.xyz/img/zwardon.png" alt="">&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
 &lt;p>Niech położenie turysty od czasu - $\tau(t)$, położenie samochodu od czasu - $s(t)$. W oznaczeniach takich jak na rysunku, można przedstawić te funkcje następująco
 $$ \begin{align*}
@@ -121,7 +121,8 @@ $$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$&lt;/p>
 &lt;p>Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p>
 &lt;p>Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
-&lt;!-- raw HTML omitted -->
+&lt;p>&lt;img src="https://korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
+&lt;p>Rozważymy problem w czasie $T = t$ oraz $T = t + \Delta t$.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>$T = t:$&lt;br>
