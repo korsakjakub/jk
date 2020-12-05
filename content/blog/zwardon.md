@@ -6,7 +6,7 @@ tags: [liceum, matematyka, kinematyka]
 ---
 # Zadanie
 Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
-![](/zwardon.png)
+![](/img/zwardon.png)
 # Rozwiązanie
 Niech położenie turysty od czasu - $\tau(t)$, położenie samochodu od czasu - $s(t)$. W oznaczeniach takich jak na rysunku, można przedstawić te funkcje następująco
 $$ \begin{align*}

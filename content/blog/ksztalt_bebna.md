@@ -78,7 +78,7 @@ $$\begin{align*}
 Więc $\psi_{j,k}(x,y) = \sin\left(\frac{j\pi}{a} x\right)\sin\left(\frac{k\pi}{b} y\right)$ i $\lambda_{j,k} = \left(\frac{j\pi}{a}\right)^2 + \left(\frac{k\pi}{b}\right)^2.$ Teraz nasza funkcja do zliczania wartości własnych wynosi
 $$N(\lambda) = \left|\left\\{ (j,k) : \lambda_{j,k} < \lambda \right\\}\right| = \left|\left\\{ (j,k) : \left(\frac{j\pi}{a}\right)^2 + \left(\frac{k\pi}{b}\right)^2 < \lambda \right\\}\right|$$
 Niech $E_\lambda = \left\\{(x,y)\in\mathbb{R}_+^2 : \left(\frac{x\pi}{a\sqrt{\lambda}}\right)^2 + \left(\frac{y\pi}{b\sqrt{\lambda}}\right)^2 \le 1\right\\}$ będzie prawą górną ćwiartką elipsy. W takim razie $N(\lambda)$ odpowiada łącznemu polu kwadratów $[j-1,j]\times[k-1,k]$ zawartych w $E_\lambda$ (jak na rysunku po lewej).
-![](/eigen\_elipsa.png)
+![](/img/eigen\_elipsa.png)
 W takim razie możemy napisać
 $$N(\lambda) = \sum_{(j,k): \lambda_{j,k} < \lambda} \mathrm{pole}([j-1,j]\times[k-1,k]) \le \mathrm{pole}(E_\lambda).$$
 Ale skoro $E_\lambda$ - elipsa, to znamy wzór na jej pole: $P = \pi \cdot u v$, gdzie $u,v$ - półosie.
@@ -201,7 +201,7 @@ Wcześniej stwierdziliśmy, że na samym początku, to ,,coś'' co dyfuzuje, nie
 Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho.$
 
 Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q.$ Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
-![](/membrane.png)
+![](/img/membrane.png)
 Załóżmy jednak na razie, że $t$ jest dostatecznie małe, żeby można było przybliżać
 $$P_\Omega \underset{t\to 0}{\sim} P_{l(\rho)}.$$
 Tak jak wcześniej, $P_{l(\rho)}$ ma spełniać równanie dyfuzji z warunkiem początkowym

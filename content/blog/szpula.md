@@ -11,7 +11,9 @@ Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwoj
 Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?
 
 # Rozwiązanie
-<img src="/szpula.png" width="350vw">
+
+![Schemat wizualizujący zadanie](/img/szpula.png)
+
 Rozważymy problem w czasie $T = t$ oraz $T = t + \Delta t$.
 
 - $T = t:$\

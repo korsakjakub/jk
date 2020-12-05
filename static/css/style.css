@@ -107,6 +107,12 @@ img {
   }
 }
 
+#back-to-top {
+	position: fixed;
+	bottom: 0;
+	margin: 1em -1em;
+}
+
 .MathJax {
 		overflow-x: auto;
 		overflow-y: hidden;
