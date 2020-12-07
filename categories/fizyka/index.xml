@@ -96,9 +96,9 @@ Jest to równanie Ciołkowskiego z dodatkiem siły $F$.
 Po podzieleniu obustronnie przez $m$, położeniu $F =0$ oraz wycałkowaniu po czasie dostaniemy
 $$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
 Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
-$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m}{m_0}\right).$$
+$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m_0}{m}\right).$$
 Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
-$$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$&lt;/p></description></item><item><title>Zmienny współczynnik tarcia</title><link>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</link><pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate><guid>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</guid><description>&lt;p>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją&lt;/p>
+$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p></description></item><item><title>Zmienny współczynnik tarcia</title><link>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</link><pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate><guid>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</guid><description>&lt;p>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją&lt;/p>
 &lt;p>$$\mu(x) = \begin{cases}
 \mu_1, &amp;amp; x \in [0,x_1]\cr
 \mu_2, &amp;amp; x \in ]x_1, x_2]\cr
