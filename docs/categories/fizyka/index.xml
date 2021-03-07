@@ -125,9 +125,9 @@ Jest to równanie Ciołkowskiego z dodatkiem siły $F$.
 Po podzieleniu obustronnie przez $m$, położeniu $F =0$ oraz wycałkowaniu po czasie dostaniemy
 $$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
 Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
-$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m}{m_0}\right).$$
+$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m_0}{m}\right).$$
 Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
-$$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$&lt;/p&gt;
+$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p&gt;
 </description>
     </item>
     

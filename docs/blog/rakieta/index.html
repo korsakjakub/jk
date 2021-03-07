@@ -11,7 +11,7 @@
 </head>
 
   <body>
-  <nav class="nav">
+  <nav name="top" class="nav">
 		<ul>
 				<li>
 						<a href="https://korsak.xyz/">Jakub Korsak</a>
@@ -130,9 +130,9 @@ Jest to równanie Ciołkowskiego z dodatkiem siły $F$.
 Po podzieleniu obustronnie przez $m$, położeniu $F =0$ oraz wycałkowaniu po czasie dostaniemy
 $$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
 Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
-$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m}{m_0}\right).$$
+$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m_0}{m}\right).$$
 Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
-$$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$</p>
+$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$</p>
 
 		<div id="disqus_thread"></div>
 <script type="application/javascript">
@@ -155,6 +155,8 @@ $$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$</p>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     </div>
+	<a class="pure-button" id="back-to-top" href="#top">Do góry</a>
+
 
 	<script>
   MathJax = {

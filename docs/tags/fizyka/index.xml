@@ -125,9 +125,9 @@ Jest to równanie Ciołkowskiego z dodatkiem siły $F$.
 Po podzieleniu obustronnie przez $m$, położeniu $F =0$ oraz wycałkowaniu po czasie dostaniemy
 $$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
 Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
-$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m}{m_0}\right).$$
+$$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m_0}{m}\right).$$
 Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
-$$v(m) = u \ln \left(\frac{m}{m_0}\right) + v_0.$$&lt;/p&gt;
+$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p&gt;
 </description>
     </item>
     
@@ -182,7 +182,8 @@ $$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) 
 &lt;p&gt;Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p&gt;
 &lt;p&gt;Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p&gt;
 &lt;h1 id=&#34;rozwiązanie&#34;&gt;Rozwiązanie&lt;/h1&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;img src=&#34;https://korsak.xyz/img/szpula.png&#34; alt=&#34;Schemat wizualizujący zadanie&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Rozważymy problem w czasie $T = t$ oraz $T = t + \Delta t$.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;$T = t:$&lt;br&gt;
