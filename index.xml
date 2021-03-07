@@ -490,4 +490,126 @@ Czas potrzebny na obrócenie się nici w okół punktu styku (teraz punktu zawie
 $$T_2 = \pi \frac{r}{v_0}.$$
 Pozostaje zauważyć, że od tego momentu, $T_3 = T_1$. W związku z tym, łączny czas wynosi
 $$T = T_1 + T_2 + T_3 = \frac{4\pi^2k^2r + \pi r}{v_0}.$$&lt;/p></description></item><item><title>Zapisy</title><link>https://korsak.xyz/zapisy/</link><pubDate>Sat, 28 Mar 2020 10:31:25 +0100</pubDate><guid>https://korsak.xyz/zapisy/</guid><description>
-&lt;iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMT65O71n_I0cw4Bh9rKT9zmmUykyGMkYLECYLk0Y8iovAlw/viewform?embedded=true" width="100%" height="1457" frameborder="0" marginheight="0" marginwidth="0">Ładuję…&lt;/iframe></description></item></channel></rss>
+&lt;iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMT65O71n_I0cw4Bh9rKT9zmmUykyGMkYLECYLk0Y8iovAlw/viewform?embedded=true" width="100%" height="1457" frameborder="0" marginheight="0" marginwidth="0">Ładuję…&lt;/iframe></description></item><item><title>O algebrze liniowej</title><link>https://korsak.xyz/blog/algebra_liniowa/</link><pubDate>Sat, 07 Mar 2020 10:00:00 +0000</pubDate><guid>https://korsak.xyz/blog/algebra_liniowa/</guid><description>&lt;h1 id="przestrzeń-wektorowa">Przestrzeń wektorowa&lt;/h1>
+&lt;p>Najbardziej elementarną częścią algebry liniowej jest pojęcie przestrzeni wektorowej. Żeby do niego dojść, trzeba najpierw zdefiniować ciało algebraiczne.&lt;/p>
+&lt;h2 id="definicja-ciało">Definicja (ciało)&lt;/h2>
+&lt;p>Niech $\mathbb{F}$ będzie niepustym zbiorem i $0,1\in \mathbb{F}$ tak, że $0 \neq 1$ (w naszych rozważaniach zazwyczaj $\mathbb{F} = \mathbb{C}$). Niech
+$$+,\cdot : \mathbb{F}^2 \to \mathbb{F}$$
+będą działaniami dwuargumentowymi. Mówimy, że $(\mathbb{F}, 0, 1, +, \cdot)$ jest ciałem, jeżeli:&lt;/p>
+&lt;ul>
+&lt;li>$(\mathbb{F}, +)$ jest grupą przemienną,&lt;/li>
+&lt;li>$(\mathbb{F}\setminus \{0\}, \cdot)$ jest grupą przemienną,&lt;/li>
+&lt;li>$\forall \lambda, \mu, \nu \in \mathbb{F}$ zachodzi $\lambda(\mu+\nu) = \lambda \mu + \lambda \nu$&lt;/li>
+&lt;/ul>
+&lt;p>(ciałem nazywa się pierścień przemienny z jedynką, w którym każdy niezerowy element jest odwracalny).&lt;/p>
+&lt;h2 id="definicja-przestrzeń-wektorowa">Definicja (przestrzeń wektorowa)&lt;/h2>
+&lt;p>Niech $(V, +)$ będzie grupą abelową (przemienną), $\mathbb{F}$ będzie ciałem oraz
+$$\cdot : \mathbb{F} \times V \to V.$$
+Mówimy, że $(V, +, \cdot)$ jest przestrzenią wektorową nad ciałem $\mathbb{F}$ jeżeli $\forall \lambda, \mu \in \mathbb{F}$ i $u, w \in V$ zachodzi:&lt;/p>
+&lt;ul>
+&lt;li>$(\lambda + \mu) u = \lambda u + \mu u$&lt;/li>
+&lt;li>$\lambda(u + w) = \lambda u + \lambda w$&lt;/li>
+&lt;li>$\lambda(\mu \cdot u) = (\lambda \mu) u$&lt;/li>
+&lt;li>$1 \cdot u = u$.&lt;/li>
+&lt;/ul>
+&lt;p>Elementy $V$ nazywami wektorami, a elementy $\mathbb{F}$ skalarami.&lt;/p>
+&lt;h2 id="dodawanie-wektorów">Dodawanie wektorów&lt;/h2>
+&lt;p>Niech $(\lambda_1, \dots, \lambda_n), (\mu_1,\dots,\mu_n) \in \mathbb{F}^n$. Wtedy mamy
+$$(\lambda_1,\dots,\lambda_n) + (\mu_1,\dots,\mu_n) = (\lambda_1 + \mu_1,\dots,\lambda_n + \mu_n) \in \mathbb{F}^n$$&lt;/p>
+&lt;h1 id="notacja-diraca">Notacja Diraca&lt;/h1>
+&lt;p>W mechanice kwantowej, a w szczególnośći w obliczeniach kwantowych wykorzystuje się notację Diraca. Bazuje ona na przedstawianiu stanów kwantowych $\psi$ jako wektory ket
+$$|\psi\rangle$$
+oraz wektorów sprzężonych bra
+$$\langle\psi| = (|\psi\rangle)^*.$$&lt;/p>
+&lt;h2 id="przestrzeń-hilberta">Przestrzeń Hilberta&lt;/h2>
+&lt;p>Wektory te żyją w przestrzeni Hilberta, która jest przestrzenią unitarną i zupełną. Oznacza to, że&lt;/p>
+&lt;ul>
+&lt;li>ma zdefiniowany iloczyn skalarny,&lt;/li>
+&lt;li>traktowana jako przestrzeń metryczna z metryką indukowaną przez iloczyn skalarny jest zupełna, czyli każdy ciąg Cauchy ma granicę.&lt;/li>
+&lt;/ul>
+&lt;h2 id="iloczyn-skalarny-w-przestrzeni-hilberta">Iloczyn skalarny w przestrzeni Hilberta&lt;/h2>
+&lt;p>Iloczynem skalarnym nazywamy odwzorowanie $\langle \cdot | \cdot \rangle : V^2 \to \mathbb{C}$, które spełnia zależności:&lt;/p>
+&lt;ol>
+&lt;li>Symetria:
+$$\langle \phi | \psi \rangle = \langle \psi | \phi\rangle^*.$$&lt;/li>
+&lt;li>Biliniowość:
+$$\langle \phi | a \psi + b \psi' \rangle = a \langle \phi | \psi \rangle + b \langle \phi | \psi' \rangle.$$&lt;/li>
+&lt;li>Dodatnio określoność:
+$$\langle \psi | \psi \rangle \ge 0.$$&lt;/li>
+&lt;/ol>
+&lt;p>W przestrzeni Hilberta $\mathcal{H} = \mathbb{C}^n$ definiuje się go jako
+$$((y_1,\dots, y_n), (z_1, \dots, z_n)) \equiv \sum_i y_i^* z_i.$$&lt;/p>
+&lt;h2 id="norma">Norma&lt;/h2>
+&lt;p>Norma wektora stanu jest zdefiniowana jako
+$$\Vert \psi \Vert \equiv \sqrt{\langle \psi | \psi \rangle}.$$&lt;/p>
+&lt;h2 id="nierówność-cauchy-schwartz">Nierówność Cauchy-Schwartz&lt;/h2>
+&lt;p>$$|\langle \psi | \phi\rangle| \le \Vert \psi \Vert \Vert \phi \Vert.$$&lt;/p>
+&lt;h1 id="macierze-i-operatory-liniowe">Macierze i operatory liniowe&lt;/h1>
+&lt;h2 id="iloczyn-tensorowy-iloczyn-kroneckera">Iloczyn tensorowy (iloczyn Kroneckera)&lt;/h2>
+&lt;p>Niech $A \in \mathbb{M}_{n\times m}[\mathbb{C}]$ oraz $B \in \mathbb{M}_{p\times q}[\mathbb{C}]$ będą macierzami. Ich iloczyn tensorowy $A \otimes B \in \mathbb{M}_{pm \times qn}[\mathbb{C}]$ jest macierzą blokową postaci&lt;/p>
+&lt;p>$$(A \otimes B)_{ij} = [a_{ij} B].$$&lt;/p>
+&lt;h2 id="iloczyn-zewnętrzny-outer-product">Iloczyn zewnętrzny (outer product)&lt;/h2>
+&lt;p>Dla iloczynu wektorów typu $|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q_1,\dots q_m]^* = \begin{bmatrix}p^1q_1^* &amp;amp; \dots &amp;amp; p^1q_m^*\cr \vdots &amp;amp; \ddots &amp;amp; \vdots \cr p^nq_1^* &amp;amp; \dots &amp;amp; p^nq_m^*\end{bmatrix}\in \mathbb{M}_{m\times n}[\mathbb{C}].$&lt;/p>
+&lt;h2 id="sprzężenie-hermitowskie">Sprzężenie Hermitowskie&lt;/h2>
+&lt;p>Sprzężenie hermitowskie macierzy $A^\dagger = (A^T)^*$ wygląda tak&lt;/p>
+&lt;p>$$\begin{bmatrix} a&amp;amp;b \cr c &amp;amp; d\end{bmatrix}^\dagger = \begin{bmatrix} a^* &amp;amp; c^* \cr b^* &amp;amp; d^*\end{bmatrix}$$&lt;/p>
+&lt;h2 id="macierze-pauliego">Macierze Pauliego&lt;/h2>
+&lt;p>$$\sigma_0 \equiv \mathbb{I} \equiv \begin{bmatrix}1&amp;amp;0\cr 0&amp;amp;1\end{bmatrix}$$
+$$\sigma_1 \equiv \mathbb{X} \equiv \begin{bmatrix}0&amp;amp;1\cr 1&amp;amp;0\end{bmatrix}$$
+$$\sigma_2 \equiv \mathbb{Y} \equiv \begin{bmatrix}0&amp;amp;-i\cr i&amp;amp;0\end{bmatrix}$$
+$$\sigma_3 \equiv \mathbb{Z} \equiv \begin{bmatrix}1&amp;amp;0\cr 0&amp;amp;-1\end{bmatrix}$$&lt;/p>
+&lt;h2 id="generowanie-bazy-ortonormalnej-gram-schmidt">Generowanie bazy ortonormalnej (Gram-Schmidt)&lt;/h2>
+&lt;p>Niech $|w_i\rangle$ - wektory bazowe z przestrzeni wektorowej $V$ z iloczynem skalarnym, $\dim V = d$. Zdefiniujmy pierwszy wektor nowej bazy ortonormalnej przez
+$$|v_1\rangle \equiv \frac{|w_1\rangle}{\Vert |w_1\rangle\Vert},$$&lt;/p>
+&lt;p>następne dla $1 \le k \le d-1$ definiujemy rekurencyjnie&lt;/p>
+&lt;p>$$|v_{k+1}\rangle \equiv \frac{|w_{k+1}\rangle - \sum_{i=1}^k \langle v_i | w_{k+1}\rangle | v_i \rangle}{\Vert|w_{k+1}\rangle - \sum_{i=1}^k \langle v_i | w_{k+1}\rangle | v_i \rangle\Vert}$$&lt;/p>
+&lt;h2 id="rozkład-własny">Rozkład własny&lt;/h2>
+&lt;p>Wektory własne operatora $A$ to takie wektory ($|\psi\rangle$), które spełniają
+$$A |\psi\rangle = \lambda |\psi\rangle,$$
+gdzie $\lambda\in\mathbb{C}$ - wartość własna. Zbiór wszystkich wartości własnych
+$$\Lambda \equiv \{ \lambda_1,\dots,\lambda_n \}$$
+nazywamy widmem macierzy $A$. Wektory własne są ortonormalne, co oznacza, że tworzą bazę ortonormalną
+$$|\Psi\rangle \equiv \{ |\psi_1\rangle, \dots, |\psi_1\rangle\}.$$&lt;/p>
+&lt;p>Wartości własne macierzy są rozwiązaniami równania wielomianowego
+$$\mathbb{C}_{\dim(A)}[\lambda]\ni \det(A - \lambda \mathbb{I}) = 0$$&lt;/p>
+&lt;p>Reprezentacją własną operatora liniowego $A$ nazywamy
+$$A = \sum_i \lambda_i |i\rangle\langle i|,$$
+gdzie $\lambda_i$ - wartości własne oraz $|i\rangle$ - wektory własne. Reprezentacja własna jest równoważna reprezentacji w kombinacji operatorów rzutowych na podprzestrzeń własną operatora.&lt;/p>
+&lt;h2 id="operator-rzutowy">Operator rzutowy&lt;/h2>
+&lt;p>Niech $W$ będzie $k$-wymiarową podprzestrzenią wektorową $d$-wymiarowej przestrzeni $V$. Korzystając z ortogonalizacji Grama-Schmidta można utworzyć ortonormalną bazę $|1\rangle,\dots,|d\rangle$ nad $V$ w taki sposób, że $|1\rangle,\dots,|k\rangle$ jest ortonormalną bazą nad $W$. Projektorem z przestrzeni $V$ na podprzestrzeń $W$ nazywamy wtedy operator
+$$P \equiv \sum_{i = 1}^k |i\rangle\langle i |.$$&lt;/p>
+&lt;h2 id="operator-normalny">Operator normalny&lt;/h2>
+&lt;p>Operatorem normalnym nazywamy operator liniowy i ograniczony $\mathcal{N}: \mathcal{H} \to \mathcal{H}$, który komutuje ze swoim sprzężeniem, czyli spełnia warunek
+$$\mathcal{N}\mathcal{N}^* = \mathcal{N}^*\mathcal{N}.$$&lt;/p>
+&lt;p>Operatorami normalnym są na przykład operatory:&lt;/p>
+&lt;ul>
+&lt;li>unitarne ($\mathcal{N}^* = \mathcal{N}^{-1}$)&lt;/li>
+&lt;li>samosprzężone ($\mathcal{N}^* = \mathcal{N}$)&lt;/li>
+&lt;li>rzutu ortogonalnego ($\mathcal{N} = \mathcal{N}^* = \mathcal{N}^2$)&lt;/li>
+&lt;/ul>
+&lt;h2 id="twierdzenie-spektralne">Twierdzenie spektralne&lt;/h2>
+&lt;p>Dowolny operator normalny $\mathcal{N}$ określony na przestrzeni wektorowej $V$ jest diagonalny w pewnej ortonormalnej bazie na $V$. Zachodzi również implikacja w drugą stronę, każdy diagonalizowalny operator jest operatorem normalnym.&lt;/p>
+&lt;p>Oznacza to, że każdy operator normalny można zapisać w reprezentacji własnej.&lt;/p>
+&lt;h2 id="superoperatory-liniowe">Superoperatory liniowe&lt;/h2>
+&lt;p>Istnieje wiele ważnych odwzorowań, które przekształcają operatory liniowe i macierze. Wychodząc z definicji funkcji $f: \mathbb{C} \to \mathbb{C}$, można łatwo rozszerzyć jej definicję na macierze normalne (w tym podzbiór macierzy hermitowskich) następującą konstrukcją:&lt;/p>
+&lt;p>Niech $A = \sum_a a |a\rangle \langle a|$ będzie rozkładem spektralnym operatora normalnego $A$. Zdefiniujmy następnie
+$$f(A) \equiv \sum_a f(a) |a\rangle\langle a|.$$ W ten sposób można łatwo zdefiniować na przykład eksponens macierzy
+$$\exp(\theta \mathbb{Z}) = \begin{bmatrix}e^\theta &amp;amp;0\cr 0 &amp;amp; e^{-\theta}\end{bmatrix},$$
+ponieważ $\mathbb{Z}$ ma widmo $\Lambda = \{|0\rangle, |1\rangle\}$.&lt;/p>
+&lt;h3 id="ślad">Ślad&lt;/h3>
+&lt;p>Ślad macierzy jest definiowany jako suma jej elementów diagonalnych:
+$$\mathrm{tr}(A) \equiv \sum_i A_{ii}.$$
+Naturalnie, jest on zależny od bazy oraz cykliczny, czyli zachodzi
+$$\mathrm{tr}(AB) = \mathrm{tr}(BA).$$
+Ślad jest również liniowy, czyli
+$$\mathrm{tr}(A + zB) = \mathrm{tr}(A) + z \,\mathrm{tr}(B).$$
+Z cykliczności wynika niezmienniczość pod wpływem transformacji unitarnych:
+$$\mathrm{tr}(UAU^\dagger) = \mathrm{tr}(U^\dagger U A) = \mathrm{tr}(A).$$&lt;/p>
+&lt;p>Dla pewnego wektora $|\psi\rangle$ należącego do bazy ortonormalnej $|i\rangle$ zachodzi
+$$\mathrm{tr}(A|\psi\rangle\langle\psi|) = \sum_i \langle i|A|\psi\rangle\langle\psi |i\rangle = \langle \psi|A|\psi\rangle.$$&lt;/p>
+&lt;h2 id="reguły-komutacji-macierzy-pauliego">Reguły komutacji macierzy Pauliego&lt;/h2>
+&lt;p>Niech $\varepsilon$ - tensor zupełnie antysymetryczny. Wtedy
+$$[\sigma_j,\sigma_k] = 2 i \sum_{l = 1}^3 \varepsilon_{jkl} \sigma_l.$$&lt;/p>
+&lt;h2 id="rozkład-według-wartości-osobliwych-singular-value-decomposition">Rozkład według wartości osobliwych (singular value decomposition)&lt;/h2>
+&lt;p>Niech $A\in \mathbb{M}_{n\times n}[\mathbb{C}]$ będzie kwadratową macierzą. Wtedy istnieją macierze unitarne $U$ oraz $V$, które wraz z dodatniookreśloną macierzą diagonalną $D$ spełniają zależność
+$$A = U D V.$$&lt;/p></description></item></channel></rss>
