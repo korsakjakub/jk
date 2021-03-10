@@ -1,6 +1,6 @@
 ---
 title: O algebrze liniowej
-date: 2020-03-07T10:00:00
+date: 2021-03-07T10:00:00
 tags: [studia, algebra liniowa, matematyka]
 ---
 
