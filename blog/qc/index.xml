@@ -57,7 +57,8 @@ $$\Vert \psi \Vert \equiv \sqrt{\langle \psi | \psi \rangle}.$$&lt;/p>
 &lt;p>Niech $A \in \mathbb{M}_{n\times m}[\mathbb{C}]$ oraz $B \in \mathbb{M}_{p\times q}[\mathbb{C}]$ będą macierzami. Ich iloczyn tensorowy $A \otimes B \in \mathbb{M}_{pm \times qn}[\mathbb{C}]$ jest macierzą blokową postaci&lt;/p>
 &lt;p>$$(A \otimes B)_{ij} = [a_{ij} B].$$&lt;/p>
 &lt;h2 id="iloczyn-zewnętrzny-outer-product">Iloczyn zewnętrzny (outer product)&lt;/h2>
-&lt;p>Dla iloczynu wektorów typu $|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q_1,\dots q_m]^* = \begin{bmatrix}p^1q_1^* &amp;amp; \dots &amp;amp; p^1q_m^*\cr \vdots &amp;amp; \ddots &amp;amp; \vdots \cr p^nq_1^* &amp;amp; \dots &amp;amp; p^nq_m^*\end{bmatrix}\in \mathbb{M}_{m\times n}[\mathbb{C}].$&lt;/p>
+&lt;p>Dla iloczynu wektorów typu&lt;/p>
+&lt;p>$$|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q_1,\dots q_m]^* = \begin{bmatrix}p^1q_1^* &amp;amp; \dots &amp;amp; p^1q_m^*\cr \vdots &amp;amp; \ddots &amp;amp; \vdots \cr p^nq_1^* &amp;amp; \dots &amp;amp; p^nq_m^*\end{bmatrix}\in \mathbb{M}_{m\times n}[\mathbb{C}].$$&lt;/p>
 &lt;h2 id="sprzężenie-hermitowskie">Sprzężenie Hermitowskie&lt;/h2>
 &lt;p>Sprzężenie hermitowskie macierzy $A^\dagger = (A^T)^*$ wygląda tak&lt;/p>
 &lt;p>$$\begin{bmatrix} a&amp;amp;b \cr c &amp;amp; d\end{bmatrix}^\dagger = \begin{bmatrix} a^* &amp;amp; c^* \cr b^* &amp;amp; d^*\end{bmatrix}$$&lt;/p>
