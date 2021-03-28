@@ -83,7 +83,9 @@ Niech $A \in \mathbb{M}\_{n\times m}[\mathbb{C}]$ oraz $B \in \mathbb{M}\_{p\tim
 $$(A \otimes B)\_{ij} = [a\_{ij} B].$$
 
 ## Iloczyn zewnętrzny (outer product)
-Dla iloczynu wektorów typu $|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q\_1,\dots q\_m]^* = \begin{bmatrix}p^1q\_1^* & \dots & p^1q\_m^*\cr \vdots & \ddots & \vdots \cr p^nq\_1^* & \dots & p^nq\_m^*\end{bmatrix}\in \mathbb{M}\_{m\times n}[\mathbb{C}].$
+Dla iloczynu wektorów typu 
+
+$$|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q\_1,\dots q\_m]^* = \begin{bmatrix}p^1q\_1^* & \dots & p^1q\_m^*\cr \vdots & \ddots & \vdots \cr p^nq\_1^* & \dots & p^nq\_m^*\end{bmatrix}\in \mathbb{M}\_{m\times n}[\mathbb{C}].$$
 
 ## Sprzężenie Hermitowskie
 
