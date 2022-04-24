@@ -51,7 +51,7 @@ Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p>
 &lt;li>$x_G$ - nowe poruszające się współrzędne,&lt;/li>
 &lt;li>$V$ - stała prędkość, z którą porusza się układ $x_G$,&lt;/li>
 &lt;/ul>
-&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Czy można usłyszeć kształt bębna?</title><link>https://korsak.xyz/blog/ksztalt_bebna/</link><pubDate>Mon, 14 Sep 2020 20:39:43 +0200</pubDate><guid>https://korsak.xyz/blog/ksztalt_bebna/</guid><description>&lt;h2 id="krótka-odpowiedź-trochę-tak-trochę-nie">Krótka odpowiedź: Trochę tak, trochę nie.&lt;/h2>
+&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Jak łatwo przesunąć statek</title><link>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1></description></item><item><title>Czy można usłyszeć kształt bębna?</title><link>https://korsak.xyz/blog/ksztalt_bebna/</link><pubDate>Mon, 14 Sep 2020 20:39:43 +0200</pubDate><guid>https://korsak.xyz/blog/ksztalt_bebna/</guid><description>&lt;h2 id="krótka-odpowiedź-trochę-tak-trochę-nie">Krótka odpowiedź: Trochę tak, trochę nie.&lt;/h2>
 &lt;h1 id="wstęp">Wstęp&lt;/h1>
 &lt;p>Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{\Omega}$ (rozmaitość), ograniczoną brzegiem $\Gamma$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny
 $$F(x,y,t) \equiv F(\rho, t)$$
