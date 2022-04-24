@@ -29,8 +29,8 @@ W szczególności, w stałej indukcji magnetycznej $B$, możemy przykładowo zad
 
 Otrzymujemy zatem 
 
-$$\begin{align*}\frac{\partial L}{\partial x_i} &= \frac{q}{c}\sum_k \dot{x}_k \frac{\partial A_k}{\partial x_i}\\
-&= \frac{q}{2c} \sum_k \dot{x}_k \frac{\partial}{\partial x_i} \left( \sum_{lm} \varepsilon_{klm} B_l x_m\right)\\
+$$\begin{align*}\frac{\partial L}{\partial x_i} &= \frac{q}{c}\sum_k \dot{x}_k \frac{\partial A_k}{\partial x_i}\cr
+&= \frac{q}{2c} \sum_k \dot{x}_k \frac{\partial}{\partial x_i} \left( \sum_{lm} \varepsilon_{klm} B_l x_m\right)\cr
 &= \frac{q}{2c} \sum_k \dot{x}_k \sum_l \varepsilon_{kli} B_l. \end{align*}$$
 Zatem w zapisie wektorowym mamy
 $$ \frac{\partial L}{\partial \mathbf{x}} = \frac{q}{c} \dot{\mathbf{x}} \times \mathbf{B} = \frac{d}{dt} \left(\frac{q}{2c}\mathbf{x}\times \mathbf{B}\right) = \frac{d}{dt} \mathbf{G}.$$
