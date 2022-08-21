@@ -33,11 +33,11 @@ Dla stałych $a,c$ takich, że $a \cdot c &amp;lt; 0$, oba rozwiązania należą
 &lt;p>No, chcielibyśmy, żeby wierzchołek znajdował się tak jak dla $\alpha(x)$ w argumencie równym zero.&lt;/p>
 &lt;p>Współrzędne wierzchołka można znaleźć w sposób następujący (dla znających definicję pochodnej w punkcie):&lt;/p>
 &lt;p>Skoro wierzchołek jest punktem, w którym funkcja nie ma nachylenia (jest ono równe zero), to można to przełożyć na język matematyki stwierdzeniem, że
-$$f'(x = p) = 0,$$
+$$f&amp;rsquo;(x = p) = 0,$$
 gdzie $p$ - argument wierzchołka. Pochodną funkcji $f(x)$ można łatwo obliczyć. Ma ona postać:
-$$f'(x) = 2ax + b.$$
+$$f&amp;rsquo;(x) = 2ax + b.$$
 Jeżeli skorzystamy z tych dwóch stwierdzeń, otrzymamy wzór na poziomą składową wierzchołka $W = (p,q):$
-$$f'(p) = 0 \implies 2ap + b = 0 \implies p = -\frac{b}{2a}.$$
+$$f&amp;rsquo;(p) = 0 \implies 2ap + b = 0 \implies p = -\frac{b}{2a}.$$
 Wiemy zatem, że nowe współrzędne ($\heartsuit$) należy powiązać ze starymi wzorem
 $$x = \heartsuit - \frac{b}{2a}.$$
 Żeby zdecydować, czy powinien tu być znak plus, czy minus można na przykład położyć $x = p = -\frac{b}{2a}$ i sprawdzić, że rzeczywiście wtedy $\heartsuit = 0$.&lt;/p>

@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fizyka on Jakub Korsak</title><link>https://korsak.xyz/tags/fizyka/</link><description>Recent content in fizyka on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sun, 24 Apr 2022 11:00:00 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/fizyka/index.xml" rel="self" type="application/rss+xml"/><item><title>Algebra operatorów translacji w mechanice kwantowej</title><link>https://korsak.xyz/blog/moment_pedu/</link><pubDate>Sun, 24 Apr 2022 11:00:00 +0200</pubDate><guid>https://korsak.xyz/blog/moment_pedu/</guid><description>&lt;h1 id="udowodnij-relację">Udowodnij relację&lt;/h1>
-&lt;p>$$ \left(\frac{i}{\hbar}\hat{p}\right)^n \hat{B}(x) = \sum_{\nu = 0}^n \binom{n}{\nu} \frac{\partial^\nu \hat{B}}{\partial x^\nu} \left(\frac{i}{\hbar}\hat{p}\right)^{n - \nu},$$&lt;/p>
-&lt;p>gdzie $\hat{p} = (\hbar/i)\partial_x$ jest określone dla każdego różniczkowalnego operatora $\hat{B}(x)$.&lt;/p>
-&lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
-&lt;p>Relację udowodnimy metodą indukcji. Dla $n = 0$ relacja jest spełniona identycznościowo.&lt;/p>
-&lt;p>Załóżmy zatem, że dla pewnego $n$ jest ona prawdziwa i sprawdźmy czy jest również dla $n-1$.&lt;/p>
-&lt;p>$$ \left(\frac{i}{\hbar}\hat{p}\right)^{n-1} \hat{B}(x) = \sum_{\nu = 0}^{n-1} \binom{n-1}{\nu} \frac{\partial^\nu \hat{B}}{\partial x^\nu} \left(\frac{i}{\hbar}\hat{p}\right)^{n - 1 -\nu}.$$&lt;/p>
-&lt;p>Zadziałajmy na lewą stronę operatorem $i\hat{p}/\hbar$,&lt;/p>
-&lt;p>$$\begin{align*}\left(\frac{i}{\hbar}\hat{p}\right)^n \hat{B}(x) &amp;amp;= \left(\frac{i}{\hbar}\hat{p}\right)\left(\left(\frac{i}{\hbar}\hat{p}\right)^{n-1} \hat{B}(x)\right) \cr
-&amp;amp;= \left(\frac{i}{\hbar}\hat{p}\right)\sum_{\nu = 0}^{n-1} \binom{n-1}{\nu} \frac{\partial^\nu \hat{B}}{\partial x^\nu} \left(\frac{i}{\hbar}\hat{p}\right)^{n - 1 -\nu} \cr
-&amp;amp;= \sum_{\nu = 0}^{n-1} \binom{n-1}{\nu} \left(\frac{i}{\hbar}\left[\hat{p}, \frac{\partial^\nu \hat{B}}{\partial x^\nu}\right]\left(\frac{i}{\hbar}\hat{p}\right)^{n-1-\nu} + \frac{\partial^\nu \hat{B}}{\partial x^\nu}\left(\frac{i}{\hbar}\hat{p}\right)^{n-\nu} \right) \cr
-&amp;amp;= \sum_{\nu = 0}^{n-1} \binom{n-1}{\nu} \frac{\partial^{\nu+1} \hat{B}}{\partial x^{\nu + 1}} \left(\frac{i}{\hbar}\hat{p}\right)^{n-(\nu+1)} + \sum_{\nu = 0}^{n-1}\binom{n-1}{\nu}\frac{\partial^\nu \hat{B}}{\partial x^\nu}\left(\frac{i}{\hbar}\hat{p}\right)^{n-\nu}
-\end{align*}$$&lt;/p>
-&lt;p>Ciąg dalszy nastąpi&lt;/p></description></item><item><title>Zasady zachowania w stałym polu magnetycznym</title><link>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sun, 24 Apr 2022 10:00:00 +0200</pubDate><guid>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fizyka on Jakub Korsak</title><link>https://korsak.xyz/tags/fizyka/</link><description>Recent content in fizyka on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sun, 24 Apr 2022 10:00:00 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/fizyka/index.xml" rel="self" type="application/rss+xml"/><item><title>Zasady zachowania w stałym polu magnetycznym</title><link>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sun, 24 Apr 2022 10:00:00 +0200</pubDate><guid>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1>
 &lt;p>Lagranżjan nierelatywistycznej cząstki o masie $m$ i ładunku $q$ w polu elektromagnetycznym z potencjałem skalarnym $V$ oraz potencjałem wektorowym $\mathbf{A}$ ma postać&lt;/p>
 &lt;p>$$ L = \frac{m}{2}\dot{\mathbf{x}}^2 + \frac{q}{c} \mathbf{A}\cdot \dot{\mathbf{x}} - qV. $$&lt;/p>
 &lt;p>Kanoniczny pęd zadany jest wzorem&lt;/p>
@@ -22,12 +9,12 @@
 &lt;p>$$ 0 = \frac{d}{dt} \frac{\partial L}{\partial \dot{x}_i} - \frac{\partial L}{\partial x_i} = \frac{d}{dt}\left[\frac{\partial L}{\partial \dot{x}_i} - G_i\right]. $$&lt;/p>
 &lt;p>W szczególności, w stałej indukcji magnetycznej $B$, możemy przykładowo zadać potencjał wektorowy $\mathbf{A} = \frac{1}{2}\mathbf{B}\times \mathbf{x}$ oraz potencjał skalarny $V = 0$.&lt;/p>
 &lt;p>Otrzymujemy zatem&lt;/p>
-&lt;p>$$\begin{align*}\frac{\partial L}{\partial x_i} &amp;amp;= \frac{q}{c}\sum_k \dot{x}_k \frac{\partial A_k}{\partial x_i}\cr
-&amp;amp;= \frac{q}{2c} \sum_k \dot{x}_k \frac{\partial}{\partial x_i} \left( \sum_{lm} \varepsilon_{klm} B_l x_m\right)\cr
-&amp;amp;= \frac{q}{2c} \sum_k \dot{x}_k \sum_l \varepsilon_{kli} B_l. \end{align*}$$
-Zatem w zapisie wektorowym mamy
-$$ \frac{\partial L}{\partial \mathbf{x}} = \frac{q}{c} \dot{\mathbf{x}} \times \mathbf{B} = \frac{d}{dt} \left(\frac{q}{2c}\mathbf{x}\times \mathbf{B}\right) = \frac{d}{dt} \mathbf{G}.$$
-Skorzystaliśmy tu z naszego założenia o stałej indukcji magnetycznej. Dzięki tego mogliśmy napisać $\dot{\mathbf{x}}\times \mathbf{B} = d/dt (\mathbf{x} \times \mathbf{B}) $.&lt;/p>
+&lt;p>$$\begin{align*}\frac{\partial L}{\partial x_i} &amp;amp;= \frac{q}{c}\sum_k \dot{x}_k \frac{\partial A_k}{\partial x_i} \cr
+&amp;amp;= \frac{q}{2c} \sum_k \dot{x}_k \frac{\partial}{\partial x_i} ( \sum_{lm} \varepsilon_{klm} B_l x_m) \cr
+&amp;amp;= \frac{q}{2c} \sum_k \dot{x}_k \sum_l \varepsilon_{kli} B_l. \end{align*}$$&lt;/p>
+&lt;p>Zatem w zapisie wektorowym mamy&lt;/p>
+&lt;p>$$ \frac{\partial L}{\partial \mathbf{x}} = \frac{q}{c} \dot{\mathbf{x}} \times \mathbf{B} = \frac{d}{dt} \left(\frac{q}{2c}\mathbf{x}\times \mathbf{B}\right) = \frac{d}{dt} \mathbf{G}.$$&lt;/p>
+&lt;p>Skorzystaliśmy tu z naszego założenia o stałej indukcji magnetycznej. Dzięki tego mogliśmy napisać $\dot{\mathbf{x}}\times \mathbf{B} = d/dt (\mathbf{x} \times \mathbf{B}) $.&lt;/p>
 &lt;p>Prawo zachowania związane z symetrią translacyjną ma postać
 $$\frac{d}{dt}\left(\mathbf{p} - \frac{q}{2c} \mathbf{x}\times \mathbf{B}\right) = 0.$$&lt;/p></description></item><item><title>Jak łatwo przesunąć statek</title><link>https://korsak.xyz/blog/ped_i_srodek_masy/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://korsak.xyz/blog/ped_i_srodek_masy/</guid><description>&lt;h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1>
 &lt;ol>
@@ -103,8 +90,8 @@ $$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{
 Składnik zawierający całkę po czasie jest energią kinetyczną związaną z &lt;strong>łączną&lt;/strong> masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
 Jeżeli rozpatrzymy podział przedziału
 $$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
-w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
-$$\left&amp;lt; \dot{\xi} \right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią&lt;/p>
+&lt;p>$$\left&amp;lt;\dot{\xi}\right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
 oraz wyrzuca paliwo ze średnią szybkością wyrzucania
 $$\left&amp;lt; \dot{m} \right&amp;gt;_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$
 Masa tego paliwa wynosi zatem $\left&amp;lt;m\right&amp;gt;_j = \left&amp;lt;\dot{m}\right&amp;gt;_j (t_j - t_{j-1}) \equiv \left&amp;lt; \dot{m} \right&amp;gt;_j \Delta t_j.$
@@ -129,38 +116,7 @@ $$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
 Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
 $$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m_0}{m}\right).$$
 Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
-$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p></description></item><item><title>Zmienny współczynnik tarcia</title><link>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</link><pubDate>Wed, 22 Apr 2020 15:35:46 +0200</pubDate><guid>https://korsak.xyz/blog/zmienny_wspolczynnik_tarcia/</guid><description>&lt;p>Mamy klocek o masie $m$ i długości $h$, puszczamy go z prędkością $\mathbf{v_0}$ w prawą stronę. Podłoże po którym będzie sunąć ma współczynnik tarcia opisany funkcją&lt;/p>
-&lt;p>$$\mu(x) = \begin{cases}
-\mu_1, &amp;amp; x \in [0,x_1]\cr
-\mu_2, &amp;amp; x \in ]x_1, x_2]\cr
-\mu_3, &amp;amp; x &amp;gt; x_2
-\end{cases}.$$
-Po przebyciu jakiej odległości $x_3 &amp;gt; x_2$ klocek się zatrzyma?&lt;/p>
-&lt;p>Powiedzmy, że klocek na początku znajduje się w punkcie $x = h/2$.
-Jako, że klocek ma tam prędkość o wartości $v_0$, ma w tym układzie odniesienia energię kinetyczną $K_0 = m v_0^2 / 2$.
-W momencie styku prawej granicy klocka z przejściem w obszar $x_1$, znajduje się on w punkcie $x = x_1 - h/2$.
-Klocek w tym obszarze stracił prędkość na rzecz siły tarcia. Praca wykonana przez siłę tarcia to
-$$dW_T = \mathbf{T}\cdot\mathbf{ds}.$$
-Można zapisać zasadę zachowania energii
-$$K_0 = K_1 + W_T.$$
-Dla $x\in X_1 = [h/2, x_1 - h/2]$, $\mu = \mu_1$, więc
-$$W_T[X_1] = \int\limits_{h/2}^{x_1-h/2} mg\mu_1 dx = mg\mu_1(x_1 - h).$$
-Analogicznie dla $x\in X_2 = [x_1 + h/2, x_2 - h/2]$
-$$W_T[X_2] = \int\limits_{x_1 + h/2}^{x_2 - h/2} mg\mu_2 dx = mg\mu_2(x_2 - x_1 - h)$$
-oraz dla $x\in X_3 = [x_2 + h/2, x_3]$
-$$W_T[X_3] = \int\limits_{x_2 + h/2}^{x_3} mg\mu_3 dx = mg\mu_3(x_3 - x_2 - h/2).$$
-Pozostały obszary, gdzie klocek przechodzi między $\mu_i$ i $\mu_{i+1}$.
-Wtedy dla $h_a$ - część po przejściu, $h_b$ - część przed przejściem mamy$$\mu(x) = \frac{\mu_i(h_b(x)) + \mu_{i+1}(h_a(x))}{h}.$$
-Jako, że $h = h_a + h_b$, to można przepisać $\mu$ jako
-$$\mu(h_a) = \frac{\mu_i(h-h_a) + \mu_{i+1} h_a}{h} = h_a\left(\frac{\mu_{i+1}}{h} - \frac{\mu_i}{h}\right) + \mu_i.$$
-Teraz można policzyć dla $x \in X_i = [x_i - h/2, x_i + h/2]$
-$$W_T[X_i] = \int\limits_0^h mg\mu(h_a)dh_a = \frac{1}{2}mgh(\mu_i+\mu_{i+1}),$$
-ewentualnie jako pole trapezu opisanego przez $h_a\in [0,h]$, $\mu = h_a(\mu_{i+1}/h - \mu_i/h)+\mu_i$.&lt;/p>
-&lt;p>Cała początkowa energia kinetyczna pod koniec przechodzi na sumę wszystkich prac wykonanych przez tarcie:
-$$\begin{align*}W = mg\mu_3(x_3 - x_2 - h/2) &amp;amp;= \frac{m}{2}v_0^2 - \frac{1}{2}mgh(\mu_1+\mu_2) - \frac{1}{2}mgh(\mu_2+\mu_3) - \cr
-&amp;amp;- mg\mu_1(x_1-h) - mg\mu_2(x_2-x_1-h)\end{align*}$$&lt;/p>
-&lt;p>W związku z tym klocek zatrzyma się po przebyciu odległości
-$$x_3 = \frac{1}{\mu_3}\left(\frac{v_0^2}{2g} - h(\mu_1+\mu_2) - h(\mu_2+\mu_3) - \mu_1(x_1-h) - \mu_2(x_2-x_2-h)\right) + x_2 + h/2$$&lt;/p></description></item><item><title>Zadanie ze szpulą</title><link>https://korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
+$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p></description></item><item><title>Zadanie ze szpulą</title><link>https://korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p>
 &lt;p>Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>

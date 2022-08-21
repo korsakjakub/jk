@@ -50,8 +50,8 @@ Ale $\Omega = [0,a]$, więc $a = |\Omega|.$ Czyli dla struny, możemy już z sam
 &lt;p>Niech $\Omega = [0,a]\times[0,b]$ i niech $\psi(x,y) = \alpha(x)\beta(y).$
 Wtedy
 $$\begin{align*}
-&amp;amp;\Delta \psi = \alpha''\beta + \alpha\beta'' = \lambda \alpha\beta\cr
-&amp;amp;\frac{\alpha''}{\alpha}(x) + \frac{\beta''}{\beta}(y) = \lambda\cr
+&amp;amp;\Delta \psi = \alpha&amp;rsquo;&amp;rsquo;\beta + \alpha\beta'' = \lambda \alpha\beta\cr
+&amp;amp;\frac{\alpha&amp;rsquo;&amp;rsquo;}{\alpha}(x) + \frac{\beta&amp;rsquo;&amp;rsquo;}{\beta}(y) = \lambda\cr
 &amp;amp;\alpha'' = p^2 \alpha \implies \alpha(x) = A \sin(px) + B \cos(px)\cr
 &amp;amp;\beta'' = q^2\beta \implies \beta(y) = C \sin(qy) + D \cos(qy)\cr
 &amp;amp;\alpha(0) = \alpha(a) = \beta(0) = \beta(b) \implies B = 0, D = 0\cr
@@ -89,8 +89,8 @@ $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_1}{(2\pi)^1}
 Dla $n = 2$ (membrana)
 $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_2}{(2\pi)^2}|\Omega| = \frac{\pi}{4\pi^2}|\Omega| = \frac{|\Omega|}{4\pi}.$$&lt;/p>
 &lt;h2 id="a-teraz-coś-z-zupełnie-innej-beczki">A teraz coś z zupełnie innej beczki&lt;/h2>
-&lt;p>Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma.$ Zakładamy, że na brzegu to ,,coś'' znika i nie odkłada się na nim.&lt;/p>
-&lt;p>Stężenie ,,czegoś'' $P_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
+&lt;p>Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma.$ Zakładamy, że na brzegu to ,,coś&amp;rsquo;&amp;rsquo; znika i nie odkłada się na nim.&lt;/p>
+&lt;p>Stężenie ,,czegoś&amp;rsquo;&amp;rsquo; $P_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
 $$\dot{P}_\Omega = \Delta P_\Omega,$$
 z warunkiem brzegowym
 $$\lim_{r\to\Gamma} P_\Omega(r,t) = 0$$
@@ -108,7 +108,7 @@ $$\lim_{r\to\Gamma}P_\Omega = 0 = \lim_{r\to\Gamma}\sum_{n=1}^\infty e^{-\lambda
 Czyli na przykład fajne $\psi_n$, które to spełniają to takie, że
 $$\lim_{r\to\Gamma}\psi_n(r) = 0.$$&lt;/p>
 &lt;h3 id="bardziej-obrazowo---co-tu-się-mniej-więcej-dzieje">Bardziej obrazowo - co tu się mniej więcej dzieje?&lt;/h3>
-&lt;p>Rozważamy równanie dyfuzji, ale musimy pamiętać, że jest to równanie ,,natychmiastowe''! Na początku rozważymy sobie sytuację, gdy zapomnimy, że rozwiązujemy problem z brzegiem i założymy, że dla bardzo małych czasów problem brzegu jest pomijalny. W końcu istnieje tylko punktowe źródło stężenia. Czyli na chwilę umawiamy się, że dla $t\to 0$ nasze równanie nie ,,czuje'' warunków brzegowych.&lt;/p>
+&lt;p>Rozważamy równanie dyfuzji, ale musimy pamiętać, że jest to równanie ,,natychmiastowe&amp;rsquo;&amp;rsquo;! Na początku rozważymy sobie sytuację, gdy zapomnimy, że rozwiązujemy problem z brzegiem i założymy, że dla bardzo małych czasów problem brzegu jest pomijalny. W końcu istnieje tylko punktowe źródło stężenia. Czyli na chwilę umawiamy się, że dla $t\to 0$ nasze równanie nie ,,czuje&amp;rsquo;&amp;rsquo; warunków brzegowych.&lt;/p>
 &lt;p>Oznacza to, że chcielibyśmy rozważyć taką funkcję stężenia $P_0(r,t)$, która spełnia takie samo równanie dyfuzji jak $P_\Omega$, czyli
 $$\dot{P}_0 = \Delta P_0,$$
 ma nałożony taki sam warunek brzegowy $\lim_{t\to 0} \left&amp;lt;T(P_0),\varphi\right&amp;gt; = \left&amp;lt;\delta_\rho,\varphi\right&amp;gt;$ oraz
@@ -157,7 +157,7 @@ $$N(\lambda) \underset{\lambda\to\infty}{\sim} \frac{|\Omega|}{4\pi}\lambda \imp
 Oznacza to, że nie uwolnimy się od Twierdzenia Weyl&amp;rsquo;a.&lt;/p>
 &lt;h2 id="co-jeszcze">Co jeszcze?&lt;/h2>
 &lt;p>Dalej rozważając równanie dyfuzji, zobaczymy co można zauważyć w pobliżu brzegu naszej membrany.&lt;/p>
-&lt;p>Wcześniej stwierdziliśmy, że na samym początku, to ,,coś'' co dyfuzuje, nie czuje brzegu. Ale jeżeli wrzucimy źródło bardzo bardzo blisko brzegu, to to nasze oddziaływanie z nim będzie zachowywało się dość charakterystycznie.&lt;/p>
+&lt;p>Wcześniej stwierdziliśmy, że na samym początku, to ,,coś&amp;rsquo;&amp;rsquo; co dyfuzuje, nie czuje brzegu. Ale jeżeli wrzucimy źródło bardzo bardzo blisko brzegu, to to nasze oddziaływanie z nim będzie zachowywało się dość charakterystycznie.&lt;/p>
 &lt;p>Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho.$&lt;/p>
 &lt;p>Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q.$ Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
 &lt;img src="https://korsak.xyz/img/membrane.png" alt="">
@@ -170,7 +170,7 @@ $$\lim_{r\to l(\rho)}P_{l(\rho)}(r,t) = 0$$&lt;/p>
 &lt;p>Możemy nawet odważnie przypuścić, że
 $$\int_\Omega P_\Omega(\rho,t) \underset{t\to 0}{\sim} \int_\Omega P_{l(\rho)}(\rho,t).$$&lt;/p>
 &lt;p>Żeby znaleźć rozwiązanie równania dyfuzji dla $P_{l(\rho)}$, wyobraźmy sobie następującą sytuację:&lt;/p>
-&lt;p>Kiedy nasza ,,fala dyfuzji'' (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji'' pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta.$ Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'.$ Zatem mamy
+&lt;p>Kiedy nasza ,,fala dyfuzji&amp;rsquo;&amp;rsquo; (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji&amp;rsquo;&amp;rsquo; pochodzącej z punktu $\rho&amp;rsquo;$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta.$ Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho&amp;rsquo;.$ Zatem mamy
 $$P_{l(\rho)}(\rho,t) = \frac{1}{4\pi t} - \frac{1}{4\pi t}\exp\left(-\frac{(2\delta)^2}{4t}\right),$$
 gdzie $\delta = \Vert q - \rho \Vert$ jest minimalną odległością między $\rho$ i brzegiem $\Gamma.$&lt;/p>
 &lt;p>Wtedy
@@ -231,11 +231,11 @@ Dla stałych $a,c$ takich, że $a \cdot c &amp;lt; 0$, oba rozwiązania należą
 &lt;p>No, chcielibyśmy, żeby wierzchołek znajdował się tak jak dla $\alpha(x)$ w argumencie równym zero.&lt;/p>
 &lt;p>Współrzędne wierzchołka można znaleźć w sposób następujący (dla znających definicję pochodnej w punkcie):&lt;/p>
 &lt;p>Skoro wierzchołek jest punktem, w którym funkcja nie ma nachylenia (jest ono równe zero), to można to przełożyć na język matematyki stwierdzeniem, że
-$$f'(x = p) = 0,$$
+$$f&amp;rsquo;(x = p) = 0,$$
 gdzie $p$ - argument wierzchołka. Pochodną funkcji $f(x)$ można łatwo obliczyć. Ma ona postać:
-$$f'(x) = 2ax + b.$$
+$$f&amp;rsquo;(x) = 2ax + b.$$
 Jeżeli skorzystamy z tych dwóch stwierdzeń, otrzymamy wzór na poziomą składową wierzchołka $W = (p,q):$
-$$f'(p) = 0 \implies 2ap + b = 0 \implies p = -\frac{b}{2a}.$$
+$$f&amp;rsquo;(p) = 0 \implies 2ap + b = 0 \implies p = -\frac{b}{2a}.$$
 Wiemy zatem, że nowe współrzędne ($\heartsuit$) należy powiązać ze starymi wzorem
 $$x = \heartsuit - \frac{b}{2a}.$$
 Żeby zdecydować, czy powinien tu być znak plus, czy minus można na przykład położyć $x = p = -\frac{b}{2a}$ i sprawdzić, że rzeczywiście wtedy $\heartsuit = 0$.&lt;/p>

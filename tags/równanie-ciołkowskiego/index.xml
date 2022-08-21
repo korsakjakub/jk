@@ -19,8 +19,8 @@ $$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{
 Składnik zawierający całkę po czasie jest energią kinetyczną związaną z &lt;strong>łączną&lt;/strong> masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
 Jeżeli rozpatrzymy podział przedziału
 $$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
-w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
-$$\left&amp;lt; \dot{\xi} \right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią&lt;/p>
+&lt;p>$$\left&amp;lt;\dot{\xi}\right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
 oraz wyrzuca paliwo ze średnią szybkością wyrzucania
 $$\left&amp;lt; \dot{m} \right&amp;gt;_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$
 Masa tego paliwa wynosi zatem $\left&amp;lt;m\right&amp;gt;_j = \left&amp;lt;\dot{m}\right&amp;gt;_j (t_j - t_{j-1}) \equiv \left&amp;lt; \dot{m} \right&amp;gt;_j \Delta t_j.$

@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>studia on Jakub Korsak</title><link>https://korsak.xyz/tags/studia/</link><description>Recent content in studia on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sun, 24 Apr 2022 11:00:00 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/studia/index.xml" rel="self" type="application/rss+xml"/><item><title>Algebra operatorów translacji w mechanice kwantowej</title><link>https://korsak.xyz/blog/moment_pedu/</link><pubDate>Sun, 24 Apr 2022 11:00:00 +0200</pubDate><guid>https://korsak.xyz/blog/moment_pedu/</guid><description>&lt;h1 id="udowodnij-relację">Udowodnij relację&lt;/h1>
-&lt;p>$$ \left(\frac{i}{\hbar}\hat{p}\right)^n \hat{B}(x) = \sum_{\nu = 0}^n \binom{n}{\nu} \frac{\partial^\nu \hat{B}}{\partial x^\nu} \left(\frac{i}{\hbar}\hat{p}\right)^{n - \nu},$$&lt;/p>
-&lt;p>gdzie $\hat{p} = (\hbar/i)\partial_x$ jest określone dla każdego różniczkowalnego operatora $\hat{B}(x)$.&lt;/p>
-&lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
-&lt;p>Relację udowodnimy metodą indukcji. Dla $n = 0$ relacja jest spełniona identycznościowo.&lt;/p>
-&lt;p>Załóżmy zatem, że dla pewnego $n$ jest ona prawdziwa i sprawdźmy czy jest również dla $n-1$.&lt;/p>
-&lt;p>$$ \left(\frac{i}{\hbar}\hat{p}\right)^{n-1} \hat{B}(x) = \sum_{\nu = 0}^{n-1} \binom{n-1}{\nu} \frac{\partial^\nu \hat{B}}{\partial x^\nu} \left(\frac{i}{\hbar}\hat{p}\right)^{n - 1 -\nu}.$$&lt;/p>
-&lt;p>Zadziałajmy na lewą stronę operatorem $i\hat{p}/\hbar$,&lt;/p>
-&lt;p>$$\begin{align*}\left(\frac{i}{\hbar}\hat{p}\right)^n \hat{B}(x) &amp;amp;= \left(\frac{i}{\hbar}\hat{p}\right)\left(\left(\frac{i}{\hbar}\hat{p}\right)^{n-1} \hat{B}(x)\right) \cr
-&amp;amp;= \left(\frac{i}{\hbar}\hat{p}\right)\sum_{\nu = 0}^{n-1} \binom{n-1}{\nu} \frac{\partial^\nu \hat{B}}{\partial x^\nu} \left(\frac{i}{\hbar}\hat{p}\right)^{n - 1 -\nu} \cr
-&amp;amp;= \sum_{\nu = 0}^{n-1} \binom{n-1}{\nu} \left(\frac{i}{\hbar}\left[\hat{p}, \frac{\partial^\nu \hat{B}}{\partial x^\nu}\right]\left(\frac{i}{\hbar}\hat{p}\right)^{n-1-\nu} + \frac{\partial^\nu \hat{B}}{\partial x^\nu}\left(\frac{i}{\hbar}\hat{p}\right)^{n-\nu} \right) \cr
-&amp;amp;= \sum_{\nu = 0}^{n-1} \binom{n-1}{\nu} \frac{\partial^{\nu+1} \hat{B}}{\partial x^{\nu + 1}} \left(\frac{i}{\hbar}\hat{p}\right)^{n-(\nu+1)} + \sum_{\nu = 0}^{n-1}\binom{n-1}{\nu}\frac{\partial^\nu \hat{B}}{\partial x^\nu}\left(\frac{i}{\hbar}\hat{p}\right)^{n-\nu}
-\end{align*}$$&lt;/p>
-&lt;p>Ciąg dalszy nastąpi&lt;/p></description></item><item><title>Zasady zachowania w stałym polu magnetycznym</title><link>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sun, 24 Apr 2022 10:00:00 +0200</pubDate><guid>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>studia on Jakub Korsak</title><link>https://korsak.xyz/tags/studia/</link><description>Recent content in studia on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sun, 24 Apr 2022 10:00:00 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/studia/index.xml" rel="self" type="application/rss+xml"/><item><title>Zasady zachowania w stałym polu magnetycznym</title><link>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sun, 24 Apr 2022 10:00:00 +0200</pubDate><guid>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1>
 &lt;p>Lagranżjan nierelatywistycznej cząstki o masie $m$ i ładunku $q$ w polu elektromagnetycznym z potencjałem skalarnym $V$ oraz potencjałem wektorowym $\mathbf{A}$ ma postać&lt;/p>
 &lt;p>$$ L = \frac{m}{2}\dot{\mathbf{x}}^2 + \frac{q}{c} \mathbf{A}\cdot \dot{\mathbf{x}} - qV. $$&lt;/p>
 &lt;p>Kanoniczny pęd zadany jest wzorem&lt;/p>
@@ -22,12 +9,12 @@
 &lt;p>$$ 0 = \frac{d}{dt} \frac{\partial L}{\partial \dot{x}_i} - \frac{\partial L}{\partial x_i} = \frac{d}{dt}\left[\frac{\partial L}{\partial \dot{x}_i} - G_i\right]. $$&lt;/p>
 &lt;p>W szczególności, w stałej indukcji magnetycznej $B$, możemy przykładowo zadać potencjał wektorowy $\mathbf{A} = \frac{1}{2}\mathbf{B}\times \mathbf{x}$ oraz potencjał skalarny $V = 0$.&lt;/p>
 &lt;p>Otrzymujemy zatem&lt;/p>
-&lt;p>$$\begin{align*}\frac{\partial L}{\partial x_i} &amp;amp;= \frac{q}{c}\sum_k \dot{x}_k \frac{\partial A_k}{\partial x_i}\cr
-&amp;amp;= \frac{q}{2c} \sum_k \dot{x}_k \frac{\partial}{\partial x_i} \left( \sum_{lm} \varepsilon_{klm} B_l x_m\right)\cr
-&amp;amp;= \frac{q}{2c} \sum_k \dot{x}_k \sum_l \varepsilon_{kli} B_l. \end{align*}$$
-Zatem w zapisie wektorowym mamy
-$$ \frac{\partial L}{\partial \mathbf{x}} = \frac{q}{c} \dot{\mathbf{x}} \times \mathbf{B} = \frac{d}{dt} \left(\frac{q}{2c}\mathbf{x}\times \mathbf{B}\right) = \frac{d}{dt} \mathbf{G}.$$
-Skorzystaliśmy tu z naszego założenia o stałej indukcji magnetycznej. Dzięki tego mogliśmy napisać $\dot{\mathbf{x}}\times \mathbf{B} = d/dt (\mathbf{x} \times \mathbf{B}) $.&lt;/p>
+&lt;p>$$\begin{align*}\frac{\partial L}{\partial x_i} &amp;amp;= \frac{q}{c}\sum_k \dot{x}_k \frac{\partial A_k}{\partial x_i} \cr
+&amp;amp;= \frac{q}{2c} \sum_k \dot{x}_k \frac{\partial}{\partial x_i} ( \sum_{lm} \varepsilon_{klm} B_l x_m) \cr
+&amp;amp;= \frac{q}{2c} \sum_k \dot{x}_k \sum_l \varepsilon_{kli} B_l. \end{align*}$$&lt;/p>
+&lt;p>Zatem w zapisie wektorowym mamy&lt;/p>
+&lt;p>$$ \frac{\partial L}{\partial \mathbf{x}} = \frac{q}{c} \dot{\mathbf{x}} \times \mathbf{B} = \frac{d}{dt} \left(\frac{q}{2c}\mathbf{x}\times \mathbf{B}\right) = \frac{d}{dt} \mathbf{G}.$$&lt;/p>
+&lt;p>Skorzystaliśmy tu z naszego założenia o stałej indukcji magnetycznej. Dzięki tego mogliśmy napisać $\dot{\mathbf{x}}\times \mathbf{B} = d/dt (\mathbf{x} \times \mathbf{B}) $.&lt;/p>
 &lt;p>Prawo zachowania związane z symetrią translacyjną ma postać
 $$\frac{d}{dt}\left(\mathbf{p} - \frac{q}{2c} \mathbf{x}\times \mathbf{B}\right) = 0.$$&lt;/p></description></item><item><title>O algebrze liniowej</title><link>https://korsak.xyz/blog/algebra_liniowa/</link><pubDate>Sun, 07 Mar 2021 10:00:00 +0000</pubDate><guid>https://korsak.xyz/blog/algebra_liniowa/</guid><description>&lt;h1 id="przestrzeń-wektorowa">Przestrzeń wektorowa&lt;/h1>
 &lt;p>Najbardziej elementarną częścią algebry liniowej jest pojęcie przestrzeni wektorowej. Żeby do niego dojść, trzeba najpierw zdefiniować ciało algebraiczne.&lt;/p>
@@ -72,7 +59,7 @@ $$\langle\psi| = (|\psi\rangle)^*.$$&lt;/p>
 &lt;li>Symetria:
 $$\langle \phi | \psi \rangle = \langle \psi | \phi\rangle^*.$$&lt;/li>
 &lt;li>Biliniowość:
-$$\langle \phi | a \psi + b \psi' \rangle = a \langle \phi | \psi \rangle + b \langle \phi | \psi' \rangle.$$&lt;/li>
+$$\langle \phi | a \psi + b \psi&amp;rsquo; \rangle = a \langle \phi | \psi \rangle + b \langle \phi | \psi&amp;rsquo; \rangle.$$&lt;/li>
 &lt;li>Dodatnio określoność:
 $$\langle \psi | \psi \rangle \ge 0.$$&lt;/li>
 &lt;/ol>
@@ -89,7 +76,7 @@ $$\Vert \psi \Vert \equiv \sqrt{\langle \psi | \psi \rangle}.$$&lt;/p>
 &lt;p>$$(A \otimes B)_{ij} = [a_{ij} B].$$&lt;/p>
 &lt;h2 id="iloczyn-zewnętrzny-outer-product">Iloczyn zewnętrzny (outer product)&lt;/h2>
 &lt;p>Dla iloczynu wektorów typu&lt;/p>
-&lt;p>$$|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q_1,\dots q_m]^* = \begin{bmatrix}p^1q_1^* &amp;amp; \dots &amp;amp; p^1q_m^*\cr \vdots &amp;amp; \ddots &amp;amp; \vdots \cr p^nq_1^* &amp;amp; \dots &amp;amp; p^nq_m^*\end{bmatrix}\in \mathbb{M}_{m\times n}[\mathbb{C}].$$&lt;/p>
+&lt;p>$$|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q_1,\dots q_m]^* = \begin{bmatrix}p^1q_1^* &amp;amp; \dots &amp;amp; p^1q_m^&lt;em>\cr \vdots &amp;amp; \ddots &amp;amp; \vdots \cr p^nq_1^&lt;/em> &amp;amp; \dots &amp;amp; p^nq_m^*\end{bmatrix}\in \mathbb{M}_{m\times n}[\mathbb{C}].$$&lt;/p>
 &lt;h2 id="sprzężenie-hermitowskie">Sprzężenie Hermitowskie&lt;/h2>
 &lt;p>Sprzężenie hermitowskie macierzy $A^\dagger = (A^T)^*$ wygląda tak&lt;/p>
 &lt;p>$$\begin{bmatrix} a&amp;amp;b \cr c &amp;amp; d\end{bmatrix}^\dagger = \begin{bmatrix} a^* &amp;amp; c^* \cr b^* &amp;amp; d^*\end{bmatrix}$$&lt;/p>
@@ -204,8 +191,8 @@ Ale $\Omega = [0,a]$, więc $a = |\Omega|.$ Czyli dla struny, możemy już z sam
 &lt;p>Niech $\Omega = [0,a]\times[0,b]$ i niech $\psi(x,y) = \alpha(x)\beta(y).$
 Wtedy
 $$\begin{align*}
-&amp;amp;\Delta \psi = \alpha''\beta + \alpha\beta'' = \lambda \alpha\beta\cr
-&amp;amp;\frac{\alpha''}{\alpha}(x) + \frac{\beta''}{\beta}(y) = \lambda\cr
+&amp;amp;\Delta \psi = \alpha&amp;rsquo;&amp;rsquo;\beta + \alpha\beta'' = \lambda \alpha\beta\cr
+&amp;amp;\frac{\alpha&amp;rsquo;&amp;rsquo;}{\alpha}(x) + \frac{\beta&amp;rsquo;&amp;rsquo;}{\beta}(y) = \lambda\cr
 &amp;amp;\alpha'' = p^2 \alpha \implies \alpha(x) = A \sin(px) + B \cos(px)\cr
 &amp;amp;\beta'' = q^2\beta \implies \beta(y) = C \sin(qy) + D \cos(qy)\cr
 &amp;amp;\alpha(0) = \alpha(a) = \beta(0) = \beta(b) \implies B = 0, D = 0\cr
@@ -243,8 +230,8 @@ $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_1}{(2\pi)^1}
 Dla $n = 2$ (membrana)
 $$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_2}{(2\pi)^2}|\Omega| = \frac{\pi}{4\pi^2}|\Omega| = \frac{|\Omega|}{4\pi}.$$&lt;/p>
 &lt;h2 id="a-teraz-coś-z-zupełnie-innej-beczki">A teraz coś z zupełnie innej beczki&lt;/h2>
-&lt;p>Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma.$ Zakładamy, że na brzegu to ,,coś'' znika i nie odkłada się na nim.&lt;/p>
-&lt;p>Stężenie ,,czegoś'' $P_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
+&lt;p>Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma.$ Zakładamy, że na brzegu to ,,coś&amp;rsquo;&amp;rsquo; znika i nie odkłada się na nim.&lt;/p>
+&lt;p>Stężenie ,,czegoś&amp;rsquo;&amp;rsquo; $P_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
 $$\dot{P}_\Omega = \Delta P_\Omega,$$
 z warunkiem brzegowym
 $$\lim_{r\to\Gamma} P_\Omega(r,t) = 0$$
@@ -262,7 +249,7 @@ $$\lim_{r\to\Gamma}P_\Omega = 0 = \lim_{r\to\Gamma}\sum_{n=1}^\infty e^{-\lambda
 Czyli na przykład fajne $\psi_n$, które to spełniają to takie, że
 $$\lim_{r\to\Gamma}\psi_n(r) = 0.$$&lt;/p>
 &lt;h3 id="bardziej-obrazowo---co-tu-się-mniej-więcej-dzieje">Bardziej obrazowo - co tu się mniej więcej dzieje?&lt;/h3>
-&lt;p>Rozważamy równanie dyfuzji, ale musimy pamiętać, że jest to równanie ,,natychmiastowe''! Na początku rozważymy sobie sytuację, gdy zapomnimy, że rozwiązujemy problem z brzegiem i założymy, że dla bardzo małych czasów problem brzegu jest pomijalny. W końcu istnieje tylko punktowe źródło stężenia. Czyli na chwilę umawiamy się, że dla $t\to 0$ nasze równanie nie ,,czuje'' warunków brzegowych.&lt;/p>
+&lt;p>Rozważamy równanie dyfuzji, ale musimy pamiętać, że jest to równanie ,,natychmiastowe&amp;rsquo;&amp;rsquo;! Na początku rozważymy sobie sytuację, gdy zapomnimy, że rozwiązujemy problem z brzegiem i założymy, że dla bardzo małych czasów problem brzegu jest pomijalny. W końcu istnieje tylko punktowe źródło stężenia. Czyli na chwilę umawiamy się, że dla $t\to 0$ nasze równanie nie ,,czuje&amp;rsquo;&amp;rsquo; warunków brzegowych.&lt;/p>
 &lt;p>Oznacza to, że chcielibyśmy rozważyć taką funkcję stężenia $P_0(r,t)$, która spełnia takie samo równanie dyfuzji jak $P_\Omega$, czyli
 $$\dot{P}_0 = \Delta P_0,$$
 ma nałożony taki sam warunek brzegowy $\lim_{t\to 0} \left&amp;lt;T(P_0),\varphi\right&amp;gt; = \left&amp;lt;\delta_\rho,\varphi\right&amp;gt;$ oraz
@@ -311,7 +298,7 @@ $$N(\lambda) \underset{\lambda\to\infty}{\sim} \frac{|\Omega|}{4\pi}\lambda \imp
 Oznacza to, że nie uwolnimy się od Twierdzenia Weyl&amp;rsquo;a.&lt;/p>
 &lt;h2 id="co-jeszcze">Co jeszcze?&lt;/h2>
 &lt;p>Dalej rozważając równanie dyfuzji, zobaczymy co można zauważyć w pobliżu brzegu naszej membrany.&lt;/p>
-&lt;p>Wcześniej stwierdziliśmy, że na samym początku, to ,,coś'' co dyfuzuje, nie czuje brzegu. Ale jeżeli wrzucimy źródło bardzo bardzo blisko brzegu, to to nasze oddziaływanie z nim będzie zachowywało się dość charakterystycznie.&lt;/p>
+&lt;p>Wcześniej stwierdziliśmy, że na samym początku, to ,,coś&amp;rsquo;&amp;rsquo; co dyfuzuje, nie czuje brzegu. Ale jeżeli wrzucimy źródło bardzo bardzo blisko brzegu, to to nasze oddziaływanie z nim będzie zachowywało się dość charakterystycznie.&lt;/p>
 &lt;p>Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho.$&lt;/p>
 &lt;p>Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q.$ Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
 &lt;img src="https://korsak.xyz/img/membrane.png" alt="">
@@ -324,7 +311,7 @@ $$\lim_{r\to l(\rho)}P_{l(\rho)}(r,t) = 0$$&lt;/p>
 &lt;p>Możemy nawet odważnie przypuścić, że
 $$\int_\Omega P_\Omega(\rho,t) \underset{t\to 0}{\sim} \int_\Omega P_{l(\rho)}(\rho,t).$$&lt;/p>
 &lt;p>Żeby znaleźć rozwiązanie równania dyfuzji dla $P_{l(\rho)}$, wyobraźmy sobie następującą sytuację:&lt;/p>
-&lt;p>Kiedy nasza ,,fala dyfuzji'' (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji'' pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta.$ Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'.$ Zatem mamy
+&lt;p>Kiedy nasza ,,fala dyfuzji&amp;rsquo;&amp;rsquo; (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji&amp;rsquo;&amp;rsquo; pochodzącej z punktu $\rho&amp;rsquo;$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta.$ Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho&amp;rsquo;.$ Zatem mamy
 $$P_{l(\rho)}(\rho,t) = \frac{1}{4\pi t} - \frac{1}{4\pi t}\exp\left(-\frac{(2\delta)^2}{4t}\right),$$
 gdzie $\delta = \Vert q - \rho \Vert$ jest minimalną odległością między $\rho$ i brzegiem $\Gamma.$&lt;/p>
 &lt;p>Wtedy
@@ -371,8 +358,8 @@ $$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{
 Składnik zawierający całkę po czasie jest energią kinetyczną związaną z &lt;strong>łączną&lt;/strong> masą wyrzuconą od czasu $\tau = 0$, do $\tau = t.$
 Jeżeli rozpatrzymy podział przedziału
 $$[0,t] = [0,t_1]\cup [t_1, t_2] \cup \dots \cup [t_n, t],$$
-w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią
-$$\left&amp;lt; \dot{\xi} \right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
+w jakimś przedziale $[t_{j-1}, t_{j}]$, rakieta ma prędkość średnią&lt;/p>
+&lt;p>$$\left&amp;lt;\dot{\xi}\right&amp;gt;_j = \frac{\xi(t_j) - \xi(t_{j-1}))}{t_j - t_{j-1}}$$
 oraz wyrzuca paliwo ze średnią szybkością wyrzucania
 $$\left&amp;lt; \dot{m} \right&amp;gt;_j = \frac{m(t_j) - m(t_{j-1}))}{t_j - t_{j-1}}.$$
 Masa tego paliwa wynosi zatem $\left&amp;lt;m\right&amp;gt;_j = \left&amp;lt;\dot{m}\right&amp;gt;_j (t_j - t_{j-1}) \equiv \left&amp;lt; \dot{m} \right&amp;gt;_j \Delta t_j.$

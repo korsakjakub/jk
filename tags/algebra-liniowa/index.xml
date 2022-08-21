@@ -41,7 +41,7 @@ $$\langle\psi| = (|\psi\rangle)^*.$$&lt;/p>
 &lt;li>Symetria:
 $$\langle \phi | \psi \rangle = \langle \psi | \phi\rangle^*.$$&lt;/li>
 &lt;li>Biliniowość:
-$$\langle \phi | a \psi + b \psi' \rangle = a \langle \phi | \psi \rangle + b \langle \phi | \psi' \rangle.$$&lt;/li>
+$$\langle \phi | a \psi + b \psi&amp;rsquo; \rangle = a \langle \phi | \psi \rangle + b \langle \phi | \psi&amp;rsquo; \rangle.$$&lt;/li>
 &lt;li>Dodatnio określoność:
 $$\langle \psi | \psi \rangle \ge 0.$$&lt;/li>
 &lt;/ol>
@@ -58,7 +58,7 @@ $$\Vert \psi \Vert \equiv \sqrt{\langle \psi | \psi \rangle}.$$&lt;/p>
 &lt;p>$$(A \otimes B)_{ij} = [a_{ij} B].$$&lt;/p>
 &lt;h2 id="iloczyn-zewnętrzny-outer-product">Iloczyn zewnętrzny (outer product)&lt;/h2>
 &lt;p>Dla iloczynu wektorów typu&lt;/p>
-&lt;p>$$|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q_1,\dots q_m]^* = \begin{bmatrix}p^1q_1^* &amp;amp; \dots &amp;amp; p^1q_m^*\cr \vdots &amp;amp; \ddots &amp;amp; \vdots \cr p^nq_1^* &amp;amp; \dots &amp;amp; p^nq_m^*\end{bmatrix}\in \mathbb{M}_{m\times n}[\mathbb{C}].$$&lt;/p>
+&lt;p>$$|\psi\rangle\langle \phi| = \begin{bmatrix}p^1\cr \vdots \cr p^n\end{bmatrix} [q_1,\dots q_m]^* = \begin{bmatrix}p^1q_1^* &amp;amp; \dots &amp;amp; p^1q_m^&lt;em>\cr \vdots &amp;amp; \ddots &amp;amp; \vdots \cr p^nq_1^&lt;/em> &amp;amp; \dots &amp;amp; p^nq_m^*\end{bmatrix}\in \mathbb{M}_{m\times n}[\mathbb{C}].$$&lt;/p>
 &lt;h2 id="sprzężenie-hermitowskie">Sprzężenie Hermitowskie&lt;/h2>
 &lt;p>Sprzężenie hermitowskie macierzy $A^\dagger = (A^T)^*$ wygląda tak&lt;/p>
 &lt;p>$$\begin{bmatrix} a&amp;amp;b \cr c &amp;amp; d\end{bmatrix}^\dagger = \begin{bmatrix} a^* &amp;amp; c^* \cr b^* &amp;amp; d^*\end{bmatrix}$$&lt;/p>
