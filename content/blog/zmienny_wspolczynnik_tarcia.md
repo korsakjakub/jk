@@ -1,7 +1,7 @@
 ---
 title: "Zmienny współczynnik tarcia"
 date: 2020-04-22T15:35:46+02:00
-draft: false
+draft: true
 categories: ["fizyka", "liceum"]
 tags: ["fizyka", "liceum", "dynamika", "praca siły tarcia", "energia"]
 ---

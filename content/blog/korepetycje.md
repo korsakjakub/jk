@@ -1,7 +1,7 @@
 ---
 title: "Korepetycje z fizyki lub matematyki"
 date: 2020-08-22T10:00:00+02:00
-draft: false
+draft: true
 ---
 Nazywam się Jakub Korsak, aktualnie studiuję Fizykę na Wydziale Fizyki Uniwersytetu Warszawskiego.
 Od kilku lat prowadzę korepetycje z matematyki i fizyki.

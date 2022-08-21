@@ -27,40 +27,40 @@ Można by powiedzieć, że $\Delta$ to operator liniowy $L$ i wtedy otrzymamy za
 $$L \psi = \lambda \psi,$$
 gdzie $\lambda$ - wartości własne, a $\psi \in \mathcal{L}^2(\mathbb{R})$ to wektory własne.
 
-Czyli dla zadanego regionu $\Omega$ ograniczonego gładką krzywą $\Gamma$, możemy dostać sekwencję liczb $\lambda_1, \lambda_2,\ldots$, które będą spełniały problem
-$$L \psi = \lambda_n \psi.$$
+Czyli dla zadanego regionu $\Omega$ ograniczonego gładką krzywą $\Gamma$, możemy dostać sekwencję liczb $\lambda\_1, \lambda\_2,\ldots$, które będą spełniały problem
+$$L \psi = \lambda\_n \psi.$$
 
 # Problem
 Chcielibyśmy zadać teraz pytanie odwrotne:
 
-Czy jeżeli ktoś przyśle nam nagrany bardzo dobrym mikrofonem bęben, to czy mając słuch absolutny jesteśmy w stanie ten bęben narysować? Czyli co możemy powiedzieć o geometrii regionu $\Omega$ i $\Gamma$, jeżeli ktoś przyśle nam sms-em zbiór wszystkich wartości własnych $\lambda_1,\ldots, \lambda_m.$
+Czy jeżeli ktoś przyśle nam nagrany bardzo dobrym mikrofonem bęben, to czy mając słuch absolutny jesteśmy w stanie ten bęben narysować? Czyli co możemy powiedzieć o geometrii regionu $\Omega$ i $\Gamma$, jeżeli ktoś przyśle nam sms-em zbiór wszystkich wartości własnych $\lambda\_1,\ldots, \lambda\_m.$
 
 Inaczej sformułowany problem brzmi: Czy istnieją dwa bębny o różnych kształtach, które brzmią dokładnie tak samo?
 
-Czyli niech $\mathcal{M}_1$ i $\mathcal{M}_2$ - rozmaitości na $\mathbb{R}^2$ ograniczone odpowiednio $\partial\mathcal{M}_1$ i $\partial\mathcal{M}_2.$
+Czyli niech $\mathcal{M}\_1$ i $\mathcal{M}\_2$ - rozmaitości na $\mathbb{R}^2$ ograniczone odpowiednio $\partial\mathcal{M}\_1$ i $\partial\mathcal{M}\_2.$
 
 Rozważmy problemy własne dla $L = \Delta.$
 $$\begin{align*}
-L U(\rho) &= \lambda U(\rho), \quad\rho\in \mathcal{M}_1 &L V(\rho) &= \eta V(\rho), \quad\rho\in \mathcal{M}_2 \cr
-U &= 0, \quad\rho\in\partial\mathcal{M}_1 &V &= 0, \quad\rho\in\partial\mathcal{M}_2
+L U(\rho) &= \lambda U(\rho), \quad\rho\in \mathcal{M}\_1 &L V(\rho) &= \eta V(\rho), \quad\rho\in \mathcal{M}\_2 \cr
+U &= 0, \quad\rho\in\partial\mathcal{M}\_1 &V &= 0, \quad\rho\in\partial\mathcal{M}\_2
 \end{align*}$$
-Niech teraz $\underset{n}{\forall}\quad\lambda_n = \eta_n.$ Czy $\mathcal{M}_1$ i $\mathcal{M}_2$ są identyczne w sensie geometrii euklidesowej?
+Niech teraz $\underset{n}{\forall}\quad\lambda\_n = \eta\_n.$ Czy $\mathcal{M}\_1$ i $\mathcal{M}\_2$ są identyczne w sensie geometrii euklidesowej?
 
 ## Dygresja
 Niech $\Omega = [0,a]\subset\mathbb{R}^2$ - zbiór domknięty. Rozważmy problem
 $$\begin{align*}
-\psi_{,xx}(x) &= \lambda \psi(x), \quad x\in\Omega \cr
+\psi\_{,xx}(x) &= \lambda \psi(x), \quad x\in\Omega \cr
 \psi(0) &= \psi(a) = 0
 .\end{align*}$$
 Rozwiązaniem tego problemu są funkcje
-$$\psi_m(x) = \sin\Big(\frac{m\pi}{a}x\Big),$$
-z wartościami własnymi $\lambda_m = \left(\frac{m\pi}{a}\right)^2$, dla $m\in \mathbb{N}.$ Zdefiniujmy sobie funkcję, która będzie nam zliczać wartości własne poniżej jakiegoś progu.
+$$\psi\_m(x) = \sin\Big(\frac{m\pi}{a}x\Big),$$
+z wartościami własnymi $\lambda\_m = \left(\frac{m\pi}{a}\right)^2$, dla $m\in \mathbb{N}.$ Zdefiniujmy sobie funkcję, która będzie nam zliczać wartości własne poniżej jakiegoś progu.
 
-$$N(\lambda) := \left| \\{ m: \lambda_m < \lambda \\} \right|.$$
-Dla naszych $\lambda_m$ mamy
+$$N(\lambda) := \left| \\{ m: \lambda\_m < \lambda \\} \right|.$$
+Dla naszych $\lambda\_m$ mamy
 $$N(\lambda) = \left| \left\\{ m: \left(\frac{m\pi}{a}\right)^2 < \lambda \right\\} \right| = \max \left\\{ m: m < \frac{a}{\pi} \sqrt{\lambda}\right\\}.$$
 Więc dla $\lambda \to \infty$, $N(\lambda) < \frac{a}{\pi}\sqrt{\lambda}.$ Czyli
-$$\lim_{\lambda\to \infty} \frac{N(\lambda)}{\sqrt{\lambda}} = \frac{a}{\pi}$$
+$$\lim\_{\lambda\to \infty} \frac{N(\lambda)}{\sqrt{\lambda}} = \frac{a}{\pi}$$
 Ale $\Omega = [0,a]$, więc $a = |\Omega|.$ Czyli dla struny, możemy już z samej liczby wartości własnych wnioskować coś na temat jej długości.
 
 ## Pytanie: A co jak zamiast struny jest membrana (prześcieradło)?
@@ -74,22 +74,22 @@ $$\begin{align*}
 &\alpha(0) = \alpha(a) = \beta(0) = \beta(b) \implies B = 0, D = 0\cr
 &p = \frac{j\pi}{a},\quad q = \frac{k\pi}{b},\quad j,k \in \mathbb{N}
 .\end{align*}$$
-Więc $\psi_{j,k}(x,y) = \sin\left(\frac{j\pi}{a} x\right)\sin\left(\frac{k\pi}{b} y\right)$ i $\lambda_{j,k} = \left(\frac{j\pi}{a}\right)^2 + \left(\frac{k\pi}{b}\right)^2.$ Teraz nasza funkcja do zliczania wartości własnych wynosi
-$$N(\lambda) = \left|\left\\{ (j,k) : \lambda_{j,k} < \lambda \right\\}\right| = \left|\left\\{ (j,k) : \left(\frac{j\pi}{a}\right)^2 + \left(\frac{k\pi}{b}\right)^2 < \lambda \right\\}\right|$$
-Niech $E_\lambda = \left\\{(x,y)\in\mathbb{R}_+^2 : \left(\frac{x\pi}{a\sqrt{\lambda}}\right)^2 + \left(\frac{y\pi}{b\sqrt{\lambda}}\right)^2 \le 1\right\\}$ będzie prawą górną ćwiartką elipsy. W takim razie $N(\lambda)$ odpowiada łącznemu polu kwadratów $[j-1,j]\times[k-1,k]$ zawartych w $E_\lambda$ (jak na rysunku po lewej).
+Więc $\psi\_{j,k}(x,y) = \sin\left(\frac{j\pi}{a} x\right)\sin\left(\frac{k\pi}{b} y\right)$ i $\lambda\_{j,k} = \left(\frac{j\pi}{a}\right)^2 + \left(\frac{k\pi}{b}\right)^2.$ Teraz nasza funkcja do zliczania wartości własnych wynosi
+$$N(\lambda) = \left|\left\\{ (j,k) : \lambda\_{j,k} < \lambda \right\\}\right| = \left|\left\\{ (j,k) : \left(\frac{j\pi}{a}\right)^2 + \left(\frac{k\pi}{b}\right)^2 < \lambda \right\\}\right|$$
+Niech $E\_\lambda = \left\\{(x,y)\in\mathbb{R}\_+^2 : \left(\frac{x\pi}{a\sqrt{\lambda}}\right)^2 + \left(\frac{y\pi}{b\sqrt{\lambda}}\right)^2 \le 1\right\\}$ będzie prawą górną ćwiartką elipsy. W takim razie $N(\lambda)$ odpowiada łącznemu polu kwadratów $[j-1,j]\times[k-1,k]$ zawartych w $E\_\lambda$ (jak na rysunku po lewej).
 ![](/img/eigen\_elipsa.png)
 W takim razie możemy napisać
-$$N(\lambda) = \sum_{(j,k): \lambda_{j,k} < \lambda} \mathrm{pole}([j-1,j]\times[k-1,k]) \le \mathrm{pole}(E_\lambda).$$
-Ale skoro $E_\lambda$ - elipsa, to znamy wzór na jej pole: $P = \pi \cdot u v$, gdzie $u,v$ - półosie.
-$$\mathrm{pole}(E_\lambda) = \underbrace{\frac{1}{4}}_{\text{tylko ćwiartka}} \cdot \pi \cdot \frac{a\sqrt{\lambda}}{\pi} \cdot\frac{b\sqrt{\lambda}}{\pi} = \frac{\lambda}{4\pi} \cdot ab = \frac{\lambda}{4\pi} \cdot |\Omega|.$$
+$$N(\lambda) = \sum\_{(j,k): \lambda\_{j,k} < \lambda} \mathrm{pole}([j-1,j]\times[k-1,k]) \le \mathrm{pole}(E\_\lambda).$$
+Ale skoro $E\_\lambda$ - elipsa, to znamy wzór na jej pole: $P = \pi \cdot u v$, gdzie $u,v$ - półosie.
+$$\mathrm{pole}(E\_\lambda) = \underbrace{\frac{1}{4}}\_{\text{tylko ćwiartka}} \cdot \pi \cdot \frac{a\sqrt{\lambda}}{\pi} \cdot\frac{b\sqrt{\lambda}}{\pi} = \frac{\lambda}{4\pi} \cdot ab = \frac{\lambda}{4\pi} \cdot |\Omega|.$$
 W takim razie
 $$N(\lambda) < \frac{|\Omega|}{4\pi} \lambda.$$
-Sprawdzimy jakiego rzędu jest następny wyraz - żeby to zrobić, przesuniemy układ współrzędnych o jednostkę w prawo i jednostkę w górę. Czyli w nowej obciętej elipsie mieści się mniej kwadratów (rysunek, prawa strona). Pole nowej elipsy, to pole $E_\lambda$ zmniejszone o $1 \times b\sqrt{\lambda}/\pi + 1 \times a\sqrt{\lambda}/\pi + 1$ (prostokąty mają boki: $(1,b\sqrt{\lambda}/\pi)$ i $(1,a\sqrt{\lambda}/\pi)$ odpowiednio.
+Sprawdzimy jakiego rzędu jest następny wyraz - żeby to zrobić, przesuniemy układ współrzędnych o jednostkę w prawo i jednostkę w górę. Czyli w nowej obciętej elipsie mieści się mniej kwadratów (rysunek, prawa strona). Pole nowej elipsy, to pole $E\_\lambda$ zmniejszone o $1 \times b\sqrt{\lambda}/\pi + 1 \times a\sqrt{\lambda}/\pi + 1$ (prostokąty mają boki: $(1,b\sqrt{\lambda}/\pi)$ i $(1,a\sqrt{\lambda}/\pi)$ odpowiednio.
 
 Czyli
 $$N(\lambda) = \frac{|\Omega|}{4\pi}\lambda - \frac{\sqrt{\lambda}}{\pi}(a+b) - 1 = \frac{|\Omega|}{4\pi}\lambda - \frac{\sqrt{\mathrm{obw}(\Omega)}}{2\pi}\sqrt{\lambda} - 1.$$
 Możemy więc już powiedzieć, że
-$$\lim_{\lambda\to\infty} \frac{N(\lambda)}{\lambda} = \frac{|\Omega|}{4\pi}.$$
+$$\lim\_{\lambda\to\infty} \frac{N(\lambda)}{\lambda} = \frac{|\Omega|}{4\pi}.$$
 
 ## Wniosek
 Wygląda na to, że czasami można przybliżyć pole membrany, pod warunkiem, że mamy dostatecznie dużo jej wartości własnych. W ogólności mówi o tym
@@ -101,93 +101,93 @@ $$\begin{align*}
 \psi &= 0, \quad \rho\in\Gamma
 ,\end{align*}$$
 liczba wartości własnych poniżej progu $\lambda$ w stosunku do pewnej potęgi wartości tego progu w granicy wynosi
-$$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda^{n/2}} = \frac{\omega_n}{(2\pi)^n}\mathrm{vol}(\Omega),$$
-gdzie $\omega_n$ - objętość kuli z $\mathbb{R}^n$ o promieniu jeden.
+$$\lim\_{\lambda\to \infty}\frac{N(\lambda)}{\lambda^{n/2}} = \frac{\omega\_n}{(2\pi)^n}\mathrm{vol}(\Omega),$$
+gdzie $\omega\_n$ - objętość kuli z $\mathbb{R}^n$ o promieniu jeden.
 
 ### Przykład
 Dla $n = 1$ (struna)
-$$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_1}{(2\pi)^1}|\Omega| = \frac{2}{2\pi}|\Omega| = \frac{|\Omega|}{\pi}.$$
+$$\lim\_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega\_1}{(2\pi)^1}|\Omega| = \frac{2}{2\pi}|\Omega| = \frac{|\Omega|}{\pi}.$$
 Dla $n = 2$ (membrana)
-$$\lim_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega_2}{(2\pi)^2}|\Omega| = \frac{\pi}{4\pi^2}|\Omega| = \frac{|\Omega|}{4\pi}.$$
+$$\lim\_{\lambda\to \infty}\frac{N(\lambda)}{\lambda} = \frac{\omega\_2}{(2\pi)^2}|\Omega| = \frac{\pi}{4\pi^2}|\Omega| = \frac{|\Omega|}{4\pi}.$$
 
 ## A teraz coś z zupełnie innej beczki
 
-Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x_0,y_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma.$ Zakładamy, że na brzegu to ,,coś'' znika i nie odkłada się na nim.
+Zastanówmy się nad problemem dyfuzji czegoś początkowo skoncentrowanego w punkcie $\rho \equiv (x\_0,y\_0)$ przenikającego przez płaszczyznę $\Omega\subset\mathbb{R}^2$ otoczoną brzegiem $\Gamma.$ Zakładamy, że na brzegu to ,,coś'' znika i nie odkłada się na nim.
 
-Stężenie ,,czegoś'' $P_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
-$$\dot{P}_\Omega = \Delta P_\Omega,$$
+Stężenie ,,czegoś'' $P\_\Omega(r = (x,y),t)$ spełnia równanie dyfuzji
+$$\dot{P}\_\Omega = \Delta P\_\Omega,$$
 z warunkiem brzegowym
-$$\lim_{r\to\Gamma} P_\Omega(r,t) = 0$$
+$$\lim\_{r\to\Gamma} P\_\Omega(r,t) = 0$$
 i warunkiem początkowym
-$$\lim_{t\to 0} \left< T(P_\Omega),\varphi\right> = \left<\delta_\rho, \varphi\right>,$$
+$$\lim\_{t\to 0} \left< T(P\_\Omega),\varphi\right> = \left<\delta\_\rho, \varphi\right>,$$
 gdzie $T\in D^\star$ - dystrybucja, $\varphi\in D$ - funkcja próbna.
 
-Niech $\lambda_n$ - wartości własne i $\psi_n(r)$ - funkcje własne (z warunkiem normalizacji). Jeżeli weźmiemy sobie na przykład
-$$P_\Omega(r,t) = \sum_{n=1}^\infty e^{-\lambda_n t} \psi_n(\rho) \psi_n(r),$$
+Niech $\lambda\_n$ - wartości własne i $\psi\_n(r)$ - funkcje własne (z warunkiem normalizacji). Jeżeli weźmiemy sobie na przykład
+$$P\_\Omega(r,t) = \sum\_{n=1}^\infty e^{-\lambda\_n t} \psi\_n(\rho) \psi\_n(r),$$
 to możemy to wsadzić do równania dyfuzji i dostaniemy
-$$\dot{P}_\Omega = -\sum_{n=1}^\infty \lambda_n e^{-\lambda_n t} \psi_n(\rho)\psi_n(r) = \Delta P_\Omega = \sum_{n=1}^\infty e^{-\lambda_n t} \psi_n(\rho) \Delta \psi_n(r).$$
+$$\dot{P}\_\Omega = -\sum\_{n=1}^\infty \lambda\_n e^{-\lambda\_n t} \psi\_n(\rho)\psi\_n(r) = \Delta P\_\Omega = \sum\_{n=1}^\infty e^{-\lambda\_n t} \psi\_n(\rho) \Delta \psi\_n(r).$$
 Czyli dla jakiegoś $n$
-$$-\lambda_n \psi_n(r) = \Delta \psi_n(r).$$
+$$-\lambda\_n \psi\_n(r) = \Delta \psi\_n(r).$$
 I skoro mamy warunek znikania na brzegu, to znaczy, że
-$$\lim_{r\to\Gamma}P_\Omega = 0 = \lim_{r\to\Gamma}\sum_{n=1}^\infty e^{-\lambda_n t} \psi_n(\rho) \psi_n(r) \implies \lim_{r\to\Gamma} \sum_{n=1}^\infty \psi_n(r) = 0.$$
-Czyli na przykład fajne $\psi_n$, które to spełniają to takie, że
-$$\lim_{r\to\Gamma}\psi_n(r) = 0.$$
+$$\lim\_{r\to\Gamma}P\_\Omega = 0 = \lim\_{r\to\Gamma}\sum\_{n=1}^\infty e^{-\lambda\_n t} \psi\_n(\rho) \psi\_n(r) \implies \lim\_{r\to\Gamma} \sum\_{n=1}^\infty \psi\_n(r) = 0.$$
+Czyli na przykład fajne $\psi\_n$, które to spełniają to takie, że
+$$\lim\_{r\to\Gamma}\psi\_n(r) = 0.$$
 
 ### Bardziej obrazowo - co tu się mniej więcej dzieje?
 Rozważamy równanie dyfuzji, ale musimy pamiętać, że jest to równanie ,,natychmiastowe''! Na początku rozważymy sobie sytuację, gdy zapomnimy, że rozwiązujemy problem z brzegiem i założymy, że dla bardzo małych czasów problem brzegu jest pomijalny. W końcu istnieje tylko punktowe źródło stężenia. Czyli na chwilę umawiamy się, że dla $t\to 0$ nasze równanie nie ,,czuje'' warunków brzegowych.
 
-Oznacza to, że chcielibyśmy rozważyć taką funkcję stężenia $P_0(r,t)$, która spełnia takie samo równanie dyfuzji jak $P_\Omega$, czyli
-$$\dot{P}_0 = \Delta P_0,$$
-ma nałożony taki sam warunek brzegowy $\lim_{t\to 0} \left<T(P_0),\varphi\right> = \left<\delta_\rho,\varphi\right>$ oraz
-$$\lim_{t\to 0} \frac{P_\Omega}{P_0} = 1.$$
-Różni się od $P_\Omega$ jedynie brakiem ograniczenia w przestrzeni. Dodatkowo załóżmy jeszcze, że tak samo jak $P_\Omega$, $P_0$ jest nieujemne - czyli w żadnym punkcie naszej przestrzeni nie ma ujemnego stężenia.
+Oznacza to, że chcielibyśmy rozważyć taką funkcję stężenia $P\_0(r,t)$, która spełnia takie samo równanie dyfuzji jak $P\_\Omega$, czyli
+$$\dot{P}\_0 = \Delta P\_0,$$
+ma nałożony taki sam warunek brzegowy $\lim\_{t\to 0} \left<T(P\_0),\varphi\right> = \left<\delta\_\rho,\varphi\right>$ oraz
+$$\lim\_{t\to 0} \frac{P\_\Omega}{P\_0} = 1.$$
+Różni się od $P\_\Omega$ jedynie brakiem ograniczenia w przestrzeni. Dodatkowo załóżmy jeszcze, że tak samo jak $P\_\Omega$, $P\_0$ jest nieujemne - czyli w żadnym punkcie naszej przestrzeni nie ma ujemnego stężenia.
 
 Z analizy III pamiętamy, że rozwiązanie tego problemu ma postać
-$$P_0(r,t) = \frac{1}{4\pi a^2 t} \int_{\mathbb{R}} ds f(s) \exp\left(-\frac{\Vert r-s\Vert^2}{4a^2 t}\right),$$
+$$P\_0(r,t) = \frac{1}{4\pi a^2 t} \int\_{\mathbb{R}} ds f(s) \exp\left(-\frac{\Vert r-s\Vert^2}{4a^2 t}\right),$$
 gdzie
 - $a$ - współczynnik dyfuzji, u nas $a=1$,
-- $f$ - warunek początkowy, u nas $\delta_\rho.$
+- $f$ - warunek początkowy, u nas $\delta\_\rho.$
 
-Ale $<\delta_\rho,\varphi> = \varphi(\rho)$, więc
-$$P_0(r,t) = \frac{1}{4\pi t} \exp\left(-\frac{\Vert r-\rho\Vert^2}{4 t}\right).$$
+Ale $<\delta\_\rho,\varphi> = \varphi(\rho)$, więc
+$$P\_0(r,t) = \frac{1}{4\pi t} \exp\left(-\frac{\Vert r-\rho\Vert^2}{4 t}\right).$$
 
 **Notacja:** $A(a)\underset{a\to b}{\sim} B(a)$ oznacza tyle:
-$$\lim_{a\to b} \frac{A}{B} = 1.$$
+$$\lim\_{a\to b} \frac{A}{B} = 1.$$
 (starałem się jej unikać, bo mi się nie podoba, ale tutaj będzie dużo prościej)
 
-$$P_\Omega(r,t) = \sum_{n=1}^\infty e^{-\lambda_n t}\psi_n(\rho)\psi_n(r) \underset{t\to 0}{\sim} \frac{1}{4\pi t} \exp\left(- \frac{\Vert r-\rho \Vert^2}{4 t}\right).$$
+$$P\_\Omega(r,t) = \sum\_{n=1}^\infty e^{-\lambda\_n t}\psi\_n(\rho)\psi\_n(r) \underset{t\to 0}{\sim} \frac{1}{4\pi t} \exp\left(- \frac{\Vert r-\rho \Vert^2}{4 t}\right).$$
 Z dużą dozą ostrożności powiedzmy, że $\rho = r.$ Wtedy wychodzi
-$$\sum_{n=1}^\infty e^{-\lambda_n t}\psi_n^2(r) \underset{t\to 0}{\sim} \frac{1}{4\pi t}.$$
+$$\sum\_{n=1}^\infty e^{-\lambda\_n t}\psi\_n^2(r) \underset{t\to 0}{\sim} \frac{1}{4\pi t}.$$
 Teraz, jeżeli jeszcze szczelniej zamkniemy oczy i scałkujemy obustronnie korzystając przy okazji z warunku normalizacyjnego dla $\psi$, to dostaniemy
-$$\sum_{n=1}^\infty e^{-\lambda_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t},$$
-bo $\int_\Omega dr \psi^2 = 1$, $\int_\Omega dr = |\Omega|.$
+$$\sum\_{n=1}^\infty e^{-\lambda\_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t},$$
+bo $\int\_\Omega dr \psi^2 = 1$, $\int\_\Omega dr = |\Omega|.$
 
-Trzeba teraz na chwilkę pogrzebać w teorii miary. Niech $\Lambda = \\{\lambda_1, \lambda_2, \ldots \\}$ - zbiór wszystkich wartości własnych.
+Trzeba teraz na chwilkę pogrzebać w teorii miary. Niech $\Lambda = \\{\lambda\_1, \lambda\_2, \ldots \\}$ - zbiór wszystkich wartości własnych.
 
-Mamy ich przeliczalnie dużo, więc niech $\mu(\lambda) = \sum_{\lambda_n<\lambda} \psi_n^2$ - miara (taka do zliczania). W takim razie zachodzi
-$$\int_\Lambda e^{-\lambda t} d\mu \underset{t\to 0}{\sim} \sum_{\lambda_n \in \Lambda} e^{-\lambda_n t} \psi_n^2 = \sum_{n = 1}^\infty e^{-\lambda_n t} \psi_n^2.$$
+Mamy ich przeliczalnie dużo, więc niech $\mu(\lambda) = \sum\_{\lambda\_n<\lambda} \psi\_n^2$ - miara (taka do zliczania). W takim razie zachodzi
+$$\int\_\Lambda e^{-\lambda t} d\mu \underset{t\to 0}{\sim} \sum\_{\lambda\_n \in \Lambda} e^{-\lambda\_n t} \psi\_n^2 = \sum\_{n = 1}^\infty e^{-\lambda\_n t} \psi\_n^2.$$
 
 ### Przerywnik - Twierdzenie Tauberiańskie (Hardy-Littlewood-Karamata)
 Niech
-$$\omega(\lambda) = \int_\Lambda e^{-\lambda t} d\mu(\lambda).$$
-Wtedy dla $\alpha\in \mathbb{R}_+$
+$$\omega(\lambda) = \int\_\Lambda e^{-\lambda t} d\mu(\lambda).$$
+Wtedy dla $\alpha\in \mathbb{R}\_+$
 $$\mu(\lambda) \underset{\lambda\to\infty}{\sim} \frac{C}{\Gamma(\alpha+1)}\lambda^\alpha.$$
 
 ### Wracamy do naszego problemu:
 Zapisujemy to, czego się właśnie dowiedzieliśmy:
-$$\int_\Lambda e^{-\lambda t} d\mu \underset{t\to 0}{\sim} \sum_{n=1}^\infty e^{-\lambda_n t} \psi_n^2 \underset{t\to 0}{\sim} \frac{1}{4\pi t} = \frac{1}{4\pi} \int_0^\infty e^{-\lambda t}d\lambda.$$
+$$\int\_\Lambda e^{-\lambda t} d\mu \underset{t\to 0}{\sim} \sum\_{n=1}^\infty e^{-\lambda\_n t} \psi\_n^2 \underset{t\to 0}{\sim} \frac{1}{4\pi t} = \frac{1}{4\pi} \int\_0^\infty e^{-\lambda t}d\lambda.$$
 Skoro mamy twierdzenie Tauberiańskie, to znaczy, że
-$$\mu(\lambda) = \sum_{\lambda_n < \lambda} \psi_n^2 \underset{\lambda\to \infty}{\sim} \frac{C}{\Gamma(\alpha+1)}\lambda^\alpha,$$
+$$\mu(\lambda) = \sum\_{\lambda\_n < \lambda} \psi\_n^2 \underset{\lambda\to \infty}{\sim} \frac{C}{\Gamma(\alpha+1)}\lambda^\alpha,$$
 ale u nas
-$$\sum_{\lambda_n < \lambda} \psi_n^2  \underset{\lambda\to\infty}{\sim} \frac{1}{4\pi} \lambda,$$
+$$\sum\_{\lambda\_n < \lambda} \psi\_n^2  \underset{\lambda\to\infty}{\sim} \frac{1}{4\pi} \lambda,$$
 czyli $\alpha = 1$ i $C = \frac{1}{4\pi}.$
 
 Co teraz? Scałkujmy obustronnie
-$$\sum_{\lambda_n<\lambda} \int_\Omega \psi_n^2 \underset{\lambda\to\infty}{\sim} \frac{\lambda}{4\pi}\int_\Omega 1,$$
+$$\sum\_{\lambda\_n<\lambda} \int\_\Omega \psi\_n^2 \underset{\lambda\to\infty}{\sim} \frac{\lambda}{4\pi}\int\_\Omega 1,$$
 czyli
-$$\sum_{\lambda_n < \lambda} 1 \underset{\lambda\to\infty}{\sim} \frac{|\Omega|}{4\pi} \lambda.$$
+$$\sum\_{\lambda\_n < \lambda} 1 \underset{\lambda\to\infty}{\sim} \frac{|\Omega|}{4\pi} \lambda.$$
 Zauważmy, że to po lewej stronie, to jest definicja naszej wspaniałej funkcji zliczającej wartości własne!
-$$N(\lambda) \underset{\lambda\to\infty}{\sim} \frac{|\Omega|}{4\pi}\lambda \implies \lim_{\lambda\to\infty} \frac{N(\lambda)}{\lambda} = \frac{|\Omega|}{4\pi}.$$
+$$N(\lambda) \underset{\lambda\to\infty}{\sim} \frac{|\Omega|}{4\pi}\lambda \implies \lim\_{\lambda\to\infty} \frac{N(\lambda)}{\lambda} = \frac{|\Omega|}{4\pi}.$$
 Oznacza to, że nie uwolnimy się od Twierdzenia Weyl'a.
 
 
@@ -202,34 +202,34 @@ Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \G
 Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q.$ Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
 ![](/img/membrane.png)
 Załóżmy jednak na razie, że $t$ jest dostatecznie małe, żeby można było przybliżać
-$$P_\Omega \underset{t\to 0}{\sim} P_{l(\rho)}.$$
-Tak jak wcześniej, $P_{l(\rho)}$ ma spełniać równanie dyfuzji z warunkiem początkowym
-$$\lim_{t\to 0}\left<T(P_{l(\rho)}),\varphi\right> = \left<\delta_\rho,\varphi\right>,$$
+$$P\_\Omega \underset{t\to 0}{\sim} P\_{l(\rho)}.$$
+Tak jak wcześniej, $P\_{l(\rho)}$ ma spełniać równanie dyfuzji z warunkiem początkowym
+$$\lim\_{t\to 0}\left<T(P\_{l(\rho)}),\varphi\right> = \left<\delta\_\rho,\varphi\right>,$$
 ale z warunkiem brzegowym
-$$\lim_{r\to l(\rho)}P_{l(\rho)}(r,t) = 0$$
+$$\lim\_{r\to l(\rho)}P\_{l(\rho)}(r,t) = 0$$
 
 Możemy nawet odważnie przypuścić, że
-$$\int_\Omega P_\Omega(\rho,t) \underset{t\to 0}{\sim} \int_\Omega P_{l(\rho)}(\rho,t).$$
+$$\int\_\Omega P\_\Omega(\rho,t) \underset{t\to 0}{\sim} \int\_\Omega P\_{l(\rho)}(\rho,t).$$
 
-Żeby znaleźć rozwiązanie równania dyfuzji dla $P_{l(\rho)}$, wyobraźmy sobie następującą sytuację:
+Żeby znaleźć rozwiązanie równania dyfuzji dla $P\_{l(\rho)}$, wyobraźmy sobie następującą sytuację:
 
 Kiedy nasza ,,fala dyfuzji'' (oczywiście stwierdzenie fala dyfuzji jest pozbawione sensu w reżimie matematycznym, gdyż równanie dyfuzji jest natychmiastowe - niech nas to jednak nie zniechęca) dociera do $l(\rho)$, powinna odbić się od jakiejś wirtualnej ,,fali dyfuzji'' pochodzącej z punktu $\rho'$ leżącego na przedłużeniu odcinka $|\rho-q|$ i odległego od $\rho$ o $2\delta.$ Nasze rozwiązanie w pobliżu $l(\rho)$ powinno więc być superpozycją rozwiązań od punktów $r = \rho$ i $r = \rho'.$ Zatem mamy
-$$P_{l(\rho)}(\rho,t) = \frac{1}{4\pi t} - \frac{1}{4\pi t}\exp\left(-\frac{(2\delta)^2}{4t}\right),$$
+$$P\_{l(\rho)}(\rho,t) = \frac{1}{4\pi t} - \frac{1}{4\pi t}\exp\left(-\frac{(2\delta)^2}{4t}\right),$$
 gdzie $\delta = \Vert q - \rho \Vert$ jest minimalną odległością między $\rho$ i brzegiem $\Gamma.$
 
 Wtedy
-$$\int_\Omega P_\Omega(\rho,t) = \sum_{n=1}^\infty e^{-\lambda_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t} - \frac{1}{4 \pi t}\int_\Omega e^{-\delta^2/t}.$$
+$$\int\_\Omega P\_\Omega(\rho,t) = \sum\_{n=1}^\infty e^{-\lambda\_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t} - \frac{1}{4 \pi t}\int\_\Omega e^{-\delta^2/t}.$$
 Żeby dowiedzieć się o co tu chodzi, musimy obliczyć tę całkę. Pomyślmy przez chwilę nad krzywą $\Gamma(\delta)$ składającą się z punktów oddalonych od $\Gamma$ o $\delta$ od wewnątrz (rysunek po prawej stronie).
 Dla dostatecznie małych $\delta$, $\Gamma(\delta)$ powinna przypominać $\Gamma.$ Skoro rozważana całka ma postać
-$$\int_\Omega e^{-2\delta^2/t},$$
-to znaczy, że największe przyczynki będą pochodziły właśnie od małych $\delta.$ Niech $L(\delta)$ - długość brzegu $\Gamma(\delta).$ Chcielibyśmy całkować po brzegach na odległości $\delta$ od zera aż do pewnej niewielkiej $\delta_0.$ Zachodzi zatem
-$$\int_\Omega \exp\left(-\frac{\delta^2}{t}\right) = \int_0^{\delta_0} \exp{-\frac{\delta^2}{t}}L(\delta)d\delta + \text{coś małego}.$$
+$$\int\_\Omega e^{-2\delta^2/t},$$
+to znaczy, że największe przyczynki będą pochodziły właśnie od małych $\delta.$ Niech $L(\delta)$ - długość brzegu $\Gamma(\delta).$ Chcielibyśmy całkować po brzegach na odległości $\delta$ od zera aż do pewnej niewielkiej $\delta\_0.$ Zachodzi zatem
+$$\int\_\Omega \exp\left(-\frac{\delta^2}{t}\right) = \int\_0^{\delta\_0} \exp{-\frac{\delta^2}{t}}L(\delta)d\delta + \text{coś małego}.$$
 Zamiana zmiennych: niech $\xi = \frac{1}{\sqrt{t}} \delta$, więc $d\xi = \frac{1}{\sqrt{t}} d\delta.$ Więc po podstawieniu
-$$\int_0^{\delta_0} \exp\left(-\frac{\delta^2}{t}\right)L(\delta)d\delta = \sqrt{t} \int_0^{\delta_0/\sqrt{t}} e^{-\xi^2}L(\xi\sqrt{t})d\xi.$$
+$$\int\_0^{\delta\_0} \exp\left(-\frac{\delta^2}{t}\right)L(\delta)d\delta = \sqrt{t} \int\_0^{\delta\_0/\sqrt{t}} e^{-\xi^2}L(\xi\sqrt{t})d\xi.$$
 Biorąc tylko pierwszy wyraz rozwinięcia $L(\xi\sqrt{t}) \approx L(0) \equiv L$, dostajemy
-$$\int_\Omega \exp\left(-\frac{\delta^2}{t}\right) \underset{t\to 0}{\sim} L\sqrt{t}\int_0^\infty e^{-\xi^2}d\xi = L\frac{\sqrt{\pi t}}{2}.$$
-Wracając do stężenia $P_{l(\rho)}$, możemy podstawić wynik naszej całki
-$$\int_\Omega P_\Omega = \sum_{n = 1}^\infty e^{-\lambda_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t} - \frac{1}{4\pi t} \cdot L \frac{\sqrt{\pi t}}{2} = \frac{|\Omega|}{4\pi t} - \frac{L}{8\sqrt{\pi t}}.$$
+$$\int\_\Omega \exp\left(-\frac{\delta^2}{t}\right) \underset{t\to 0}{\sim} L\sqrt{t}\int\_0^\infty e^{-\xi^2}d\xi = L\frac{\sqrt{\pi t}}{2}.$$
+Wracając do stężenia $P\_{l(\rho)}$, możemy podstawić wynik naszej całki
+$$\int\_\Omega P\_\Omega = \sum\_{n = 1}^\infty e^{-\lambda\_n t} \underset{t\to 0}{\sim} \frac{|\Omega|}{4\pi t} - \frac{1}{4\pi t} \cdot L \frac{\sqrt{\pi t}}{2} = \frac{|\Omega|}{4\pi t} - \frac{L}{8\sqrt{\pi t}}.$$
 Oznacza to, że na dodatek możemy usłyszeć obwód naszej membrany.
 
 ### Rzutem na taśmę - Nierówność izoperymetryczna

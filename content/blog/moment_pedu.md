@@ -2,7 +2,7 @@
 title: "Algebra operatorów translacji w mechanice kwantowej"
 subtitle: "Notatki z AGQM"
 date: 2022-04-24T11:00:00+02:00
-draft: false
+draft: true
 categories: ["fizyka", "studia"]
 tags: ["fizyka", "studia", "mechanika kwantowa"]
 ---
