@@ -1,2 +1,2 @@
 # jk
-https://korsak.xyz
+https://blog.korsak.xyz
