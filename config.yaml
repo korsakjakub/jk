@@ -1,0 +1,16 @@
+baseURL: 'https://korsak.xyz/'
+languageCode: pl-pl
+title: Jakub Korsak
+disqusShortname: korsakxyz
+author:
+  name: Jakub Korsak
+permalinks:
+  blog: '/blog/:filename/'
+menu:
+  main:
+    - url: /blog/
+      name: Blog
+      weight: 1
+params:
+  dateFormat: 'Jan 2, 2006'
+
