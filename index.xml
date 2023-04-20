@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jakub Korsak</title><link>https://korsak.xyz/</link><description>Recent content on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sat, 28 Mar 2020 22:05:01 +0100</lastBuildDate><atom:link href="https://korsak.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Zasady zachowania w stałym polu magnetycznym</title><link>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sun, 24 Apr 2022 10:00:00 +0200</pubDate><guid>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jakub Korsak</title><link>https://blog.korsak.xyz/</link><description>Recent content on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sat, 28 Mar 2020 22:05:01 +0100</lastBuildDate><atom:link href="https://blog.korsak.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Zasady zachowania w stałym polu magnetycznym</title><link>https://blog.korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sun, 24 Apr 2022 10:00:00 +0200</pubDate><guid>https://blog.korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1>
 &lt;p>Lagranżjan nierelatywistycznej cząstki o masie $m$ i ładunku $q$ w polu elektromagnetycznym z potencjałem skalarnym $V$ oraz potencjałem wektorowym $\mathbf{A}$ ma postać&lt;/p>
 &lt;p>$$ L = \frac{m}{2}\dot{\mathbf{x}}^2 + \frac{q}{c} \mathbf{A}\cdot \dot{\mathbf{x}} - qV. $$&lt;/p>
 &lt;p>Kanoniczny pęd zadany jest wzorem&lt;/p>
@@ -16,8 +16,8 @@
 &lt;p>$$ \frac{\partial L}{\partial \mathbf{x}} = \frac{q}{c} \dot{\mathbf{x}} \times \mathbf{B} = \frac{d}{dt} \left(\frac{q}{2c}\mathbf{x}\times \mathbf{B}\right) = \frac{d}{dt} \mathbf{G}.$$&lt;/p>
 &lt;p>Skorzystaliśmy tu z naszego założenia o stałej indukcji magnetycznej. Dzięki tego mogliśmy napisać $\dot{\mathbf{x}}\times \mathbf{B} = d/dt (\mathbf{x} \times \mathbf{B}) $.&lt;/p>
 &lt;p>Prawo zachowania związane z symetrią translacyjną ma postać
-$$\frac{d}{dt}\left(\mathbf{p} - \frac{q}{2c} \mathbf{x}\times \mathbf{B}\right) = 0.$$&lt;/p></description></item><item><title>Dotacje</title><link>https://korsak.xyz/crypto/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>https://korsak.xyz/crypto/</guid><description>&lt;p>Bitcoin: bc1qwjdwjh4d8pelzzeymlcw4uckwz06uxxv5g5zmn&lt;/p>
-&lt;p>Ethereum: 0x09A7584B946eb3d60c5e66eAf79F755475967945&lt;/p></description></item><item><title>O algebrze liniowej</title><link>https://korsak.xyz/blog/algebra_liniowa/</link><pubDate>Sun, 07 Mar 2021 10:00:00 +0000</pubDate><guid>https://korsak.xyz/blog/algebra_liniowa/</guid><description>&lt;h1 id="przestrzeń-wektorowa">Przestrzeń wektorowa&lt;/h1>
+$$\frac{d}{dt}\left(\mathbf{p} - \frac{q}{2c} \mathbf{x}\times \mathbf{B}\right) = 0.$$&lt;/p></description></item><item><title>Dotacje</title><link>https://blog.korsak.xyz/crypto/</link><pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate><guid>https://blog.korsak.xyz/crypto/</guid><description>&lt;p>Bitcoin: bc1qwjdwjh4d8pelzzeymlcw4uckwz06uxxv5g5zmn&lt;/p>
+&lt;p>Ethereum: 0x09A7584B946eb3d60c5e66eAf79F755475967945&lt;/p></description></item><item><title>O algebrze liniowej</title><link>https://blog.korsak.xyz/blog/algebra_liniowa/</link><pubDate>Sun, 07 Mar 2021 10:00:00 +0000</pubDate><guid>https://blog.korsak.xyz/blog/algebra_liniowa/</guid><description>&lt;h1 id="przestrzeń-wektorowa">Przestrzeń wektorowa&lt;/h1>
 &lt;p>Najbardziej elementarną częścią algebry liniowej jest pojęcie przestrzeni wektorowej. Żeby do niego dojść, trzeba najpierw zdefiniować ciało algebraiczne.&lt;/p>
 &lt;h2 id="definicja-ciało">Definicja (ciało)&lt;/h2>
 &lt;p>Niech $\mathbb{F}$ będzie niepustym zbiorem i $0,1\in \mathbb{F}$ tak, że $0 \neq 1$ (w naszych rozważaniach zazwyczaj $\mathbb{F} = \mathbb{C}$). Niech
@@ -140,7 +140,7 @@ $$\mathrm{tr}(A|\psi\rangle\langle\psi|) = \sum_i \langle i|A|\psi\rangle\langle
 $$[\sigma_j,\sigma_k] = 2 i \sum_{l = 1}^3 \varepsilon_{jkl} \sigma_l.$$&lt;/p>
 &lt;h2 id="rozkład-według-wartości-osobliwych-singular-value-decomposition">Rozkład według wartości osobliwych (singular value decomposition)&lt;/h2>
 &lt;p>Niech $A\in \mathbb{M}_{n\times n}[\mathbb{C}]$ będzie kwadratową macierzą. Wtedy istnieją macierze unitarne $U$ oraz $V$, które wraz z dodatniookreśloną macierzą diagonalną $D$ spełniają zależność
-$$A = U D V.$$&lt;/p></description></item><item><title>Jak łatwo przesunąć statek</title><link>https://korsak.xyz/blog/ped_i_srodek_masy/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://korsak.xyz/blog/ped_i_srodek_masy/</guid><description>&lt;h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1>
+$$A = U D V.$$&lt;/p></description></item><item><title>Jak łatwo przesunąć statek</title><link>https://blog.korsak.xyz/blog/ped_i_srodek_masy/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://blog.korsak.xyz/blog/ped_i_srodek_masy/</guid><description>&lt;h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1>
 &lt;ol>
 &lt;li>Dlaczego, gdy schodzimy z roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?&lt;/li>
 &lt;li>Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?&lt;/li>
@@ -193,7 +193,7 @@ Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p>
 &lt;li>$x_G$ - nowe poruszające się współrzędne,&lt;/li>
 &lt;li>$V$ - stała prędkość, z którą porusza się układ $x_G$,&lt;/li>
 &lt;/ul>
-&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Czy można usłyszeć kształt bębna?</title><link>https://korsak.xyz/blog/ksztalt_bebna/</link><pubDate>Mon, 14 Sep 2020 20:39:43 +0200</pubDate><guid>https://korsak.xyz/blog/ksztalt_bebna/</guid><description>&lt;h2 id="krótka-odpowiedź-trochę-tak-trochę-nie">Krótka odpowiedź: Trochę tak, trochę nie.&lt;/h2>
+&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Czy można usłyszeć kształt bębna?</title><link>https://blog.korsak.xyz/blog/ksztalt_bebna/</link><pubDate>Mon, 14 Sep 2020 20:39:43 +0200</pubDate><guid>https://blog.korsak.xyz/blog/ksztalt_bebna/</guid><description>&lt;h2 id="krótka-odpowiedź-trochę-tak-trochę-nie">Krótka odpowiedź: Trochę tak, trochę nie.&lt;/h2>
 &lt;h1 id="wstęp">Wstęp&lt;/h1>
 &lt;p>Jeżeli wyobrazimy sobie dwuwymiarową membranę $\mathcal{\Omega}$ (rozmaitość), ograniczoną brzegiem $\Gamma$ i wyprowadzimy z położenia równowagi, to składowa prostopadła do jej oryginalnej płaszczyzny
 $$F(x,y,t) \equiv F(\rho, t)$$
@@ -255,7 +255,7 @@ $$\begin{align*}
 Więc $\psi_{j,k}(x,y) = \sin\left(\frac{j\pi}{a} x\right)\sin\left(\frac{k\pi}{b} y\right)$ i $\lambda_{j,k} = \left(\frac{j\pi}{a}\right)^2 + \left(\frac{k\pi}{b}\right)^2.$ Teraz nasza funkcja do zliczania wartości własnych wynosi
 $$N(\lambda) = \left|\left\{ (j,k) : \lambda_{j,k} &amp;lt; \lambda \right\}\right| = \left|\left\{ (j,k) : \left(\frac{j\pi}{a}\right)^2 + \left(\frac{k\pi}{b}\right)^2 &amp;lt; \lambda \right\}\right|$$
 Niech $E_\lambda = \left\{(x,y)\in\mathbb{R}_+^2 : \left(\frac{x\pi}{a\sqrt{\lambda}}\right)^2 + \left(\frac{y\pi}{b\sqrt{\lambda}}\right)^2 \le 1\right\}$ będzie prawą górną ćwiartką elipsy. W takim razie $N(\lambda)$ odpowiada łącznemu polu kwadratów $[j-1,j]\times[k-1,k]$ zawartych w $E_\lambda$ (jak na rysunku po lewej).
-&lt;img src="https://korsak.xyz/img/eigen_elipsa.png" alt="">
+&lt;img src="https://blog.korsak.xyz/img/eigen_elipsa.png" alt="">
 W takim razie możemy napisać
 $$N(\lambda) = \sum_{(j,k): \lambda_{j,k} &amp;lt; \lambda} \mathrm{pole}([j-1,j]\times[k-1,k]) \le \mathrm{pole}(E_\lambda).$$
 Ale skoro $E_\lambda$ - elipsa, to znamy wzór na jej pole: $P = \pi \cdot u v$, gdzie $u,v$ - półosie.
@@ -355,7 +355,7 @@ Oznacza to, że nie uwolnimy się od Twierdzenia Weyl&amp;rsquo;a.&lt;/p>
 &lt;p>Wcześniej stwierdziliśmy, że na samym początku, to ,,coś&amp;rsquo;&amp;rsquo; co dyfuzuje, nie czuje brzegu. Ale jeżeli wrzucimy źródło bardzo bardzo blisko brzegu, to to nasze oddziaływanie z nim będzie zachowywało się dość charakterystycznie.&lt;/p>
 &lt;p>Niech $\rho = (x,y) \in \Omega$ - punkt z warunku początkowego i niech $q\in \Gamma$ będzie punktem należącym do brzegu z warunkiem, że $\Vert \rho - q\Vert$ ma być najmniejsze możliwe dla ustalonego $\rho.$&lt;/p>
 &lt;p>Niech $l(\rho)$ - linia prostopadła do odcinka łączącego $q$ i $\rho$, przechodząca przez $q.$ Możliwe, że w miarę jak cząstka będzie poruszać się w stronę $\Gamma$, to coraz bardziej ten brzeg będzie jej przypominał prostą $l(\rho)$ (rysunek po lewej).
-&lt;img src="https://korsak.xyz/img/membrane.png" alt="">
+&lt;img src="https://blog.korsak.xyz/img/membrane.png" alt="">
 Załóżmy jednak na razie, że $t$ jest dostatecznie małe, żeby można było przybliżać
 $$P_\Omega \underset{t\to 0}{\sim} P_{l(\rho)}.$$
 Tak jak wcześniej, $P_{l(\rho)}$ ma spełniać równanie dyfuzji z warunkiem początkowym
@@ -391,7 +391,7 @@ gdzie:&lt;/p>
 &lt;li>$p$ - obwód.&lt;/li>
 &lt;/ul>
 &lt;p>Równość zachodzi jedynie dla koła.&lt;/p>
-&lt;p>Oznacza to, że znając spektrum wartości własnych pewnej okrągłej membrany, możemy używać go jako kryterium do sprawdzania, czy inne membrany są okrągłe.&lt;/p></description></item><item><title>Równanie kwadratowe</title><link>https://korsak.xyz/blog/kwadratowa/</link><pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate><guid>https://korsak.xyz/blog/kwadratowa/</guid><description>&lt;h1 id="co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe">Co to znaczy, że rozwiązujemy równanie kwadratowe?&lt;/h1>
+&lt;p>Oznacza to, że znając spektrum wartości własnych pewnej okrągłej membrany, możemy używać go jako kryterium do sprawdzania, czy inne membrany są okrągłe.&lt;/p></description></item><item><title>Równanie kwadratowe</title><link>https://blog.korsak.xyz/blog/kwadratowa/</link><pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate><guid>https://blog.korsak.xyz/blog/kwadratowa/</guid><description>&lt;h1 id="co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe">Co to znaczy, że rozwiązujemy równanie kwadratowe?&lt;/h1>
 &lt;p>Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem
 $$ f(x) = ax^2 + bx + c,$$
 to znalezienie takich argumentów $x_1$, $x_2$, które spełniają zależność
@@ -449,9 +449,9 @@ Pamiętamy definicję serduszka: $\heartsuit = x + \frac{b}{2a}$. Więc jeżeli 
 $$x = -\frac{b}{2a} \pm \frac{\sqrt{b^2 - 4ac}}{2a} = \frac{-b\pm \sqrt{b^2 - 4ac}}{2a}.$$
 Jeżeli wprowadzimy nowe oznaczenie: $\Delta = b^2 - 4ac$, to otrzymamy wzór, który pojawia się w podręcznikach:
 $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$&lt;/p>
-&lt;p>(Kontynuacja fun factu: analogicznie do poprzedniego warunku $c\cdot a &amp;gt; 0$, mamy tutaj $b^2 - 4ac &amp;lt; 0$, które generuje rozwiązania ze zbioru liczb zespolonych. Wtedy po prostu piszemy przed pierwiastkiem kwadratowym jednostkę urojoną $i$ i mamy problem z głowy. No i piękne ciało algebraicznie domknięte!)&lt;/p></description></item><item><title>Zwardoń</title><link>https://korsak.xyz/blog/zwardon/</link><pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate><guid>https://korsak.xyz/blog/zwardon/</guid><description>&lt;h1 id="zadanie">Zadanie&lt;/h1>
+&lt;p>(Kontynuacja fun factu: analogicznie do poprzedniego warunku $c\cdot a &amp;gt; 0$, mamy tutaj $b^2 - 4ac &amp;lt; 0$, które generuje rozwiązania ze zbioru liczb zespolonych. Wtedy po prostu piszemy przed pierwiastkiem kwadratowym jednostkę urojoną $i$ i mamy problem z głowy. No i piękne ciało algebraicznie domknięte!)&lt;/p></description></item><item><title>Zwardoń</title><link>https://blog.korsak.xyz/blog/zwardon/</link><pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate><guid>https://blog.korsak.xyz/blog/zwardon/</guid><description>&lt;h1 id="zadanie">Zadanie&lt;/h1>
 &lt;p>Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
-&lt;img src="https://korsak.xyz/img/zwardon.png" alt="">&lt;/p>
+&lt;img src="https://blog.korsak.xyz/img/zwardon.png" alt="">&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
 &lt;p>Niech położenie turysty od czasu - $\tau(t)$, położenie samochodu od czasu - $s(t)$. W oznaczeniach takich jak na rysunku, można przedstawić te funkcje następująco
 $$ \begin{align*}
@@ -515,7 +515,7 @@ x_{p_1} \cr x_{p_2} \cr v_s \cr v_\tau
 \end{bmatrix}
 $$
 Jednostki prędkości tutaj mamy w $\frac{\text{km}}{\text{min}}$, więc ostatecznie, czas podróży turysty wynosi
-$$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$&lt;/p></description></item><item><title>Równanie Ciołkowskiego</title><link>https://korsak.xyz/blog/rakieta/</link><pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate><guid>https://korsak.xyz/blog/rakieta/</guid><description>&lt;p>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
+$$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$&lt;/p></description></item><item><title>Równanie Ciołkowskiego</title><link>https://blog.korsak.xyz/blog/rakieta/</link><pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate><guid>https://blog.korsak.xyz/blog/rakieta/</guid><description>&lt;p>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
 $$dv = -udm,$$
 gdzie&lt;/p>
 &lt;ul>
@@ -562,11 +562,11 @@ $$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
 Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
 $$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m_0}{m}\right).$$
 Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
-$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p></description></item><item><title>Zadanie ze szpulą</title><link>https://korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
+$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p></description></item><item><title>Zadanie ze szpulą</title><link>https://blog.korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://blog.korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p>
 &lt;p>Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
-&lt;p>&lt;img src="https://korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
+&lt;p>&lt;img src="https://blog.korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
 &lt;p>Rozważymy problem w czasie $T = t$ oraz $T = t + \Delta t$.&lt;/p>
 &lt;ul>
 &lt;li>

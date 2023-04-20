@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>szpula on Jakub Korsak</title><link>https://korsak.xyz/tags/szpula/</link><description>Recent content in szpula on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sat, 11 Apr 2020 21:26:31 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/szpula/index.xml" rel="self" type="application/rss+xml"/><item><title>Zadanie ze szpulą</title><link>https://korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>szpula on Jakub Korsak</title><link>https://blog.korsak.xyz/tags/szpula/</link><description>Recent content in szpula on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sat, 11 Apr 2020 21:26:31 +0200</lastBuildDate><atom:link href="https://blog.korsak.xyz/tags/szpula/index.xml" rel="self" type="application/rss+xml"/><item><title>Zadanie ze szpulą</title><link>https://blog.korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://blog.korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p>
 &lt;p>Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
-&lt;p>&lt;img src="https://korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
+&lt;p>&lt;img src="https://blog.korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
 &lt;p>Rozważymy problem w czasie $T = t$ oraz $T = t + \Delta t$.&lt;/p>
 &lt;ul>
 &lt;li>

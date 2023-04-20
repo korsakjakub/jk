@@ -1,13 +1,13 @@
-<!doctype html><html lang=pl><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=https://unpkg.com/purecss@2.0.3/build/pure-min.css><link rel=stylesheet href=https://korsak.xyz/css/style.css><link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css><title>Równanie Ciołkowskiego</title></head><body><nav name=top class=nav><ul><li><a href=https://korsak.xyz/>Jakub Korsak</a></li><li><a href=/blog/ class=nav-link>Blog</a></li></ul></nav><main><h1>Równanie Ciołkowskiego</h1><div class=breadcrumb><a class=breadcrumb-link href=https://korsak.xyz/>Home</a>:
-<a class=breadcrumb-link href=https://korsak.xyz/blog/>Blog</a>:
-Równanie Ciołkowskiego</div><i data-feather=calendar></i> <time datetime=2020-05-08>May 8, 2020</time><br><a class=tag-link href=https://korsak.xyz/tags/fizyka>fizyka</a>,
-<a class=tag-link href=https://korsak.xyz/tags/studia>studia</a>,
-<a class=tag-link href=https://korsak.xyz/tags/rakieta>rakieta</a>,
-<a class=tag-link href=https://korsak.xyz/tags/r%C3%B3wnanie-cio%C5%82kowskiego>równanie Ciołkowskiego</a>,
-<a class=tag-link href=https://korsak.xyz/tags/dynamika>dynamika</a>,
-<a class=tag-link href=https://korsak.xyz/tags/mechanika-lagrange>mechanika Lagrange</a>,
-<a class=tag-link href=https://korsak.xyz/tags/tsiolkovskys-equation>Tsiolkovsky's equation</a>,
-<a class=tag-link href=https://korsak.xyz/tags/lagran%C5%BCjan-rakiety>lagranżjan rakiety</a>,<div class=content><p>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
+<!doctype html><html lang=pl><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=https://unpkg.com/purecss@2.0.3/build/pure-min.css><link rel=stylesheet href=https://blog.korsak.xyz/css/style.css><link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css><title>Równanie Ciołkowskiego</title></head><body><nav name=top class=nav><ul><li><a href=https://blog.korsak.xyz/>Jakub Korsak</a></li><li><a href=/blog/ class=nav-link>Blog</a></li></ul></nav><main><h1>Równanie Ciołkowskiego</h1><div class=breadcrumb><a class=breadcrumb-link href=https://blog.korsak.xyz/>Home</a>:
+<a class=breadcrumb-link href=https://blog.korsak.xyz/blog/>Blog</a>:
+Równanie Ciołkowskiego</div><i data-feather=calendar></i> <time datetime=2020-05-08>May 8, 2020</time><br><a class=tag-link href=https://blog.korsak.xyz/tags/fizyka>fizyka</a>,
+<a class=tag-link href=https://blog.korsak.xyz/tags/studia>studia</a>,
+<a class=tag-link href=https://blog.korsak.xyz/tags/rakieta>rakieta</a>,
+<a class=tag-link href=https://blog.korsak.xyz/tags/r%C3%B3wnanie-cio%C5%82kowskiego>równanie Ciołkowskiego</a>,
+<a class=tag-link href=https://blog.korsak.xyz/tags/dynamika>dynamika</a>,
+<a class=tag-link href=https://blog.korsak.xyz/tags/mechanika-lagrange>mechanika Lagrange</a>,
+<a class=tag-link href=https://blog.korsak.xyz/tags/tsiolkovskys-equation>Tsiolkovsky's equation</a>,
+<a class=tag-link href=https://blog.korsak.xyz/tags/lagran%C5%BCjan-rakiety>lagranżjan rakiety</a>,<div class=content><p>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
 $$dv = -udm,$$
 gdzie</p><ul><li>$v(t)$ - prędkość rakiety,</li><li>$u$ - prędkość wyrzucanego paliwa w układzie związanym z rakietą,</li><li>$m(t)$ - masa rakiety.</li></ul><p>Zazwyczaj wyprowadza się je korzystając z zasady zachowania pędu, dzisiaj problem rozważymy od strony mechaniki Langrange.</p><h1 id=problem>Problem</h1><p>Mamy rakietę o masie $m(t_0) = m_0$ i prędkości $v(t_0) = v_0$, która wyrzuca paliwo w sposób ciągły i jednostajny, z prędkością <strong>względem rakiety</strong> $u$.</p><ul><li>Jak wygląda równanie ruchu rakiety?</li><li>Jakie to równanie ma rozwiązanie?</li></ul><h1 id=rozwiązanie>Rozwiązanie</h1><p>Jeżeli rozpatrywany ruch jest wzdłuż $\xi$ oraz rakieta znajduje się w potencjale zależnym od $\xi(t)$, funkcja lagrange tego układu ma postać
 $$\mathcal{L} = \frac{1}{2}m(t)\dot{\xi}(t)^2 - \frac{1}{2}\int\limits_0^t \dot{m}(\tau) \left(\dot{\xi}(\tau) - u\right)^2 d\tau - V(\xi(t), t).$$

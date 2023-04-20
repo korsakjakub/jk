@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fizyka on Jakub Korsak</title><link>https://korsak.xyz/tags/fizyka/</link><description>Recent content in fizyka on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sun, 24 Apr 2022 10:00:00 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/fizyka/index.xml" rel="self" type="application/rss+xml"/><item><title>Zasady zachowania w stałym polu magnetycznym</title><link>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sun, 24 Apr 2022 10:00:00 +0200</pubDate><guid>https://korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fizyka on Jakub Korsak</title><link>https://blog.korsak.xyz/tags/fizyka/</link><description>Recent content in fizyka on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sun, 24 Apr 2022 10:00:00 +0200</lastBuildDate><atom:link href="https://blog.korsak.xyz/tags/fizyka/index.xml" rel="self" type="application/rss+xml"/><item><title>Zasady zachowania w stałym polu magnetycznym</title><link>https://blog.korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</link><pubDate>Sun, 24 Apr 2022 10:00:00 +0200</pubDate><guid>https://blog.korsak.xyz/blog/zasady_zachowania_w_polu_magnetyzcnym/</guid><description>&lt;h1 id="dla-lagranżjanu-cząstki-w-stałym-polu-mathbfb-znajdź-zasady-zachowania">Dla lagranżjanu cząstki w stałym polu $\mathbf{B}$, znajdź zasady zachowania&lt;/h1>
 &lt;p>Lagranżjan nierelatywistycznej cząstki o masie $m$ i ładunku $q$ w polu elektromagnetycznym z potencjałem skalarnym $V$ oraz potencjałem wektorowym $\mathbf{A}$ ma postać&lt;/p>
 &lt;p>$$ L = \frac{m}{2}\dot{\mathbf{x}}^2 + \frac{q}{c} \mathbf{A}\cdot \dot{\mathbf{x}} - qV. $$&lt;/p>
 &lt;p>Kanoniczny pęd zadany jest wzorem&lt;/p>
@@ -16,7 +16,7 @@
 &lt;p>$$ \frac{\partial L}{\partial \mathbf{x}} = \frac{q}{c} \dot{\mathbf{x}} \times \mathbf{B} = \frac{d}{dt} \left(\frac{q}{2c}\mathbf{x}\times \mathbf{B}\right) = \frac{d}{dt} \mathbf{G}.$$&lt;/p>
 &lt;p>Skorzystaliśmy tu z naszego założenia o stałej indukcji magnetycznej. Dzięki tego mogliśmy napisać $\dot{\mathbf{x}}\times \mathbf{B} = d/dt (\mathbf{x} \times \mathbf{B}) $.&lt;/p>
 &lt;p>Prawo zachowania związane z symetrią translacyjną ma postać
-$$\frac{d}{dt}\left(\mathbf{p} - \frac{q}{2c} \mathbf{x}\times \mathbf{B}\right) = 0.$$&lt;/p></description></item><item><title>Jak łatwo przesunąć statek</title><link>https://korsak.xyz/blog/ped_i_srodek_masy/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://korsak.xyz/blog/ped_i_srodek_masy/</guid><description>&lt;h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1>
+$$\frac{d}{dt}\left(\mathbf{p} - \frac{q}{2c} \mathbf{x}\times \mathbf{B}\right) = 0.$$&lt;/p></description></item><item><title>Jak łatwo przesunąć statek</title><link>https://blog.korsak.xyz/blog/ped_i_srodek_masy/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://blog.korsak.xyz/blog/ped_i_srodek_masy/</guid><description>&lt;h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1>
 &lt;ol>
 &lt;li>Dlaczego, gdy schodzimy z roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?&lt;/li>
 &lt;li>Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?&lt;/li>
@@ -69,7 +69,7 @@ Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p>
 &lt;li>$x_G$ - nowe poruszające się współrzędne,&lt;/li>
 &lt;li>$V$ - stała prędkość, z którą porusza się układ $x_G$,&lt;/li>
 &lt;/ul>
-&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Równanie Ciołkowskiego</title><link>https://korsak.xyz/blog/rakieta/</link><pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate><guid>https://korsak.xyz/blog/rakieta/</guid><description>&lt;p>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
+&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Równanie Ciołkowskiego</title><link>https://blog.korsak.xyz/blog/rakieta/</link><pubDate>Fri, 08 May 2020 10:48:05 +0200</pubDate><guid>https://blog.korsak.xyz/blog/rakieta/</guid><description>&lt;p>Równanie Ciołkowskiego opisuje wyidealizowany, jednowymiarowy ruch rakiety. Jako równanie form różniczkowych ma niezwykle prostą postać
 $$dv = -udm,$$
 gdzie&lt;/p>
 &lt;ul>
@@ -116,11 +116,11 @@ $$\Delta \dot{\xi} + u\int\limits_0^t \frac{1}{m} \frac{dm}{d\tau} d\tau = 0.$$
 Z twierdzenia o zamianie zmiennych całkowania otrzymujemy
 $$\Delta \dot{\xi} = -u \int\limits_{m_0}^{m}\frac{dm}{m} = u \ln\left(\frac{m_0}{m}\right).$$
 Skoro $\dot{\xi} \equiv v$ oraz $v(0) = v_0$, ostatecznie mamy
-$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p></description></item><item><title>Zadanie ze szpulą</title><link>https://korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
+$$v(m) = u \ln \left(\frac{m_0}{m}\right) + v_0.$$&lt;/p></description></item><item><title>Zadanie ze szpulą</title><link>https://blog.korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://blog.korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p>
 &lt;p>Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
-&lt;p>&lt;img src="https://korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
+&lt;p>&lt;img src="https://blog.korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
 &lt;p>Rozważymy problem w czasie $T = t$ oraz $T = t + \Delta t$.&lt;/p>
 &lt;ul>
 &lt;li>

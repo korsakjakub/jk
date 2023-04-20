@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>liceum on Jakub Korsak</title><link>https://korsak.xyz/tags/liceum/</link><description>Recent content in liceum on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sat, 03 Oct 2020 16:22:39 +0200</lastBuildDate><atom:link href="https://korsak.xyz/tags/liceum/index.xml" rel="self" type="application/rss+xml"/><item><title>Jak łatwo przesunąć statek</title><link>https://korsak.xyz/blog/ped_i_srodek_masy/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://korsak.xyz/blog/ped_i_srodek_masy/</guid><description>&lt;h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>liceum on Jakub Korsak</title><link>https://blog.korsak.xyz/tags/liceum/</link><description>Recent content in liceum on Jakub Korsak</description><generator>Hugo -- gohugo.io</generator><language>pl-pl</language><lastBuildDate>Sat, 03 Oct 2020 16:22:39 +0200</lastBuildDate><atom:link href="https://blog.korsak.xyz/tags/liceum/index.xml" rel="self" type="application/rss+xml"/><item><title>Jak łatwo przesunąć statek</title><link>https://blog.korsak.xyz/blog/ped_i_srodek_masy/</link><pubDate>Sat, 03 Oct 2020 16:22:39 +0200</pubDate><guid>https://blog.korsak.xyz/blog/ped_i_srodek_masy/</guid><description>&lt;h1 id="na-jakie-pytania-chcielibyśmy-odpowiedzieć">Na jakie pytania chcielibyśmy odpowiedzieć?&lt;/h1>
 &lt;ol>
 &lt;li>Dlaczego, gdy schodzimy z roweru wodnego (na przykład wchodząc na brzeg lub skacząc do wody), zaczyna on od nas uciekać?&lt;/li>
 &lt;li>Czy jesteśmy w stanie przyspieszyć rejs statkiem bez jakiejkolwiek znajomości obsługi statku?&lt;/li>
@@ -51,7 +51,7 @@ Za pomocą transformacji $x_G = x + V t$, gdzie&lt;/p>
 &lt;li>$x_G$ - nowe poruszające się współrzędne,&lt;/li>
 &lt;li>$V$ - stała prędkość, z którą porusza się układ $x_G$,&lt;/li>
 &lt;/ul>
-&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Równanie kwadratowe</title><link>https://korsak.xyz/blog/kwadratowa/</link><pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate><guid>https://korsak.xyz/blog/kwadratowa/</guid><description>&lt;h1 id="co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe">Co to znaczy, że rozwiązujemy równanie kwadratowe?&lt;/h1>
+&lt;p>można już łatwo obliczyć łączne przesunięcie łódki.&lt;/p></description></item><item><title>Równanie kwadratowe</title><link>https://blog.korsak.xyz/blog/kwadratowa/</link><pubDate>Sat, 22 Aug 2020 18:42:20 +0200</pubDate><guid>https://blog.korsak.xyz/blog/kwadratowa/</guid><description>&lt;h1 id="co-to-znaczy-że-rozwiązujemy-równanie-kwadratowe">Co to znaczy, że rozwiązujemy równanie kwadratowe?&lt;/h1>
 &lt;p>Niech $f : \mathbf{R} \to \mathbf{R}$ będzie funkcją, która mapuje liczby rzeczywiste innym liczbom rzeczywistym. Niech $a,b,c\in \mathbf{R}\setminus {0}$ będą liczbami rzeczywistymi różnymi od zera. Jeżeli funkcja ta zadana będzie wzorem
 $$ f(x) = ax^2 + bx + c,$$
 to znalezienie takich argumentów $x_1$, $x_2$, które spełniają zależność
@@ -109,9 +109,9 @@ Pamiętamy definicję serduszka: $\heartsuit = x + \frac{b}{2a}$. Więc jeżeli 
 $$x = -\frac{b}{2a} \pm \frac{\sqrt{b^2 - 4ac}}{2a} = \frac{-b\pm \sqrt{b^2 - 4ac}}{2a}.$$
 Jeżeli wprowadzimy nowe oznaczenie: $\Delta = b^2 - 4ac$, to otrzymamy wzór, który pojawia się w podręcznikach:
 $$x = \frac{-b\pm \sqrt{\Delta}}{2a}.$$&lt;/p>
-&lt;p>(Kontynuacja fun factu: analogicznie do poprzedniego warunku $c\cdot a &amp;gt; 0$, mamy tutaj $b^2 - 4ac &amp;lt; 0$, które generuje rozwiązania ze zbioru liczb zespolonych. Wtedy po prostu piszemy przed pierwiastkiem kwadratowym jednostkę urojoną $i$ i mamy problem z głowy. No i piękne ciało algebraicznie domknięte!)&lt;/p></description></item><item><title>Zwardoń</title><link>https://korsak.xyz/blog/zwardon/</link><pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate><guid>https://korsak.xyz/blog/zwardon/</guid><description>&lt;h1 id="zadanie">Zadanie&lt;/h1>
+&lt;p>(Kontynuacja fun factu: analogicznie do poprzedniego warunku $c\cdot a &amp;gt; 0$, mamy tutaj $b^2 - 4ac &amp;lt; 0$, które generuje rozwiązania ze zbioru liczb zespolonych. Wtedy po prostu piszemy przed pierwiastkiem kwadratowym jednostkę urojoną $i$ i mamy problem z głowy. No i piękne ciało algebraicznie domknięte!)&lt;/p></description></item><item><title>Zwardoń</title><link>https://blog.korsak.xyz/blog/zwardon/</link><pubDate>Wed, 20 May 2020 10:03:39 +0200</pubDate><guid>https://blog.korsak.xyz/blog/zwardon/</guid><description>&lt;h1 id="zadanie">Zadanie&lt;/h1>
 &lt;p>Ze Zwardonia do odległej o $15$ km Milówki wyruszył pieszo turysta. Godzinę później, z Milówki do Zwardonia wyjechał samochód, który minął turystę po $15$ minutach jazdy. Po półgodzinnym postoju w Zwardoniu, kierowca ruszył w drogę powrotną. Po raz kolejny minął turystę zmierzającego do Milówki po $50$ minutach od ich ostatniego spotkania. Oblicz, ile czasu zajęła turyście droga ze Zwardonia do Milówki. Przyjmij, że turysta przeszedł całą drogę ze stałym tempem, a kierowca jechał w obie strony ze stałą prędkością.
-&lt;img src="https://korsak.xyz/img/zwardon.png" alt="">&lt;/p>
+&lt;img src="https://blog.korsak.xyz/img/zwardon.png" alt="">&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
 &lt;p>Niech położenie turysty od czasu - $\tau(t)$, położenie samochodu od czasu - $s(t)$. W oznaczeniach takich jak na rysunku, można przedstawić te funkcje następująco
 $$ \begin{align*}
@@ -175,11 +175,11 @@ x_{p_1} \cr x_{p_2} \cr v_s \cr v_\tau
 \end{bmatrix}
 $$
 Jednostki prędkości tutaj mamy w $\frac{\text{km}}{\text{min}}$, więc ostatecznie, czas podróży turysty wynosi
-$$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$&lt;/p></description></item><item><title>Zadanie ze szpulą</title><link>https://korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
+$$t = \frac{M}{v_\tau} = 225 \text{minut} = 3 \text{h }45 \text{minut}.$$&lt;/p></description></item><item><title>Zadanie ze szpulą</title><link>https://blog.korsak.xyz/blog/szpula/</link><pubDate>Sat, 11 Apr 2020 21:26:31 +0200</pubDate><guid>https://blog.korsak.xyz/blog/szpula/</guid><description>&lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>Mamy nieruchomą szpulę (walec) o promieniu $r$, na którą nawinięto $k$ zwojów bardzo cienkiej nici. Końcówce nici nadano prędkość $\mathbf{v_0}$ skierowaną radialnie od środka szpuli.&lt;/p>
 &lt;p>Po jakim czasie nić zdąży się rozwinąć i spowrotem zawinąć na szpulę?&lt;/p>
 &lt;h1 id="rozwiązanie">Rozwiązanie&lt;/h1>
-&lt;p>&lt;img src="https://korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
+&lt;p>&lt;img src="https://blog.korsak.xyz/img/szpula.png" alt="Schemat wizualizujący zadanie">&lt;/p>
 &lt;p>Rozważymy problem w czasie $T = t$ oraz $T = t + \Delta t$.&lt;/p>
 &lt;ul>
 &lt;li>
