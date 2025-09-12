@@ -5,4 +5,4 @@ draft: false
 ---
 
 - [github](https://github.com/korsakjakub)
-- [RSS](https://korsak.xyz/index.xml)
+  
