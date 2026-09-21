@@ -1,15 +1,13 @@
 {{ define "main" }}
 {{ .Content }}
 
-<h2>Wszystkie posty</h2>
-<div class="rule-flourish"><span></span><span></span><span></span></div>
 <ul class="post-list">
-{{- range ( where site.RegularPages "Section" "blog" ).ByPublishDate.Reverse }}
-<li>
-  <a class="blog-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  {{ partial "date-and-tags.html" . }}
-</li>
-{{ end }}
+  {{- range ( where site.RegularPages "Section" "blog" ).ByPublishDate.Reverse }}
+  <li>
+    <a class="blog-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ partial "date-and-tags.html" . }}
+  </li>
+  {{ end }}
 </ul>
 
 {{ end }}
