@@ -138,6 +138,7 @@ a:hover {
 img {
 		max-width: 100%;
 		max-height: 40vh;
+		margin: 1.2em 0;
 		border: 1px solid var(--rule);
 		padding: 4px;
 		background: var(--paper);
