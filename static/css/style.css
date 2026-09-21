@@ -18,13 +18,9 @@ body {
 		padding: 0 10px;
 }
 .content p {
-		margin: 0;
-		text-indent: 1.2em;
+		margin: 0 0 1em;
 		text-align: justify;
 		hyphens: auto;
-}
-.content > p:first-of-type {
-		text-indent: 0;
 }
 .content > p:first-of-type::first-letter {
 		font-size: 3.6em;
