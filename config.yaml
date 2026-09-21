@@ -3,11 +3,6 @@ languageCode: pl-pl
 title: Jakub Korsak
 permalinks:
   blog: '/blog/:contentbasename/'
-menu:
-  main:
-    - url: /blog/
-      name: Blog
-      weight: 1
 params:
   dateFormat: 'Jan 2, 2006'
   author:
