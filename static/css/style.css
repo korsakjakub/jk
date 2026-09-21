@@ -40,23 +40,26 @@ main {
 		max-width: 850px;
 }
 h1,h2,h3{
-		font-weight: 400;
 		color: var(--ink);
 		line-height:1.2;
 }
 h1 {
 		text-align: center;
+		font-weight: 400;
 		font-variant: small-caps;
 		letter-spacing: 0.1em;
 		font-size: 1.9em;
 		margin-bottom: 0.3em;
 }
 h2 {
-		text-align: center;
-		font-variant: small-caps;
-		letter-spacing: 0.12em;
-		font-size: 1em;
-		margin: 1.6em 0 1em;
+		font-weight: 700;
+		font-size: 1.5em;
+		margin: 1.6em 0 0.7em;
+}
+h3 {
+		font-weight: 700;
+		font-size: 1.2em;
+		margin: 1.3em 0 0.5em;
 }
 .rule-flourish {
 		display: flex;
@@ -92,8 +95,32 @@ a:hover {
 		text-decoration-color: var(--ink);
 }
 
+.post-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+}
+.post-list li {
+		text-align: center;
+		padding: 1.4em 0;
+		border-top: 1px solid var(--rule);
+}
+.post-list li:first-child {
+		border-top: none;
+		padding-top: 0;
+}
+.post-list li:hover {
+		background-color: rgba(35, 31, 26, 0.05);
+}
+.post-list .meta {
+		margin-bottom: 0;
+}
 .blog-link:link, .blog-link:visited {
 		color: var(--ink);
+		font-variant: small-caps;
+		letter-spacing: 0.05em;
+		font-size: 1.3em;
+		text-decoration: none;
 }
 
 .tag-link:link, .tag-link:visited {
@@ -112,9 +139,6 @@ a:hover {
 		text-decoration: none;
 }
 
-li:hover {
-		background-color: rgba(35, 31, 26, 0.08);
-}
 img {
 		max-width: 100%;
 		max-height: 40vh;
