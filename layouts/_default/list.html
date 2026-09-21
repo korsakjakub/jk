@@ -1,13 +1,14 @@
 {{ define "main" }}
 <h1 id="title">{{ .Title }}</h1>
+<div class="rule-flourish"><span></span><span></span><span></span></div>
 {{ .Content }}
-<br>
+<ul class="post-list">
 {{ range .Pages.ByPublishDate.Reverse }}
-<p>
+<li>
   <a class="blog-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  <br>
-{{ partial "date-and-tags.html" . }}
-</p>
+  {{ partial "date-and-tags.html" . }}
+</li>
 {{ end }}
+</ul>
 
 {{ end }}

@@ -5,8 +5,8 @@ permalinks:
   blog: '/blog/:contentbasename/'
 menu:
   main:
-    - url: /blog/
-      name: Blog
+    - url: https://github.com/korsakjakub
+      name: Github
       weight: 1
 params:
   dateFormat: 'Jan 2, 2006'
