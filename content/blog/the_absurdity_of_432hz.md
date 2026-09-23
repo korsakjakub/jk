@@ -5,6 +5,11 @@ draft: true
 tags: ["shitpost"]
 ---
 
+There are numerous websites claiming A=432Hz is somehow magical, that it calms nerves, heals diseases and can make you a higher being.
+The same websites then often go on about A=440Hz being some US gov. conspiracy to make the population docile etc.
+The fascinating thing about all this crap is that the very basis of these arguments is complete and utter misunderstanding how anything in our physical world works.
+
+
 
 ## Natural units
 Every physicist learns them at some point.
