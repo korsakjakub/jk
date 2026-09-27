@@ -21,7 +21,7 @@ Z kolei pochodna po zmiennych $x\_i$ to
 
 $$ \frac{\partial L}{\partial x\_i} = \frac{q}{c} \frac{\partial \mathbf{A}}{\partial x\_i} \cdot \dot{\mathbf{x}} - q \frac{\partial V}{\partial x\_i}. $$
 
-Korzystając z równań Eulera-Lagrange'a, otrzymujemy warunek na prawo zachowania
+Korzystając z równań Eulera--Lagrange'a, otrzymujemy warunek na prawo zachowania
 
 $$ 0 = \frac{d}{dt} \frac{\partial L}{\partial \dot{x}\_i} - \frac{\partial L}{\partial x\_i} = \frac{d}{dt}\left[\frac{\partial L}{\partial \dot{x}\_i} - G\_i\right]. $$
 
