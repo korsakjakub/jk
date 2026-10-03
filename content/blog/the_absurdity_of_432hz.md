@@ -6,10 +6,10 @@ tags: ["shitpost"]
 ---
 
 You must have heard at some point about the magical frequency of 432Hz.
-More specifically about musical tuning where instead of our western A=440Hz we set A=432Hz.
+Specifically, about musical tuning where instead of our western $\text{A}=440\,\text{Hz}$ we set $\text{A}=432\,\text{Hz}$.
 There is an additional layer to this, when people also claim that equal temper tuning is wrong and babble about ancient Greeks and how they supposedly tuned their liras.
 
-There is an incredibly simple argument to make that invalidates all of these, but we'll get to that.
+There is an incredibly simple argument to make that invalidates all of these, but we'll get to that later.
 
 # Why am I writing this post?
 A couple of reasons, really.
