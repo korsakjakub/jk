@@ -42,6 +42,8 @@ jest zachowana.
 
 # Dowód
 
+
+
 $$\begin{align*} 0 &\equiv \delta\_\varepsilon S[x\^i(t)] \equiv\cr
 &\equiv \sum\_{i = 1}\^N \int\limits\_{t\_1}\^{t\_2} \left( \frac{\partial \mathcal{L}(x\^i(t))}{\partial x\^i(t)}\varepsilon\^i(x) + \left(\frac{\partial \mathcal{L}(\dot{x}\^i(t))}{\partial x\^i(t)}\right)\frac{d \varepsilon\^i(x)}{dt}\right)dt\end{align*}$$
 
