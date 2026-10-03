@@ -5,29 +5,29 @@ draft: true
 tags: ["shitpost"]
 ---
 
-You must have heard at some point about the magical frequency of 432Hz.
+You must have heard at some point about the magical frequency of $432\,\text{Hz}$.
 Specifically, about musical tuning where instead of our western $\text{A}=440\,\text{Hz}$ we set $\text{A}=432\,\text{Hz}$.
 There is an additional layer to this, when people also claim that equal temper tuning is wrong and babble about ancient Greeks and how they supposedly tuned their liras.
 
 There is an incredibly simple argument to make that invalidates all of these, but we'll get to that later.
+Now, let's focus on my motivation behind this post.
 
 # Why am I writing this post?
 A couple of reasons, really.
 First of all it's funny, second of all I kind of want to get it out of my system.
+It's an itch that's been itching for many years, although very mildly.
 
-# Who is the target audience of this post?
-Ideally people believing in those conspiracies, but I'm highly sceptical this post will ever reach them. And that they'll understand any of it if it does.
 
 # Let's get started
 
-There are numerous websites claiming A=432Hz is somehow magical, that it calms nerves, heals diseases and can make you a higher being.
-The same websites then often go on about A=440Hz being some US gov. conspiracy and that it's exactly tuned to make the population docile etc.
+There are numerous websites claiming $\text{A}=432\,\text{Hz}$ is somehow magical, that it calms nerves, heals diseases, and can make you a higher being.
+The same websites then often go on about $\text{A}=440\,\text{Hz}$ being some US gov. conspiracy and that it's exactly tuned to make the population docile etc.
 The fascinating thing about all this crap is that the very basis of these arguments is complete and utter misunderstanding how anything in our physical world works.
 
 The answer is: **units**.
 
-If you're from STEM, or a slightly science inclined high schooler, you can probably infer the rest of this post.
-In that case you can either close the tab or continue reading if you're into that kind of thing.
+If you're from STEM, or at least a slightly science-inclined high schooler, you can probably infer the rest of this post.
+In that case you can either close the tab... or continue reading if you're into that kind of thing.
 
 ## Continue?
 Great to have you there, thanks.
@@ -58,9 +58,18 @@ f_P &= 1/t_P = \sqrt{\frac{c^5}{\hbar G}}
 \end{align}$$
 
 
-## my new magical frequency that at least makes some physical sense
+## My new magical frequency that at least makes some physical sense
 
-$$\mathcal{f}_\text{much better} = \pi \cdot \phi \cdot 2^{1/\alpha} f_P \approx 541.2\quad Hz$$
+Here it is:
+
+$$\mathcal{f}_\text{much better} = \pi \cdot \phi \cdot 2^{1/\alpha} f_P \approx 541.2\quad Hz.$$
+
+I like it for a couple of reasons: there is a $\pi$ which we all know,  a [$\phi$](https://en.wikipedia.org/wiki/Golden_ratio) which I guess most of us know, an [$\alpha\approx 1/137$](https://en.wikipedia.org/wiki/Fine-structure_constant) recently popularized in pop-sci, and also if you plug it in you get a bit resembling [a well known Polish meme](https://www.urbandictionary.com/define.php?term=2137).
+From just these points we get so much more than a mere $432$.
+
+How does music tuned to this frequency sound like?
+No idea, I couldn't be bothered to find out.
+To quote my standard phrase at work, "please check and let me know".
 
 
 [^1]: $\gamma = 1/\sqrt{1-v^2/c^2}$
