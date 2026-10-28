@@ -7,6 +7,15 @@ tags: ["shitpost"]
 
 You must have heard at some point about the magical frequency of $432\,\text{Hz}$.
 Specifically, about musical tuning where instead of our western $\text{A}=440\,\text{Hz}$ we set $\text{A}=432\,\text{Hz}$.
+As of October 2026 even Google search Autoslop summary lists:
+- Reduced Heart Rate & Stress.
+- Mental Clarity and Focus.
+- Deepened Meditation and Relaxation.
+- Improved Sleep Quality.
+- Emotional Release.
+All of these are linked to a dubious website that sells $432\,\text{Hz}$ music.
+Who needs ~~scientific~~
+
 There is an additional layer to this, when people also claim that equal temper tuning is wrong and babble about ancient Greeks and how they supposedly tuned their liras.
 
 There is an incredibly simple argument to make that invalidates all of these, but we'll get to that later.
