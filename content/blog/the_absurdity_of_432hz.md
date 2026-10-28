@@ -7,27 +7,24 @@ tags: ["shitpost"]
 
 You must have heard at some point about the magical frequency of $432\,\text{Hz}$.
 Specifically, about musical tuning where instead of our western $\text{A}=440\,\text{Hz}$ we set $\text{A}=432\,\text{Hz}$.
-As of October 2026 even Google search Autoslop summary lists:
+As of October 2026 even Google search Autoslop summary lists the following benefits:
 - Reduced Heart Rate & Stress.
 - Mental Clarity and Focus.
 - Deepened Meditation and Relaxation.
 - Improved Sleep Quality.
 - Emotional Release.
-All of these are linked to a dubious website that sells $432\,\text{Hz}$ music.
-Who needs ~~scientific~~
 
-There is an additional layer to this, when people also claim that equal temper tuning is wrong and babble about ancient Greeks and how they supposedly tuned their liras.
+All of these are linked to a dubious website that sells $432\,\text{Hz}$ music[^website].
+Who needs ~~scientific~~ any kind of evidence, when your clanker can just confidently feed you misinformation?
+Sorry, back to the topic.
 
-There is an incredibly simple argument to make that invalidates all of these, but we'll get to that later.
-Now, let's focus on my motivation behind this post.
+There is an additional layer to this, when people also claim that equal temper tuning is wrong and babble about ancient Greeks and how they supposedly tuned their ~~liras~~ monochords.
+Pythagoras himself is claimed to have tuned his monochord to $432\,\text{Hz}$.
 
-# Why am I writing this post?
-A couple of reasons, really.
-First of all it's funny, second of all I kind of want to get it out of my system.
-It's an itch that's been itching for many years, although very mildly.
+There is an incredibly simple argument to make that invalidates all of this nonsense.
 
 
-# Let's get started
+# More conspiracy theories
 
 There are numerous websites claiming $\text{A}=432\,\text{Hz}$ is somehow magical, that it calms nerves, heals diseases, and can make you a higher being.
 The same websites then often go on about $\text{A}=440\,\text{Hz}$ being some US gov. conspiracy and that it's exactly tuned to make the population docile etc.
@@ -46,7 +43,7 @@ Then let's go over a simple procedure with which we can generate much more convi
 ## Natural units
 Every physicist learns them at some point.
 The core idea is that instead of using SI units (or God forbid Imperial) we set as many of our physical constants to $1$ as possible.
-For example in Special Relativity you might write things like $t' = \gamma\left(t - vx/c^2\right)$[^1] a lot and after some time you *will* just say $c=1$ and write $t' = \gamma\left(t - vx\right)$.
+For example in Special Relativity you might write things like $t' = \gamma\left(t - vx/c^2\right)$[^gamma] a lot and after some time you *will* just say $c=1$ and write $t' = \gamma\left(t - vx\right)$.
 There are a couple flavours of natural units depending on the area in which they make calculations the simplest.
 Today we'll use [Planck units](https://en.wikipedia.org/wiki/Planck_units) because I had to pick something.
 Planck units are based on [$G$](https://en.wikipedia.org/wiki/Gravitational_constant), [$\hbar$](https://en.wikipedia.org/wiki/Planck_constant#Reduced_Planck_constant), [$c$](https://en.wikipedia.org/wiki/Speed_of_light) and [$k_B$](https://en.wikipedia.org/wiki/Boltzmann_constant). 
@@ -81,4 +78,5 @@ No idea, I couldn't be bothered to find out.
 To quote my standard phrase at work, "please check and let me know".
 
 
-[^1]: $\gamma = 1/\sqrt{1-v^2/c^2}$
+[^gamma]: $\gamma = 1/\sqrt{1-v^2/c^2}$
+[^website]: not saying the name so it doesn't get additional traffic 
